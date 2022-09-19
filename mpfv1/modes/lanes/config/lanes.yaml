@@ -1,0 +1,86 @@
+#config_version=5
+##! mode: lanes
+
+mode:
+    start_events: ball_started
+    priority: 110
+    
+ 
+slide_player:
+  lanes_top_complete:
+    my_slide:
+      - type: text
+        text: lane (score)
+        y: 100
+        x: 10
+        number_grouping: true
+        min_digits: 2
+        font_size: 10
+        expire: 2s
+
+
+
+counters:
+  lane_top_count:
+    count_events: lanes_top_complete
+    events_when_hit: lanes_top_done
+    starting_count: 1
+    direction: up
+    persist_state: false 
+
+
+shots:
+  lane_top_1:
+    switch: s_toplane1
+#    show_tokens:
+#      light: lane_l
+  lane_top_2:
+    switch: s_toplane2
+#    show_tokens:
+#      light: lane_l
+  lane_top_3:
+    switch: s_toplane3
+#    show_tokens:
+#      light: lane_l
+
+
+
+shot_groups:
+  lanes_top:
+    shots: lane_top_1, lane_top_2, lane_top_3
+#    rotate_left_events: s_left_flipper_active
+#    rotate_right_events: s_right_flipper_active
+    reset_events:
+      lanes_top_complete: 1s    
+
+
+
+
+variable_player:
+  mode_lanes_started:
+    pf_multiplier:
+      int: 1
+      action: set
+  lanes_top_done{count==2}:
+    pf_multiplier:
+      int: 2
+      action: set
+  lanes_top_done{count==3}:
+    pf_multiplier:
+      int: 3
+      action: set
+  lanes_top_done{count==4}:
+    pf_multiplier:
+      int: 4
+      action: set
+  lanes_top_done{count==5}:
+    pf_multiplier:
+      int: 5
+      action: set
+  lanes_top_done{count==6}:
+    pf_multiplier:
+      int: 10
+      action: set
+  lanes_top_complete:
+    score: 1000 * current_player.pf_multiplier
+

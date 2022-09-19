@@ -1,0 +1,282 @@
+2022-09-17 09:05:42,477 : INFO : root : Loading config.
+2022-09-17 09:05:42,481 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-17 09:05:42,482 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:05:42,495 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:05:42,495 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-17 09:05:42,556 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-17 09:05:42,557 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.yaml.
+2022-09-17 09:05:42,561 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config.yaml
+2022-09-17 09:05:42,588 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-17 09:05:42,591 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:05:42,602 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-17 09:05:42,605 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-17 09:05:42,612 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-17 09:05:42,613 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:05:42,704 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-17 09:05:42,705 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-17 09:05:42,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-17 09:05:42,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\559f6283f098772e04564bccbb105016.mpf_cache
+2022-09-17 09:05:42,707 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9d4ddc5b486987071715110e2b9dff2c.mpf_cache
+2022-09-17 09:05:42,709 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-09-17 09:05:42,709 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-17 09:05:42,709 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-17-09-05-42-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-17 09:05:42,710 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-17 09:05:42,710 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-09-17 09:05:42,710 : INFO : Machine : Platform: win32
+2022-09-17 09:05:42,710 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-17 09:05:42,710 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-17 09:05:42,711 : INFO : Machine : Initialise MPF.
+2022-09-17 09:05:42,863 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-17 09:05:42,955 : INFO : OPP : Init of OPP board COM7 done
+2022-09-17 09:05:42,955 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,005 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,006 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 17500, 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,006 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,006 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,006 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-17 09:05:43,018 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-17 09:05:43,041 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-17 09:05:43,042 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-62' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number Playfield_3X in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_3X in platform. See error above
+2022-09-17 09:05:43,070 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number l_jam_J in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number l_jam_J in platform. See error above
+2022-09-17 09:05:43,070 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number JAM_lanes in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number JAM_lanes in platform. See error above
+2022-09-17 09:05:43,071 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number Playfield_10X in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_10X in platform. See error above
+2022-09-17 09:05:43,071 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number l_jam_A in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number l_jam_A in platform. See error above
+2022-09-17 09:05:43,072 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number Playfield_4X in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_4X in platform. See error above
+2022-09-17 09:05:43,072 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-57' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number Playfield_2X in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_2X in platform. See error above
+2022-09-17 09:05:43,073 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number l_jam_M in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number l_jam_M in platform. See error above
+2022-09-17 09:05:43,074 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-72' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number Playfield_5X in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_5X in platform. See error above
+2022-09-17 09:05:43,075 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-17 09:05:43,076 : INFO : Machine : Starting the main run loop.
+2022-09-17 09:05:43,080 : INFO : Machine : Shutting down...
+2022-09-17 09:05:43,081 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-17 09:05:43,083 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-17 09:05:43,084 : INFO : SwitchController : Found active switch: ('COM7-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-17 09:05:43,084 : INFO : SwitchController : Found active switch: ('COM7-1-25', <Platform.OPP>) <switch.s_drop1>
+2022-09-17 09:05:43,086 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 753, in _get_dict_index
+    self.raise_config_error("Invalid number format for OPP. Number should be card-number or chain-card-number "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Invalid number format for OPP. Number should be card-number or chain-card-number (e.g. 0-1) Error Code: CFE-OPP-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number Playfield_3X in platform. See error above
+2022-09-17 09:07:17,023 : INFO : root : MPF run loop ended.

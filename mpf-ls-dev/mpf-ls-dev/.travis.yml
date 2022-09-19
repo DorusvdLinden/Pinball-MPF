@@ -1,0 +1,23 @@
+dist: trusty
+
+matrix:
+  fast_finish: true
+  include:
+   - os: linux
+     language: python
+     python: "3.6"
+
+install:
+  - echo "Fake install"
+
+script:
+  - echo "Fake tests"
+
+deploy:
+  provider: pypi
+  user: __token__
+  password:
+    secure: "XHrVjojhvYpmXQS3XxDbZHXrrPxjusu+xrCnJI5RySopaiJMV4sQgYQTwcw2EfVoJcaZ8QmlIVK35zdQzXH5ssZTGeynXVJ4eKaz1HfXi8xJNAjcJhOqua/DmosWj2Xflg0CnMrGxoMuG1c4Coo7fR6Zye5s0fPz73eXGF3jhdtCIaPIHtxzZekdv03gi7XWSClgH39U4QA/naLbM+UlUhoajWfRSCdWghfM124spk+CNhX1EeNGxfufK75YlapzX9Mw+qy9Q+q7iUoA8kuxSqU6Am5zRfkeHkEZroPY/1oNlUhqFn0f61XRFCJTKvCicsO/gq7uM63Fsb6eF+iWBTca0txsWzjLm70qHAvybRpD/mX3z+ge1eGURst4dZI5FeSLF6tOIxQxcWzGI77UrpP2dLBQ1sSJc9a9huhnXkpwK2L3/RG6eN+o2FUVibuor7wbqibEouN3rwwjNh/bG//AoRCcvO5l2jO2+qrq5m1JcSFe6KXaaAewBPj4NtxOMTFAEQBUXmlS6HFzfI15Af1TxCDYouiSHIQi+9xx+FoycS9jLzM6GMol9FB2/EMbtfXT+06YBLYh7mInIfztnYzACZ6Tj+x1V7m87MoVbkmRklm+79fVvUX6Kpl/sV/KJKO4NhFmPUwSNie438PCyaDLh4yWuxEfZf//l8LmulQ="
+  on:
+    tags: true
+  skip_existing: true

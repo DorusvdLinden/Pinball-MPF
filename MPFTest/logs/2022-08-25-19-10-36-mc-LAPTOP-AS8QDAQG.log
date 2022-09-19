@@ -1,0 +1,89 @@
+2022-08-25 19:10:36,618 : kivy : Factory: 186 symbols loaded
+2022-08-25 19:10:36,914 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-25 19:10:36,914 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-25 19:10:36,983 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-25 19:10:36,983 : kivy : Video: Provider: gstplayer
+2022-08-25 19:10:37,461 : kivy : Loading MPF-MC controller
+2022-08-25 19:10:37,469 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-25 19:10:37,470 : ConfigProcessor : Config file in cache changed: C:\pinball\MPFTest\config\config
+2022-08-25 19:10:37,482 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-25 19:10:37,548 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-25 19:10:37,549 : ConfigProcessor : Loading config from file C:\pinball\MPFTest\config\config.
+2022-08-25 19:10:37,554 : ConfigProcessor : Loading config: C:\pinball\MPFTest\config\config
+2022-08-25 19:10:37,556 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\fd47fd99e9721cd694c3569d09f0eeee.mpf_cache
+2022-08-25 19:10:37,557 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f669821a9dd3c682462b30511846254b.mpf_cache
+2022-08-25 19:10:37,567 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache
+2022-08-25 19:10:37,568 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-08-25 19:10:37,569 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-08-25 19:10:37,569 : mpfmc : Machine path: C:\pinball\MPFTest
+2022-08-25 19:10:37,569 : mpfmc : Starting clock at 60.0Hz
+2022-08-25 19:10:37,596 : kivy : Text: Provider: sdl2
+2022-08-25 19:10:37,687 : kivy : Window: Provider: sdl2
+2022-08-25 19:10:37,836 : kivy : GL: Using the "OpenGL" graphics system
+2022-08-25 19:10:37,838 : kivy : GL: GLEW initialization succeeded
+2022-08-25 19:10:37,838 : kivy : GL: Backend used <glew>
+2022-08-25 19:10:37,838 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-08-25 19:10:37,838 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-08-25 19:10:37,839 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-08-25 19:10:37,839 : kivy : GL: OpenGL parsed version: 4, 6
+2022-08-25 19:10:37,839 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-08-25 19:10:37,839 : kivy : GL: Texture max size <16384>
+2022-08-25 19:10:37,839 : kivy : GL: Texture max units <32>
+2022-08-25 19:10:37,875 : kivy : Window: auto add sdl2 input provider
+2022-08-25 19:10:37,876 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-08-25 19:10:37,891 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2022-08-25 19:10:38,172 : AudioInterface : Initialized
+2022-08-25 19:10:38,172 : AudioInterface : Loaded SDL 2.0.12
+2022-08-25 19:10:38,172 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-08-25 19:10:38,172 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-08-25 19:10:38,172 : AudioInterface : Loaded GLib 2.62.6
+2022-08-25 19:10:38,172 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-08-25 19:10:38,173 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-08-25 19:10:38,173 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2022-08-25 19:10:38,173 : SoundSystem : Setting master volume to 0.0
+2022-08-25 19:10:38,173 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-08-25 19:10:38,173 : AudioInterface : Enabling audio playback
+2022-08-25 19:10:38,175 : kivy : Base: Start application main loop
+2022-08-25 19:10:38,175 : EventManager : Event: ======'display_default_initialized'====== Args={}
+2022-08-25 19:10:38,186 : mpfmc : Display: Setting 'default' as default display
+2022-08-25 19:10:38,192 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-08-25 19:10:38,193 : EventManager : Event: ======'slide_default_blank_created'====== Args={}
+2022-08-25 19:10:38,193 : EventManager : Event: ======'display_default_ready'====== Args={}
+2022-08-25 19:10:38,201 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-25 19:10:38,203 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-08-25 19:10:38,204 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-08-25 19:10:38,205 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-08-25 19:10:38,206 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-08-25 19:10:38,206 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-08-25 19:10:38,237 : kivy : GL: NPOT texture support is available
+2022-08-25 19:10:38,242 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-08-25 19:10:38,242 : AssetManager : Asset loading took: 0.06906747817993164
+2022-08-25 19:10:38,242 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-08-25 19:10:38,242 : AssetManager : Loading assets: 1/1 (100%)
+2022-08-25 19:10:38,242 : EventManager : Event: ======'init_done'====== Args={}
+2022-08-25 19:10:38,242 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-08-25 19:10:38,246 : MPF-MC BCP Server : Waiting for a connection...
+2022-08-25 19:10:38,246 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-08-25 19:10:38,738 : MPF-MC BCP Server : Received connection from: 127.0.0.1:64663
+2022-08-25 19:10:38,748 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 64663}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,811 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,812 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,812 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2022-08-25 19:10:38,812 : SoundSystem : Setting master volume to 0.5
+2022-08-25 19:10:38,823 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2022-08-25 19:10:38,823 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2022-08-25 19:10:38,823 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2022-08-25 19:10:38,823 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2022-08-25 19:11:06,164 : kivy : Base: Leaving application in progress...

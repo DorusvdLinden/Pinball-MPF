@@ -1,0 +1,72 @@
+2022-08-19 14:01:13,372 : kivy : Factory: 186 symbols loaded
+2022-08-19 14:01:14,494 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-19 14:01:14,494 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-19 14:01:14,929 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-19 14:01:14,930 : kivy : Video: Provider: gstplayer
+2022-08-19 14:01:15,788 : kivy : Loading MPF-MC controller
+2022-08-19 14:01:15,796 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-19 14:01:15,797 : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\config
+2022-08-19 14:01:15,798 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-19 14:01:15,867 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-19 14:01:15,867 : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.
+2022-08-19 14:01:15,879 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config
+2022-08-19 14:01:15,956 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-08-19 14:01:15,976 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\411c9510edd1e1af95a1c1de44488252.mpf_cache
+2022-08-19 14:01:15,977 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\7da47e36f84f7d837d8eac46388772e5.mpf_cache
+2022-08-19 14:01:15,978 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache
+2022-08-19 14:01:15,979 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-08-19 14:01:15,980 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-08-19 14:01:15,980 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-08-19 14:01:15,981 : mpfmc : Machine path: C:\pinball\mpfv1
+2022-08-19 14:01:15,981 : mpfmc : Starting clock at 60.0Hz
+2022-08-19 14:01:16,156 : kivy : Text: Provider: sdl2
+2022-08-19 14:01:16,327 : kivy : Window: Provider: sdl2
+2022-08-19 14:01:16,684 : kivy : GL: Using the "OpenGL" graphics system
+2022-08-19 14:01:16,687 : kivy : GL: GLEW initialization succeeded
+2022-08-19 14:01:16,687 : kivy : GL: Backend used <glew>
+2022-08-19 14:01:16,688 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-08-19 14:01:16,688 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-08-19 14:01:16,688 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-08-19 14:01:16,688 : kivy : GL: OpenGL parsed version: 4, 6
+2022-08-19 14:01:16,688 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-08-19 14:01:16,689 : kivy : GL: Texture max size <16384>
+2022-08-19 14:01:16,689 : kivy : GL: Texture max units <32>
+2022-08-19 14:01:16,798 : kivy : Window: auto add sdl2 input provider
+2022-08-19 14:01:16,798 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-08-19 14:01:16,814 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2022-08-19 14:01:18,847 : AudioInterface : Initialized
+2022-08-19 14:01:18,847 : AudioInterface : Loaded SDL 2.0.12
+2022-08-19 14:01:18,847 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-08-19 14:01:18,847 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-08-19 14:01:18,848 : AudioInterface : Loaded GLib 2.62.6
+2022-08-19 14:01:18,848 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-08-19 14:01:18,848 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-08-19 14:01:18,849 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2022-08-19 14:01:18,849 : SoundSystem : Setting master volume to 0.0
+2022-08-19 14:01:18,849 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-08-19 14:01:18,849 : AudioInterface : Enabling audio playback
+2022-08-19 14:01:18,851 : kivy : Base: Start application main loop
+2022-08-19 14:01:18,852 : EventManager : Event: ======'display_default_initialized'====== Args={}
+2022-08-19 14:01:18,868 : mpfmc : Display: Setting 'default' as default display
+2022-08-19 14:01:18,875 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-08-19 14:01:18,877 : EventManager : Event: ======'slide_default_blank_created'====== Args={}
+2022-08-19 14:01:18,877 : EventManager : Event: ======'display_default_ready'====== Args={}
+2022-08-19 14:01:18,890 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-19 14:01:18,893 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-08-19 14:01:18,893 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-08-19 14:01:18,896 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-08-19 14:01:18,898 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-08-19 14:01:18,898 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-08-19 14:01:18,948 : EventManager : Event: ======'loading_assets'====== Args={'total': 10, 'loaded': 1, 'remaining': 9, 'percent': 10}
+2022-08-19 14:01:18,948 : AssetManager : Loading assets: 1/10 (10%)
+2022-08-19 14:01:19,155 : EventManager : Event: ======'loading_assets'====== Args={'total': 10, 'loaded': 8, 'remaining': 2, 'percent': 80}
+2022-08-19 14:01:19,155 : AssetManager : Loading assets: 8/10 (80%)
+2022-08-19 14:01:19,202 : EventManager : Event: ======'loading_assets'====== Args={'total': 10, 'loaded': 10, 'remaining': 0, 'percent': 100}
+2022-08-19 14:01:19,202 : AssetManager : Asset loading took: 0.35343098640441895
+2022-08-19 14:01:19,202 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-08-19 14:01:19,202 : AssetManager : Loading assets: 10/10 (100%)
+2022-08-19 14:01:19,202 : EventManager : Event: ======'init_done'====== Args={}
+2022-08-19 14:01:19,202 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-08-19 14:01:19,206 : MPF-MC BCP Server : Waiting for a connection...
+2022-08-19 14:01:19,214 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-08-19 14:01:37,291 : kivy : Base: Leaving application in progress...

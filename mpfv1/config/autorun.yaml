@@ -1,0 +1,30 @@
+#config_version=5
+
+config:
+- config.yaml
+
+switch_player:
+  start_event: machine_reset_phase_3
+  start_delay: 1s
+  steps:
+    - time: 600ms
+      switch: s_start
+      action: hit
+    - time: 100ms
+      switch: s_trough1
+      action: deactivate
+    - time: 1s
+      switch: s_plunger_lane
+      action: activate
+    - time: 1s
+      switch: s_launch
+      action: hit
+    - time: 100ms
+      switch: s_plunger_lane
+      action: deactivate
+    - time: 1s
+      switch: s_t1
+      action: hit
+    - time: 1s
+      switch: s_t2
+      action: hit

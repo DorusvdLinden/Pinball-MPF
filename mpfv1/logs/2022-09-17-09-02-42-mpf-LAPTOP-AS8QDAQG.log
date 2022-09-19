@@ -1,0 +1,76 @@
+2022-09-17 09:02:42,432 : INFO : root : Loading config.
+2022-09-17 09:02:42,436 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-17 09:02:42,436 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:02:42,448 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:02:42,448 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-17 09:02:42,507 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-17 09:02:42,507 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.yaml.
+2022-09-17 09:02:42,510 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config.yaml
+2022-09-17 09:02:42,538 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-17 09:02:42,551 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:02:42,560 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-17 09:02:42,563 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-17 09:02:42,570 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-17 09:02:42,573 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:02:42,657 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-17 09:02:42,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-17 09:02:42,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-17 09:02:42,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\559f6283f098772e04564bccbb105016.mpf_cache
+2022-09-17 09:02:42,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9d4ddc5b486987071715110e2b9dff2c.mpf_cache
+2022-09-17 09:02:42,661 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-09-17 09:02:42,662 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-17 09:02:42,662 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-17-09-02-42-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-17 09:02:42,662 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-17 09:02:42,662 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-09-17 09:02:42,662 : INFO : Machine : Platform: win32
+2022-09-17 09:02:42,662 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-17 09:02:42,662 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-17 09:02:42,664 : INFO : Machine : Initialise MPF.
+2022-09-17 09:02:42,810 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-17 09:02:42,905 : INFO : OPP : Init of OPP board COM7 done
+2022-09-17 09:02:42,905 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,956 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,956 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 17500, 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,956 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,956 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,956 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,967 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,968 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,968 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,968 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,968 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-17 09:02:42,968 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-17 09:02:42,977 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...dictionary.")>) at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...dictionary.")>) at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 84, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 124, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device lights:'l_jam_J' does not have a valid config. Expected a dictionary. Context: lights.l_jam_J Error Code: CFE-DeviceManager-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-DeviceManager-3.html)
+2022-09-17 09:02:42,978 : INFO : Machine : Starting the main run loop.
+2022-09-17 09:02:42,982 : INFO : Machine : Shutting down...
+2022-09-17 09:02:42,982 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-17 09:02:42,984 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-17 09:02:42,985 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 84, in _load_device_modules
+    self.create_devices(collection_name, config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 124, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device lights:'l_jam_J' does not have a valid config. Expected a dictionary. Context: lights.l_jam_J Error Code: CFE-DeviceManager-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-DeviceManager-3.html)
+2022-09-17 09:05:39,290 : INFO : root : MPF run loop ended.

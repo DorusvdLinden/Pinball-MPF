@@ -1,0 +1,68 @@
+#config_version=5
+keyboard:
+
+
+
+  s:
+    switch: s_start
+  l:
+    switch: s_launch
+  p:
+    switch: s_plunger_lane
+    toggle: true
+  o:
+    switch: s_trough4
+    toggle: true
+  k:
+    switch: s_trough1
+    toggle: true
+
+    
+  m:
+    switch: s_right_sling 
+  x:
+    switch: s_left_sling
+  1: 
+    switch: s_popbumber_1 
+  2: 
+    switch: s_popbumber_2
+  3: 
+    switch: s_popbumber_3 
+
+  4: 
+    switch: s_toplane1 
+  5: 
+    switch: s_toplane2 
+  6: 
+    switch: s_toplane3 
+
+  q: 
+    switch: s_vuk 
+  w: 
+    switch: s_drop1 
+  e: 
+    switch: s_drop2 
+  r: 
+    switch: s_drop3 
+
+  t: 
+    switch: s_bottomlane1 
+  y: 
+    switch: s_bottomlane2 
+  u: 
+    switch: s_bottomlane3 
+  i: 
+    switch: s_bottomlane4 
+
+  7: 
+    switch: s_t1 
+  8: 
+    switch: s_t2 
+  9: 
+    switch: s_t3 
+  0: 
+    switch: s_t4 
+    
+    
+
+    

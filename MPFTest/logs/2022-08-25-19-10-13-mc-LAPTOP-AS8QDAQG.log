@@ -1,0 +1,17 @@
+2022-08-25 19:10:13,855 : kivy : Factory: 186 symbols loaded
+2022-08-25 19:10:14,148 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-25 19:10:14,149 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-25 19:10:14,223 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-25 19:10:14,223 : kivy : Video: Provider: gstplayer
+2022-08-25 19:10:14,745 : kivy : Loading MPF-MC controller
+2022-08-25 19:10:14,753 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-25 19:10:14,753 : ConfigProcessor : Config file in cache changed: C:\pinball\MPFTest\config\config
+2022-08-25 19:10:14,765 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-25 19:10:14,833 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-25 19:10:14,834 : ConfigProcessor : Loading config from file C:\pinball\MPFTest\config\config.
+2022-08-25 19:10:14,840 : ConfigProcessor : Loading config: C:\pinball\MPFTest\config\config
+2022-08-25 19:10:14,841 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\fd47fd99e9721cd694c3569d09f0eeee.mpf_cache
+2022-08-25 19:10:14,842 : ConfigProcessor : Config file in cache changed: C:\pinball\MPFTest\modes\attract\config\attract.yaml
+2022-08-25 19:10:14,843 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-08-25 19:10:14,845 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-08-25 19:10:14,845 : ConfigProcessor : Loading config from file C:\pinball\MPFTest\modes\attract\config\attract.yaml.

@@ -1,0 +1,6 @@
+master_volume:
+  expire: null
+  value: 0.5
+player1_score:
+  expire: null
+  value: 17500

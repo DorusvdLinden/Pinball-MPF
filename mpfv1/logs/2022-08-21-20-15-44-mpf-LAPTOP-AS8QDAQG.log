@@ -1,0 +1,59 @@
+2022-08-21 20:15:44,952 : INFO : root : Loading config.
+2022-08-21 20:15:44,965 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-21 20:15:44,966 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-08-21 20:15:45,023 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-08-21 20:15:45,024 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.yaml.
+2022-08-21 20:15:45,033 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config.yaml
+2022-08-21 20:15:45,061 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-08-21 20:15:45,063 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-08-21 20:15:45,187 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-08-21 20:15:45,194 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-08-21 20:15:45,195 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\modes\attract\config\attract.yaml.
+2022-08-21 20:15:45,205 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\modes\attract\config\attract.yaml
+2022-08-21 20:15:45,206 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-08-21 20:15:45,207 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\game\config\game.yaml.
+2022-08-21 20:15:45,221 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\game\config\game.yaml
+2022-08-21 20:15:45,222 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-08-21 20:15:45,222 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-08-21 20:15:45,236 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-08-21 20:15:45,244 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-21 20:15:45,244 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-21-20-15-44-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-21 20:15:45,245 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-08-21 20:15:45,245 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-08-21 20:15:45,245 : INFO : Machine : Platform: win32
+2022-08-21 20:15:45,245 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-08-21 20:15:45,245 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-08-21 20:15:45,247 : INFO : Machine : Initialise MPF.
+2022-08-21 20:15:45,550 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-08-21 20:15:45,552 : INFO : Machine : Shutting down...
+2022-08-21 20:15:45,552 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-21 20:15:45,552 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 105, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 278, in _connect_to_hardware
+    await comm.connect()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\clock.py", line 152, in open_serial_connection
+    transport, _ = await create_serial_connection(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\coroutines.py", line 124, in coro
+    res = func(*args, **kw)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2022-08-21 20:16:15,282 : INFO : root : MPF run loop ended.

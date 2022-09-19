@@ -1,0 +1,47 @@
+#config_version=5
+
+
+# versions
+#   MPF v0.55.0
+#   Python 3.8.10
+#   Mission Pinball Framework 0.55 Documentation
+
+# Instruction
+#   Install python 3.8.10
+#   pip install pip setuptools --upgrade
+#       pip                     22.2.2
+#       setuptools              64.0.3
+#   pip3 uninstall kivy.deps.sdl2 kivy.deps.sdl2_dev kivy.deps.glew kivy.deps.gstreamer
+#   pip install mpf[all] mpf-mc
+#       if needed:
+#           pip install mpf[all]==0.55.0
+#           pip install mpf-mc==0.55.0
+
+
+
+
+hardware:
+    platform: opp
+    driverboards: gen2
+
+opp:
+    ports: COM10, COM11  # COM7
+    #poll_hz: 50
+
+    
+mpf:
+    report_crashes: never
+    
+config:
+- hardware.yaml
+- sounds.yaml    
+- display.yaml 
+- keyboard.yaml
+    
+modes:
+    - base
+    - orbit
+    - lanes
+
+
+

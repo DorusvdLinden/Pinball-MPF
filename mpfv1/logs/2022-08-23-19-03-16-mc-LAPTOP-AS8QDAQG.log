@@ -1,0 +1,5 @@
+2022-08-23 19:03:16,526 : kivy : Factory: 186 symbols loaded
+2022-08-23 19:03:17,651 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-23 19:03:17,651 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-23 19:03:18,032 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-23 19:03:18,032 : kivy : Video: Provider: gstplayer

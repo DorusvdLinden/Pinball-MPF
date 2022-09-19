@@ -1,0 +1,162 @@
+2022-09-16 15:54:16,544 : kivy : Factory: 186 symbols loaded
+2022-09-16 15:54:16,842 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-16 15:54:16,842 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-16 15:54:16,903 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-16 15:54:16,904 : kivy : Video: Provider: gstplayer
+2022-09-16 15:54:17,257 : kivy : Loading MPF-MC controller
+2022-09-16 15:54:17,263 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-16 15:54:17,264 : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\config
+2022-09-16 15:54:17,275 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-16 15:54:17,323 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-16 15:54:17,324 : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.
+2022-09-16 15:54:17,326 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config
+2022-09-16 15:54:17,354 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-16 15:54:17,363 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-16 15:54:17,366 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-16 15:54:17,371 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-16 15:54:17,374 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\54d4e1f26f77dfcbadc00e9606c45708.mpf_cache
+2022-09-16 15:54:17,375 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-16 15:54:17,375 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-16 15:54:17,376 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-16 15:54:17,376 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-09-16 15:54:17,376 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-09-16 15:54:17,377 : mpfmc : Machine path: C:\pinball\mpfv1
+2022-09-16 15:54:17,377 : mpfmc : Starting clock at 60.0Hz
+2022-09-16 15:54:17,395 : kivy : Text: Provider: sdl2
+2022-09-16 15:54:17,473 : kivy : Window: Provider: sdl2
+2022-09-16 15:54:17,620 : kivy : GL: Using the "OpenGL" graphics system
+2022-09-16 15:54:17,621 : kivy : GL: GLEW initialization succeeded
+2022-09-16 15:54:17,622 : kivy : GL: Backend used <glew>
+2022-09-16 15:54:17,622 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-09-16 15:54:17,622 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-09-16 15:54:17,622 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-09-16 15:54:17,622 : kivy : GL: OpenGL parsed version: 4, 6
+2022-09-16 15:54:17,623 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-09-16 15:54:17,623 : kivy : GL: Texture max size <16384>
+2022-09-16 15:54:17,623 : kivy : GL: Texture max units <32>
+2022-09-16 15:54:17,667 : kivy : Window: auto add sdl2 input provider
+2022-09-16 15:54:17,667 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-09-16 15:54:17,939 : AudioInterface : Initialized
+2022-09-16 15:54:17,939 : AudioInterface : Loaded SDL 2.0.12
+2022-09-16 15:54:17,939 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-09-16 15:54:17,939 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-09-16 15:54:17,939 : AudioInterface : Loaded GLib 2.62.6
+2022-09-16 15:54:17,939 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-09-16 15:54:17,939 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-09-16 15:54:17,940 : SoundSystem : Setting master volume to 0.0
+2022-09-16 15:54:17,940 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-09-16 15:54:17,940 : AudioInterface : Enabling audio playback
+2022-09-16 15:54:17,941 : kivy : Base: Start application main loop
+2022-09-16 15:54:17,942 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-09-16 15:54:17,953 : mpfmc : Display: Setting 'window' as default display
+2022-09-16 15:54:17,960 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-09-16 15:54:17,961 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-09-16 15:54:17,961 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-09-16 15:54:17,969 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-16 15:54:17,973 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-09-16 15:54:17,973 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-16 15:54:17,974 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-16 15:54:17,976 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-16 15:54:17,976 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-09-16 15:54:17,976 : EventManager : Event: ======'init_done'====== Args={}
+2022-09-16 15:54:17,976 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-09-16 15:54:17,979 : MPF-MC BCP Server : Waiting for a connection...
+2022-09-16 15:54:17,979 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2022-09-16 15:54:17,983 : kivy : GL: NPOT texture support is available
+2022-09-16 15:54:17,984 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-09-16 15:54:17,986 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-09-16 15:54:17,993 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-09-16 15:54:18,653 : MPF-MC BCP Server : Received connection from: 127.0.0.1:63367
+2022-09-16 15:54:18,658 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 63367}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 41000, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,671 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,672 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,672 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,672 : SoundSystem : Setting master volume to 0.5
+2022-09-16 15:54:18,770 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 41000.0, 'top': [41000], 'total': 1}, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,771 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,772 : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,773 : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,774 : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,774 : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,774 : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,774 : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,774 : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 15:54:18,783 : EventManager : Event: ======'slides_play'====== Args={'settings': {'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': '_global', 'calling_context': 'init_done', 'priority': 0}
+2022-09-16 15:54:18,783 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2022-09-16 15:54:18,783 : mpfmc : SlidePlayer: Play called with settings={'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-09-16 15:54:18,783 : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={}
+2022-09-16 15:54:18,785 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-09-16 15:54:18,786 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2022-09-16 15:54:18,786 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2022-09-16 15:54:18,786 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2022-09-16 15:54:18,787 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-09-16 15:54:18,805 : EventManager : Event: ======'slides_play'====== Args={'settings': {'awesome_slide': {'widgets': [{'type': 'text', 'text': 'YOU ARE AWESOME', 'font_size': 50, '_default_settings': ['type', 'text', 'font_size'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'push', 'duration': 1.0, 'direction': 'left', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_1', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 12143.437}
+2022-09-16 15:54:18,805 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_started', 'priority': 0}
+2022-09-16 15:54:18,806 : mpfmc : SlidePlayer: Play called with settings={'awesome_slide': {'widgets': [{'type': 'text', 'text': 'YOU ARE AWESOME', 'font_size': 50, '_default_settings': ['type', 'text', 'font_size'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'push', 'duration': 1.0, 'direction': 'left', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-09-16 15:54:18,811 : EventManager : Event: ======'slide_awesome_slide_created'====== Args={}
+2022-09-16 15:54:18,813 : EventManager : Event: ======'slide_awesome_slide_active'====== Args={}
+2022-09-16 15:54:18,839 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-09-16 15:54:18,840 : AssetManager : Asset loading took: 0.900273323059082
+2022-09-16 15:54:18,840 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-09-16 15:54:18,840 : AssetManager : Loading assets: 1/1 (100%)
+2022-09-16 15:54:21,799 : EventManager : Event: ======'slides_play'====== Args={'settings': {'press_start': {'widgets': [{'type': 'Text', 'text': 'PRESS START', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, '_default_settings': ['type', 'text', 'animations'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'FREE PLAY', 'color': [0.0, 0.5019607843137255, 0.0, 1], 'y': '10', 'anchor_y': 'bottom', '_default_settings': ['type', 'text', 'color', 'y', 'anchor_y'], 'x': None, 'anchor_x': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'move_in', 'duration': 1.0, 'direction': 'right', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_1', 'calling_context': 1, 'priority': 10, 'show_tokens': {}, 'start_time': 12146.437}
+2022-09-16 15:54:21,799 : mpfmc : SlidePlayer: Play called with settings={'press_start': {'widgets': [{'type': 'Text', 'text': 'PRESS START', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, '_default_settings': ['type', 'text', 'animations'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'FREE PLAY', 'color': [0.0, 0.5019607843137255, 0.0, 1], 'y': '10', 'anchor_y': 'bottom', '_default_settings': ['type', 'text', 'color', 'y', 'anchor_y'], 'x': None, 'anchor_x': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'move_in', 'duration': 1.0, 'direction': 'right', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-09-16 15:54:21,803 : EventManager : Event: ======'slide_press_start_created'====== Args={}
+2022-09-16 15:54:21,804 : EventManager : Event: ======'slide_press_start_active'====== Args={}
+2022-09-16 15:54:24,814 : EventManager : Event: ======'slides_play'====== Args={'settings': {'mission_pinball': {'widgets': [{'type': 'Text', 'text': 'MISSION PINBALL', 'color': [1.0, 0.0, 0.0, 1], '_default_settings': ['type', 'text', 'color'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'move_in', 'duration': 1.0, 'direction': 'top', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_1', 'calling_context': 2, 'priority': 10, 'show_tokens': {}, 'start_time': 12149.437}
+2022-09-16 15:54:24,814 : mpfmc : SlidePlayer: Play called with settings={'mission_pinball': {'widgets': [{'type': 'Text', 'text': 'MISSION PINBALL', 'color': [1.0, 0.0, 0.0, 1], '_default_settings': ['type', 'text', 'color'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'font_size': 15, 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'transition': {'type': 'move_in', 'duration': 1.0, 'direction': 'top', 'easing': 'out_quad'}, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-09-16 15:54:24,816 : EventManager : Event: ======'slide_mission_pinball_created'====== Args={}
+2022-09-16 15:54:24,817 : EventManager : Event: ======'slide_mission_pinball_active'====== Args={}
+2022-09-16 15:54:27,309 : kivy : Base: Leaving application in progress...
+2022-09-16 15:54:27,482 : mpfmc : Stopping...
+2022-09-16 15:54:27,482 : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-16 15:54:27,482 : AudioInterface : Disabling audio playback
+2022-09-16 15:54:27,483 : mpfmc : Loop rate 70.42 Hz
+2022-09-16 15:54:27,483 : kivy : MC run loop ended.
+2022-09-16 15:54:27,483 : kivy : Stopping child threads... (3 remaining)
+2022-09-16 15:54:27,797 : mpfmc : Stopping...
+2022-09-16 15:54:27,797 : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-16 15:54:27,798 : mpfmc : Loop rate 68.18 Hz
+2022-09-16 15:54:28,462 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-09-16 15:54:28,570 : kivy : All child threads stopped.

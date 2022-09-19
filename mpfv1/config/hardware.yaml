@@ -1,0 +1,312 @@
+#config_version=5
+
+# Hardware Configuration
+
+machine:
+  balls_installed: 4
+  min_balls: 1
+
+virtual_platform_start_active_switches: s_trough1 s_trough2 s_trough3 s_trough4
+
+mpf-mc:
+#  fps: 60
+
+
+
+coils:
+    c_sling_right:
+        number: 0-0
+        default_pulse_ms: 15
+    c_sling_left:
+        number: 0-1
+        default_pulse_ms: 16
+    c_plunger:
+        number: 0-2
+        default_pulse_ms: 21
+    c_trough_eject:
+        number: 0-3
+        default_pulse_ms: 25
+        
+    c_popbumper_1:
+        number: 0-4
+        default_pulse_ms: 17
+    c_popbumper_2:
+        number: 0-5
+        default_pulse_ms: 17
+    c_popbumper_3:
+        number: 0-6
+        default_pulse_ms: 17
+    #name:              empty
+    #    number: 0-7
+    #    label:
+    #    tags:
+
+        
+    c_vukmid:
+        number: 1-0
+        default_pulse_ms: 25
+    c_drop:
+        number: 1-1
+        default_pulse_ms: 16
+    c_vuktop:
+        number: 1-2
+        default_pulse_ms: 25
+    #name:              empty
+    #    number: 1-3
+    #    label:
+    #    tags:
+    #name:              empty
+    #    number: 1-4
+    #    label:
+    #    tags:
+    #name:              empty
+    #    number: 1-5
+    #    label:
+    #    tags:
+    #name:              empty
+    #    number: 1-6
+    #    label:
+    #    tags:
+    #name:              empty
+    #    number: 1-7
+    #    label:
+    #    tags:
+        
+        
+switches:
+# Autofire 0-0 to 0-3
+    s_right_sling:
+        number: 0-0
+        debounce: quick
+    s_left_sling:
+        number: 0-1
+        debounce: quick
+    #name:              plunger --> NO AUTOLAUNCH SWITCH
+    #    number: 0-2
+    #    label:
+    #    tags:
+    #name:              trough_eject --> NO AUTOLAUNCH SWITCH
+    #    number: 0-3
+    #    label:
+    #    tags:
+# Autofire 0-4 to 0-7 DO NOT EXIST
+    
+# Autofire 0-8 to 0-11
+    s_popbumber_1:
+        number: 0-8
+    s_popbumber_2:
+        number: 0-9
+    s_popbumber_3:
+        number: 0-10
+    #name:              empty
+    #    number: 0-3
+
+# Autofire 0-12 to 0-15 DO NOT EXIST
+
+# Direct Switches Launch Section
+    s_plunger_lane:
+        number: 0-16
+    s_start:
+        number: 0-17
+        tags: start
+    s_launch:
+        number: 0-18
+        tags: launch
+    s_trough1:
+        number: 0-19
+        type: NC
+    s_trough2:
+        number: 0-20
+        type: NC
+    s_trough3:
+        number: 0-21
+        type: NC
+    s_trough4:
+        number: 0-22
+        type: NC
+    s_trough5:
+        number: 0-23
+        type: NC
+    s_trough6:
+        number: 0-24
+        type: NC
+    s_trough_jam:  
+        number: 0-25
+        type: NO  
+
+# path switches
+    s_spinner:
+        number: 0-28  
+        type: NO  
+    s_ramp:
+        number: 0-30  
+        type: NO  
+    
+# left switch bank
+    s_left01:
+        number: 0-27  
+        type: NO  
+    s_left02:
+        number: 0-26  
+        type: NO  
+    s_left03:
+        number: 0-29  
+        type: NO  
+   
+# hidden switch pop bumper section       
+    s_top:
+        number: 0-31  
+        type: NO  
+
+        
+        
+# Autofire 1-0 to 1-1 NO AUTOLAUNCH SWITCH
+# Autofire 1-2 to 1-3 empty
+# Autofire 1-4 to 1-7 DO NOT EXIST
+# Autofire 1-8 to 1-11 empty 
+# Autofire 0-12 to 0-15 DO NOT EXIST
+
+
+# Right to left - Top Lanes
+    s_toplane1:
+        number: 1-16
+    s_toplane2:
+        number: 1-17
+    s_toplane3:
+        number: 1-18
+
+# Left to Right - Bottom Lanes
+    s_bottomlane1:
+        number: 1-19
+    s_bottomlane2:
+        number: 1-20
+    s_bottomlane3:
+        number: 1-21
+    s_bottomlane4:
+        number: 1-23
+    s_bottomlane5:
+        number: 1-22
+        
+# Left to Right
+    s_drop1:
+        number: 1-25
+    s_drop2:
+        number: 1-26
+    s_drop3:
+        number: 1-27
+
+# VUK Mid Field
+    s_vukmid:
+        number: 1-24
+ 
+# VUK Left Top 
+    s_vuktop:
+        number: 1-28
+        
+        
+# right switch bank
+    s_rigth01:
+        number: 1-29
+    s_rigth02:
+        number: 1-30
+    s_rigth03:
+        number: 1-31
+
+
+
+
+
+    s_orbit1:
+        number: 2-0
+ 
+    s_orbit2:
+        number: 2-1
+    
+
+
+
+# drop target bank    
+drop_targets:
+     d_drop_target1:
+         switch: s_drop1
+     d_drop_target2:
+         switch: s_drop2
+     d_drop_target3:
+         switch: s_drop3
+         
+drop_target_banks:
+     db_dropbank:
+         drop_targets: d_drop_target1, d_drop_target2, d_drop_target3
+         reset_coils: c_drop
+         reset_on_complete: 1s
+
+
+
+
+
+
+
+   
+autofire_coils:
+    ac_popbumber_1:
+        coil: c_popbumper_1
+        switch: s_popbumber_1
+    ac_popbumber_2:
+        coil: c_popbumper_2
+        switch: s_popbumber_2
+    ac_popbumber_3:
+        coil: c_popbumper_3
+        switch: s_popbumber_3
+
+    ac_sling_left:
+        coil: c_sling_left
+        switch: s_left_sling
+    ac_sling_right:
+        coil: c_sling_right
+        switch: s_right_sling            
+    
+    
+    
+ball_devices:
+    bd_trough:
+        ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+        eject_coil: c_trough_eject
+        tags: trough, home, drain
+        jam_switch: s_trough_jam
+        eject_coil_jam_pulse: 25ms
+        eject_targets: bd_plunger
+        debug: yes
+
+    bd_plunger:
+        ball_switches: s_plunger_lane
+        eject_coil: c_plunger        
+        player_controlled_eject_event: s_launch_active
+        debug: yes
+        mechanical_eject: true
+
+    bd_vukmid:
+        ball_switches: s_vukmid
+        eject_coil: c_vukmid
+        eject_timeouts: 2s
+    
+    bd_vuktop:
+        ball_switches: s_vuktop
+        eject_coil: c_vuktop
+        eject_timeouts: 2s
+    
+#flippers:      DIRECT FIRE & HOLD FLIPPERS
+#    left_flipper:
+#        main_coil: c_flipper_left
+#        activation_switch: s_left_flipper
+#        enable_events: machine_reset_phase_3
+#    right_flipper:
+#        main_coil: c_flipper_right
+#        activation_switch: s_right_flipper
+#        enable_events: machine_reset_phase_3    
+    
+        
+playfields:
+    playfield:
+        tags: default
+        default_source_device: bd_plunger  
+

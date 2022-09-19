@@ -1,0 +1,21 @@
+2022-09-17 10:02:44,907 : kivy : Factory: 186 symbols loaded
+2022-09-17 10:02:45,089 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-17 10:02:45,089 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-17 10:02:45,166 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-17 10:02:45,166 : kivy : Video: Provider: gstplayer
+2022-09-17 10:02:45,579 : kivy : Loading MPF-MC controller
+2022-09-17 10:02:45,583 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-17 10:02:45,584 : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\config
+2022-09-17 10:02:45,595 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-17 10:02:45,648 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-17 10:02:45,648 : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.
+2022-09-17 10:02:45,652 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config
+2022-09-17 10:02:45,674 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-17 10:02:45,682 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-17 10:02:45,685 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-17 10:02:45,691 : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-17 10:02:45,693 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\54d4e1f26f77dfcbadc00e9606c45708.mpf_cache
+2022-09-17 10:02:45,694 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-17 10:02:45,694 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-17 10:02:45,695 : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\modes\base\config\base.yaml
+2022-09-17 10:02:45,695 : ConfigProcessor : Loading config from file C:\pinball\mpfv1\modes\base\config\base.yaml.

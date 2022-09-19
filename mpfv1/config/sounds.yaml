@@ -1,0 +1,82 @@
+#config_version=5
+
+
+sound_system:
+    master_volume: 0.8
+    tracks:
+        sfx:
+            simultaneous_sounds: 8
+            volume: 0.8
+        music:    
+            simultaneous_sounds: 1
+            volume: 0.8
+
+
+assets:
+    sounds:
+        default:
+            load: on_demand
+        sfx:
+            track: sfx
+        music:
+            track: music 
+            
+sounds:
+    alarm:
+        file: alarm_sweep_lp_lg_01.wav
+        volume: 0.8
+    mp_coop_lobby_2_c1:
+        volume: 0.8
+    mp_coop_lobby_2_c2:
+        volume: 0.8
+    mp_coop_lobby_2_c4:
+        volume: 0.8
+    mp_coop_lobby_2_c5:
+        volume: 0.8
+    mp_coop_lobby_2_c6:
+        volume: 0.8
+    mp_coop_lobby_2_c7:
+        volume: 0.8
+    sp_a4_finale4_b8:
+        volume: 0.8
+    sp_a4_finale4_b10:
+        volume: 0.8
+    sp_a4_finale4_b11:
+        volume: 0.8
+    
+sound_pools:
+    musicslow:
+        type: random_force_next 
+        track: music
+        sounds:
+            - mp_coop_lobby_2_c1
+            - mp_coop_lobby_2_c2
+            - mp_coop_lobby_2_c4
+            - mp_coop_lobby_2_c5
+            - mp_coop_lobby_2_c6
+            - mp_coop_lobby_2_c7
+    musicfast:
+        type: random_force_next 
+        track: music
+        sounds:
+            - sp_a4_finale4_b8
+            - sp_a4_finale4_b10
+            - sp_a4_finale4_b11
+
+  
+sound_player:
+    mode_attract_started: 
+        musicslow:
+            action: play
+            loops: -1
+    mode_attract_stopped:
+        musicslow:
+            action: stop
+    mode_base_started:
+        musicfast:
+            action: play
+            loops: -1
+    mode_base_stopped:
+        musicfast:
+            action: stop
+    

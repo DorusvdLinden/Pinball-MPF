@@ -1,0 +1,23 @@
+#config_version=5
+
+displays:
+    window:
+      width: 800
+      height: 600        
+
+slides:
+    welcome_slide:
+        widgets:
+            - type: text
+              text: PINBALL!
+              font_size: 50
+              color: red
+            - type: rectangle
+              width: 240
+              height: 60
+    
+
+
+
+slide_player:
+    init_done: welcome_slide              

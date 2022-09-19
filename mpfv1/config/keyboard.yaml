@@ -1,0 +1,75 @@
+#config_version=5
+
+
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
+  - s_trough4
+
+
+
+keyboard:
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  6:
+    switch: s_trough_jam
+    toggle: true
+
+
+
+  s:
+    switch: s_start
+  l:
+    switch: s_launch
+  p:
+    switch: s_plunger_lane
+    toggle: true
+  o:
+    switch: s_trough4
+    toggle: true
+  k:
+    switch: s_trough1
+    toggle: true
+
+    
+  m:
+    switch: s_right_sling 
+  x:
+    switch: s_left_sling
+
+  q: 
+    switch: s_vukmid 
+  w: 
+    switch: s_drop1 
+  e: 
+    switch: s_drop2 
+  r: 
+    switch: s_drop3 
+
+  t: 
+    switch: s_bottomlane1 
+  y: 
+    switch: s_bottomlane2 
+  u: 
+    switch: s_bottomlane3 
+  i: 
+    switch: s_bottomlane4 
+
+    
+    
+
+    

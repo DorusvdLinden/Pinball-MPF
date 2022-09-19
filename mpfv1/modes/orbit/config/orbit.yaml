@@ -1,0 +1,28 @@
+#config_version=5
+##! mode: orbit
+
+mode:
+    start_events: ball_starting
+    priority: 101
+ 
+
+shots:
+  spinner:
+    switch: s_spinner
+  orbit:
+    switch: s_orbit1
+
+
+sequence_shots:
+  left_orbit:
+    event_sequence: spinner_hit, orbit_hit
+    sequence_timeout: 1s
+  right_orbit:
+    switch_sequence: s_orbit1, s_spinner
+    sequence_timeout: 1s
+
+variable_player:
+  left_orbit_hit:
+    score: 10000 
+  right_orbit_hit:
+    score: 10000  

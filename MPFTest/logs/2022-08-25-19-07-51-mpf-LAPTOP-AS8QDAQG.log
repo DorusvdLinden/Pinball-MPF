@@ -1,0 +1,73 @@
+2022-08-25 19:07:51,039 : INFO : root : Loading config.
+2022-08-25 19:07:51,042 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-25 19:07:51,043 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\b5a61368077cb638a2d30584b4c214a4.mpf_cache
+2022-08-25 19:07:51,143 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f669821a9dd3c682462b30511846254b.mpf_cache
+2022-08-25 19:07:51,143 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache
+2022-08-25 19:07:51,144 : INFO : ConfigProcessor : Loading config from file C:\pinball\MPFTest\modes\attract\shows\.\attract_light_loop.yaml.
+2022-08-25 19:07:51,146 : INFO : ConfigProcessor : Loading config: C:\pinball\MPFTest\modes\attract\shows\.\attract_light_loop.yaml
+2022-08-25 19:07:51,146 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\9fc873ed955b120383c74823d9b2df21.mpf_cache
+2022-08-25 19:07:51,146 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-25 19:07:51,146 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-25-19-07-51-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-25 19:07:51,147 : INFO : Machine : MPF path: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf
+2022-08-25 19:07:51,147 : INFO : Machine : Machine path: C:\pinball\MPFTest
+2022-08-25 19:07:51,147 : INFO : Machine : Platform: win32
+2022-08-25 19:07:51,147 : INFO : Machine : Python executable location: c:\users\dorus\appdata\local\programs\python\python38\python.exe
+2022-08-25 19:07:51,147 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-08-25 19:07:51,148 : INFO : Machine : Initialise MPF.
+2022-08-25 19:07:51,296 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-08-25 19:07:51,388 : INFO : OPP : Init of OPP board COM7 done
+2022-08-25 19:07:51,389 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,455 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,456 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,456 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,456 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-08-25 19:07:51,468 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-25 19:07:51,480 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-08-25 19:07:51,480 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...r_sec': 1}]")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...r_sec': 1}]")>)>
+Traceback (most recent call last):
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialise_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\config_players\device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player mode_attract_started:lights [{'show': 'attract_light_loop', 'repeat': True, 'tocks_per_sec': 1}]
+2022-08-25 19:07:51,504 : INFO : Machine : Starting the main run loop.
+2022-08-25 19:07:51,505 : INFO : Machine : Shutting down...
+2022-08-25 19:07:51,507 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-25 19:07:51,508 : ERROR : OPP : Stop called on serial connection COM7
+2022-08-25 19:07:51,511 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialise_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\config_players\device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player mode_attract_started:lights [{'show': 'attract_light_loop', 'repeat': True, 'tocks_per_sec': 1}]
+2022-08-25 19:07:51,633 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-08-25 19:07:51,633 : INFO : root : MPF run loop ended.

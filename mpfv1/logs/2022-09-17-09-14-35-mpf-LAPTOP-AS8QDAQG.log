@@ -1,0 +1,94 @@
+2022-09-17 09:14:35,235 : INFO : root : Loading config.
+2022-09-17 09:14:35,242 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-17 09:14:35,243 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:14:35,253 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:14:35,253 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-17 09:14:35,353 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-17 09:14:35,354 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.yaml.
+2022-09-17 09:14:35,358 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config.yaml
+2022-09-17 09:14:35,398 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-17 09:14:35,406 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\lights.yaml
+2022-09-17 09:14:35,422 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-17 09:14:35,426 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-17 09:14:35,433 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-17 09:14:35,436 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 09:14:35,542 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-17 09:14:35,543 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-17 09:14:35,544 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-17 09:14:35,545 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\559f6283f098772e04564bccbb105016.mpf_cache
+2022-09-17 09:14:35,546 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9d4ddc5b486987071715110e2b9dff2c.mpf_cache
+2022-09-17 09:14:35,547 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-09-17 09:14:35,548 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-17 09:14:35,548 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-17-09-14-35-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-17 09:14:35,548 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-17 09:14:35,548 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-09-17 09:14:35,548 : INFO : Machine : Platform: win32
+2022-09-17 09:14:35,548 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-17 09:14:35,548 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-17 09:14:35,550 : INFO : Machine : Initialise MPF.
+2022-09-17 09:14:35,750 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-17 09:14:35,841 : INFO : OPP : Init of OPP board COM7 done
+2022-09-17 09:14:35,841 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,928 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,928 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 17500, 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,928 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,928 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,928 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-17 09:14:35,943 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-17 09:14:35,978 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-17 09:14:35,987 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number l_lane_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 856, in parse_light_number_to_channels
+    self.raise_config_error("Unknown subtype {}".format(subtype), 8)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Unknown subtype coil Error Code: CFE-OPP-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-8.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number l_lane_1 in platform. See error above
+2022-09-17 09:14:35,990 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-17 09:14:35,990 : INFO : Machine : Starting the main run loop.
+2022-09-17 09:14:35,998 : INFO : Machine : Shutting down...
+2022-09-17 09:14:35,998 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-17 09:14:36,000 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-17 09:14:36,002 : INFO : SwitchController : Found active switch: ('COM7-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-17 09:14:36,003 : INFO : SwitchController : Found active switch: ('COM7-1-25', <Platform.OPP>) <switch.s_drop1>
+2022-09-17 09:14:36,005 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 856, in parse_light_number_to_channels
+    self.raise_config_error("Unknown subtype {}".format(subtype), 8)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Unknown subtype coil Error Code: CFE-OPP-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-8.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number l_lane_1 in platform. See error above
+2022-09-17 09:15:33,694 : INFO : root : MPF run loop ended.

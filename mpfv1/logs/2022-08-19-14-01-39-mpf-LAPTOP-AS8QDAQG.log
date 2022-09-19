@@ -1,0 +1,20 @@
+2022-08-19 14:01:39,612 : INFO : root : Loading config.
+2022-08-19 14:01:39,616 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-19 14:01:39,616 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8e51326c5a942adf6c6046949d3c2458.mpf_cache
+2022-08-19 14:01:39,703 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\7da47e36f84f7d837d8eac46388772e5.mpf_cache
+2022-08-19 14:01:39,704 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache
+2022-08-19 14:01:39,705 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-08-19 14:01:39,706 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-08-19 14:01:39,706 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-19 14:01:39,706 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-19-14-01-39-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-19 14:01:39,706 : INFO : Machine : MPF path: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf
+2022-08-19 14:01:39,706 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-08-19 14:01:39,706 : INFO : Machine : Platform: win32
+2022-08-19 14:01:39,706 : INFO : Machine : Python executable location: c:\users\dorus\appdata\local\programs\python\python38\python.exe
+2022-08-19 14:01:39,706 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-08-19 14:01:39,708 : INFO : Machine : Initialise MPF.
+2022-08-19 14:01:39,861 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-08-19 14:01:52,460 : INFO : Machine : Starting the main run loop.
+2022-08-19 14:01:52,461 : INFO : Machine : Shutting down...
+2022-08-19 14:01:52,461 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-19 14:01:52,471 : INFO : root : MPF run loop ended.

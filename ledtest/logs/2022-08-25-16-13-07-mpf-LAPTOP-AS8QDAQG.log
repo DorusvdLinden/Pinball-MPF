@@ -1,0 +1,5 @@
+2022-08-25 16:13:07,036 : INFO : root : Loading config.
+2022-08-25 16:13:07,048 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-25 16:13:07,049 : INFO : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-08-25 16:13:07,112 : INFO : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-08-25 16:13:07,112 : INFO : ConfigProcessor : Loading config from file C:\pinball\ledtest\config\config.yaml.

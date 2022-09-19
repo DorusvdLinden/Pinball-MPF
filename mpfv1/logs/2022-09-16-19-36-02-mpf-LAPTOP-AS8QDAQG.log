@@ -1,0 +1,1164 @@
+2022-09-16 19:36:02,625 : INFO : root : Loading config.
+2022-09-16 19:36:02,630 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-16 19:36:02,630 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-16 19:36:02,636 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-16 19:36:02,637 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-16 19:36:02,699 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-16 19:36:02,699 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\config\config.yaml.
+2022-09-16 19:36:02,702 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\config.yaml
+2022-09-16 19:36:02,733 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\hardware.yaml
+2022-09-16 19:36:02,741 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\sounds.yaml
+2022-09-16 19:36:02,744 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\display.yaml
+2022-09-16 19:36:02,751 : INFO : ConfigProcessor : Loading config: C:\pinball\mpfv1\config\keyboard.yaml
+2022-09-16 19:36:02,753 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-16 19:36:02,831 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-16 19:36:02,832 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-16 19:36:02,833 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-16 19:36:02,834 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-09-16 19:36:02,834 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-16 19:36:02,834 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-16-19-36-02-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-16 19:36:02,834 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-16 19:36:02,834 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-09-16 19:36:02,834 : INFO : Machine : Platform: win32
+2022-09-16 19:36:02,834 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-16 19:36:02,834 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-16 19:36:02,836 : INFO : Machine : Initialise MPF.
+2022-09-16 19:36:02,981 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-16 19:36:03,075 : INFO : OPP : Init of OPP board COM7 done
+2022-09-16 19:36:03,075 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,125 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,125 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 41000, 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,125 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,125 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,125 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,134 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,135 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,135 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,135 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,135 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-16 19:36:03,135 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-16 19:36:03,154 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-16 19:36:03,156 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-16 19:36:03,157 : INFO : SwitchController : Found active switch: ('COM7-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-16 19:36:03,160 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-09-16 19:36:03,162 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-09-16 19:36:05,216 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-09-16 19:36:05,218 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-09-16 19:36:05,229 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-09-16 19:36:05,230 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,230 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,233 : INFO : ball_device.bd_vukmid : State: idle
+2022-09-16 19:36:05,248 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-09-16 19:36:05,249 : INFO : ball_device.bd_vuktop : State: idle
+2022-09-16 19:36:05,249 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-09-16 19:36:05,249 : INFO : ball_device.bd_plunger : State: idle
+2022-09-16 19:36:05,250 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2022-09-16 19:36:05,250 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2022-09-16 19:36:05,250 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2022-09-16 19:36:05,250 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2022-09-16 19:36:05,250 : INFO : ball_device.bd_trough : State: idle
+2022-09-16 19:36:05,333 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-16 19:36:05,342 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-16 19:36:05,343 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:36:05,343 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:36:05,343 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:36:05,344 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:36:05,344 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:36:05,344 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:36:05,344 : INFO : BallController : Initial balls found: 1
+2022-09-16 19:36:05,346 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,347 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,347 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 41000.0, 'top': [41000], 'total': 1}, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,348 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,348 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,349 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,349 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,349 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,350 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,350 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,355 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,355 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,356 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,356 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,356 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,356 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,357 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,357 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,357 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,357 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,359 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,359 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,360 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,360 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,362 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:36:05,364 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-09-16 19:36:05,377 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-09-16 19:36:05,378 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-09-16 19:36:05,388 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:05,394 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:05,395 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:05,396 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-09-16 19:36:05,396 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-09-16 19:36:05,397 : INFO : drop_target_bank.db_dropbank : All targets are already up. Will not reset bank.
+2022-09-16 19:36:05,397 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-09-16 19:36:05,397 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-09-16 19:36:05,398 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-09-16 19:36:05,398 : INFO : Mode.attract : Started. Priority: 10
+2022-09-16 19:36:05,398 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-09-16 19:36:05,398 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-09-16 19:36:05,399 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-09-16 19:36:05,413 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:05,414 : INFO : Machine : Starting the main run loop.
+2022-09-16 19:36:05,414 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:06,055 : INFO : BcpServer : New client connected.
+2022-09-16 19:36:08,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:08,409 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:11,406 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:11,406 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:14,407 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:14,408 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:14,408 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:17,403 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:17,412 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:17,413 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:20,403 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:20,405 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:20,406 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:23,409 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:23,410 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:23,410 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:26,405 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:26,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:26,409 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:29,407 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:29,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:29,411 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:32,408 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:32,409 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:32,409 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:35,395 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:35,396 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:35,396 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:38,414 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:38,414 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:38,415 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:41,408 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:41,408 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:41,409 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:44,404 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:44,406 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:44,406 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:47,415 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:47,416 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:47,417 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:50,402 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:50,403 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:50,403 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:53,414 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:53,417 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:53,418 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:56,401 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:56,402 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:56,402 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:58,712 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:36:58,883 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:36:59,407 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:36:59,409 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:36:59,412 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:36:59,736 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:36:59,928 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:00,370 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:00,385 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:00,401 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:00,480 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:00,511 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:00,590 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:02,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:02,411 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:02,413 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:05,403 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:05,403 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:05,404 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:08,403 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:08,404 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:08,405 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:11,409 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:11,409 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:11,410 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:14,405 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:14,406 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:14,408 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:15,680 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:15,728 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:15,760 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:15,790 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:15,806 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:15,822 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:15,907 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:16,312 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:16,328 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:16,360 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:16,375 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:37:16,787 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:37:17,400 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:17,401 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:17,401 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:18,081 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:18,207 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:18,551 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:18,630 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:18,646 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:18,661 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:18,677 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:18,981 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:19,090 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:19,360 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:19,375 : INFO : SwitchController : <<<<<<< 's_orbit2' active >>>>>>>
+2022-09-16 19:37:19,423 : INFO : SwitchController : <<<<<<< 's_orbit2' inactive >>>>>>>
+2022-09-16 19:37:20,400 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:20,403 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:20,404 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:23,404 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:23,407 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:23,408 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:26,405 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:26,406 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:26,406 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:29,412 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:29,414 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:29,415 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:32,406 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:32,407 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:32,407 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:35,405 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:35,407 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:35,407 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:38,048 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:38,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:38,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:38,412 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:38,421 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:38,568 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:38,816 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:39,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:39,319 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:39,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:39,811 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:40,064 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:40,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:40,567 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:40,819 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:41,071 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:41,310 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:41,397 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:41,397 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:41,397 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:41,563 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:41,814 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:42,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:42,322 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:42,561 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:42,813 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:43,066 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:43,319 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:43,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:43,812 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:44,064 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:44,317 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:44,409 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:44,409 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:44,410 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:44,570 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:44,810 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:45,063 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:45,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:45,566 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:45,821 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:46,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:46,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:46,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:46,822 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:47,061 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:47,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:47,404 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:47,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:47,409 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:47,566 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:47,820 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:48,072 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:48,308 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:48,560 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:48,813 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:49,066 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:49,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:49,570 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:49,809 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:50,065 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:50,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:50,410 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:50,414 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:50,416 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:50,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:50,824 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:51,093 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:51,362 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:51,614 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:51,869 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:52,107 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:52,362 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:52,615 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:52,868 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:53,107 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:53,360 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:53,404 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:53,404 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:53,405 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:53,612 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:53,866 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:54,120 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:54,391 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:54,645 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:54,902 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:55,152 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:55,419 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:55,690 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:55,944 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:56,196 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:56,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:56,411 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:56,413 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:56,434 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:56,687 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:56,940 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:57,194 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:57,448 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:57,685 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:57,938 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:58,192 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:58,445 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:58,683 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:58,936 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:59,187 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:59,407 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:37:59,412 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:37:59,414 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:37:59,439 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:59,694 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:37:59,948 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:00,216 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:00,484 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:00,738 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:00,991 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:01,244 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:01,482 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:01,736 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:01,989 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:02,241 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:02,406 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:02,410 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:02,411 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:02,479 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:02,733 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:02,986 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:03,239 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:03,492 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:03,730 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:03,983 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:04,235 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:04,489 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:04,742 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:04,980 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:05,235 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:05,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:05,413 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:05,414 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:05,487 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:05,741 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:05,981 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:06,234 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:06,487 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:06,740 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:06,994 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:07,232 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:07,486 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:07,739 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:07,989 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:08,244 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:08,399 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:08,402 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:08,405 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:08,482 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:08,735 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:08,989 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:09,243 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:09,480 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:09,734 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:09,986 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:10,240 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:10,495 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:10,763 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:11,016 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:11,269 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:11,403 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:11,409 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:11,409 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:11,523 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:11,775 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:12,013 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:12,265 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:12,520 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:12,773 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:13,012 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:13,264 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:13,517 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:13,770 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:14,024 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:14,261 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:14,400 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:14,407 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:14,407 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:14,511 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:14,762 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:15,017 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:15,272 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:15,526 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:15,795 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:16,062 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:16,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:16,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:16,808 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:17,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:17,313 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:17,401 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:17,403 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:17,404 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:17,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:17,820 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:18,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:18,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:18,564 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:18,817 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:19,069 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:19,323 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:19,594 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:19,862 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:20,115 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:20,369 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:20,420 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:20,423 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:20,424 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:20,607 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:20,860 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:21,114 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:21,368 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:21,618 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:21,855 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:22,107 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:22,362 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:22,617 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:22,855 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:23,110 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:23,364 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:23,408 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:23,415 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:23,416 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:23,616 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:23,870 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:24,140 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:24,392 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:24,643 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:24,904 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:25,136 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:25,390 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:25,645 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:25,905 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:26,149 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:26,388 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:26,403 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:26,404 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:26,404 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:26,643 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:26,900 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:27,151 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:27,420 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:27,691 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:27,944 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:28,197 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:28,447 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:28,686 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:28,940 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:29,193 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:29,416 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:29,416 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:29,416 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:29,445 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:29,683 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:29,938 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:30,188 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:30,438 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:30,692 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:30,946 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:31,185 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:31,438 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:31,689 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:31,944 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:32,199 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:32,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:32,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:32,411 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:32,470 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:32,738 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:32,991 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:33,245 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:33,515 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:33,767 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:34,019 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:34,272 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:34,511 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:34,765 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:35,016 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:35,269 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:35,412 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:35,415 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:35,415 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:35,523 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:35,776 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:36,046 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:36,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:36,570 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:36,822 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:37,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:37,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:37,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:37,819 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:38,071 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:38,310 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:38,406 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:38,406 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:38,407 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:38,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:38,817 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:39,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:39,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:39,574 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:39,811 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:40,065 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:40,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:40,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:40,810 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:41,065 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:41,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:41,403 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:41,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:41,408 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:41,572 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:41,811 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:42,065 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:42,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:42,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:42,820 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:43,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:43,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:43,568 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:43,821 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:44,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:44,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:44,399 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:44,400 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:44,400 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:44,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:44,819 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:45,058 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:45,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:45,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:45,822 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:46,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:46,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:46,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:46,818 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:47,071 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:47,309 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:47,405 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:47,406 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:47,406 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:47,564 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:47,815 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:48,070 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:48,322 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:48,560 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:48,813 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:49,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:49,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:49,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:49,809 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:50,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:50,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:50,395 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:50,400 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:50,401 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:50,562 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:50,815 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:51,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:51,322 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:51,559 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:51,813 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:52,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:52,321 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:52,574 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:52,811 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:53,064 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:53,317 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:53,408 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:53,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:53,410 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:53,571 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:53,809 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:54,063 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:54,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:54,569 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:54,808 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:55,061 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:55,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:55,570 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:55,809 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:56,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:56,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:56,404 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:56,405 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:56,406 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:56,566 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:56,820 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:57,071 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:57,308 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:57,561 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:57,812 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:58,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:58,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:58,573 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:58,809 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:59,062 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:59,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:59,411 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:38:59,412 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:38:59,412 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:38:59,568 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:38:59,823 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:00,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:00,314 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:00,568 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:00,819 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:01,069 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:01,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:01,572 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:01,810 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:02,061 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:02,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:02,409 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:02,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:02,410 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:02,568 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:02,822 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:03,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:03,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:03,563 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:03,818 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:04,072 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:04,309 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:04,561 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:04,814 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:05,069 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:05,321 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:05,410 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:05,411 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:05,411 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:05,559 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:05,812 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:06,066 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:06,318 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:06,572 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:06,808 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:07,060 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:07,312 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:07,566 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:07,819 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:08,058 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:08,309 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:08,398 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:08,401 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:08,402 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:08,561 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:08,813 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:09,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:09,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:09,572 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:09,810 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:10,063 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:10,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:10,565 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:10,818 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:11,073 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:11,310 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:11,422 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:11,431 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:11,431 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:11,562 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:11,816 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:12,070 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:12,308 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:12,560 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:12,815 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:13,071 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:13,308 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:13,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:13,814 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:14,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:14,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:14,415 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:14,417 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:14,418 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:14,558 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:14,814 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:15,069 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:15,322 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:15,561 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:15,815 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:16,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:16,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:16,573 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:16,845 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:17,112 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:17,365 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:17,413 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:17,414 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:17,415 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:17,620 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:17,894 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:18,141 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:18,392 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:18,645 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:18,907 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:19,138 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:19,391 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:19,646 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:19,907 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:20,139 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:20,395 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:20,407 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:20,408 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:20,408 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:20,647 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:20,892 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:21,139 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:21,393 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:21,647 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:21,908 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:22,139 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:22,392 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:22,647 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:22,893 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:23,142 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:23,396 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:23,401 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:23,404 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:23,405 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:23,648 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:23,906 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:24,137 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:24,389 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:24,642 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:24,906 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:25,137 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:25,389 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:25,644 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:25,907 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:26,151 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:26,388 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:26,396 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:26,400 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:26,402 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:26,638 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:26,898 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:27,145 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:27,398 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:27,650 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:27,907 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:28,139 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:28,391 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:28,645 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:28,903 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:29,150 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:29,389 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:29,400 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:29,405 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:29,406 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:29,642 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:29,901 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:30,146 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:30,401 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:30,639 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:30,900 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:31,148 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:31,386 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:31,639 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:31,900 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:32,148 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:32,388 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:32,394 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:32,400 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:32,402 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:32,641 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:32,903 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:33,149 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:33,400 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:33,639 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:33,900 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:34,148 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:34,400 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:34,652 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:34,898 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:35,144 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:35,399 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:35,411 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:35,413 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:35,414 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:35,649 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:35,896 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:36,140 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:36,395 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:36,649 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:36,895 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:37,140 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:37,394 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:37,648 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:37,890 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:38,139 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:38,393 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:38,408 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:38,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:38,409 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:38,645 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:38,903 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:39,136 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:39,389 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:39,644 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:39,902 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:40,149 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:40,387 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:40,640 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:40,901 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:41,147 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:41,401 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:41,413 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:41,414 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:41,415 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:41,638 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:41,901 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:42,145 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:42,399 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:42,638 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:42,896 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:43,143 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:43,394 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:43,649 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:43,893 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:44,142 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:44,397 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:44,414 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:44,415 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:44,415 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:44,651 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:44,894 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:45,141 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:45,393 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:45,646 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:45,907 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:46,151 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:46,389 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:46,642 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:46,903 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:47,151 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:47,399 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:47,402 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:47,403 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:47,420 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:47,688 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:47,944 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:48,196 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:48,432 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:48,685 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:48,938 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:49,193 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:49,446 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:49,698 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:49,935 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:50,187 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:50,409 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:50,410 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:50,410 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:50,442 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:50,695 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:50,948 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:51,185 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:51,437 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:51,688 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:51,943 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:52,197 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:52,435 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:52,688 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:52,942 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:53,195 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:53,414 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:53,416 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:53,417 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:53,448 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:53,718 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:53,986 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:54,238 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:54,491 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:54,744 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:54,979 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:55,234 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:55,486 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:55,740 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:55,991 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:56,245 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:56,401 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:56,402 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:56,403 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:56,513 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:56,764 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:57,015 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:57,268 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:57,520 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:57,773 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:58,012 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:58,266 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:58,519 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:58,772 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:59,011 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:59,267 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:59,407 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:39:59,410 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:39:59,411 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:39:59,519 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:39:59,771 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:00,024 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:00,261 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:00,515 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:00,768 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:01,021 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:01,275 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:01,514 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:01,764 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:02,020 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:02,274 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:02,403 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:02,406 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:02,407 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:02,512 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:02,765 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:03,019 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:03,271 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:03,526 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:03,762 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:04,015 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:04,269 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:04,521 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:04,775 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:05,012 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:05,266 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:05,400 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:05,400 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:05,401 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:05,518 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:05,772 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:06,026 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:06,265 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:06,520 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:06,773 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:07,025 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:07,261 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:07,516 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:07,771 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:08,022 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:08,275 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:08,406 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:08,407 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:08,408 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:08,513 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:08,766 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:09,021 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:09,275 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:09,511 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:09,765 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:10,019 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:10,272 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:10,524 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:10,762 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:11,016 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:11,267 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:11,398 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:11,403 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:11,404 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:11,522 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:11,761 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:12,014 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:12,264 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:12,518 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:12,774 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:13,011 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:13,266 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:13,516 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:13,768 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:14,021 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:14,275 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:14,419 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:14,422 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:14,424 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:14,512 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:14,766 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:15,017 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:15,273 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:15,526 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:15,766 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:16,020 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:16,271 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:16,511 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:16,765 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:17,018 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:17,270 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:17,409 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:17,411 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:17,411 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:17,522 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:17,777 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:18,047 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:18,316 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:18,570 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:18,808 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:19,064 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:19,315 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:19,567 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:19,821 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:20,059 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:20,313 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:20,407 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:20,412 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:20,413 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:20,566 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:20,817 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:21,070 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:21,310 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:21,564 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:21,817 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:22,068 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:22,322 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:22,560 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:22,812 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:23,067 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:23,320 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:23,414 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:23,414 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:23,414 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:23,559 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:23,815 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:24,066 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:24,317 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:24,571 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:24,823 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:25,074 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:25,343 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:25,612 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:25,865 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:26,119 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:26,357 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:26,408 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:26,409 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:26,409 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:26,607 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:26,861 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:27,115 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:27,368 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:27,606 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:27,859 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:28,115 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:28,368 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:28,606 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:28,856 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:29,110 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:29,364 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:29,410 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:29,411 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:29,414 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:29,619 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:29,855 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:30,109 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:30,362 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:30,615 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:30,867 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:31,105 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:31,359 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:31,608 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:31,861 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:32,115 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:32,367 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:32,411 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:32,414 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:32,414 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:32,617 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:32,856 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:33,110 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:33,365 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:33,620 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:33,856 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:34,112 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:34,366 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:34,618 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:34,855 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:35,109 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:35,363 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:35,407 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:35,408 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:35,409 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:35,615 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:35,854 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:36,108 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:36,363 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:36,615 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:36,868 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:37,108 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:37,361 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:37,615 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:37,869 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:38,108 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:38,358 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:38,402 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:40:38,406 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:40:38,408 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:40:38,613 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:38,866 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:39,121 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:39,390 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:39,642 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:39,896 : WARNING : OPP : Poll took more than 250.0ms for COM7
+2022-09-16 19:40:39,896 : INFO : Machine : Shutting down...
+2022-09-16 19:40:39,896 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-16 19:40:39,900 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-16 19:40:39,900 : INFO : root : MPF run loop ended.

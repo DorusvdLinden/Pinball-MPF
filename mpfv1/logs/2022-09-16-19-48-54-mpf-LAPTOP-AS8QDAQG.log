@@ -1,0 +1,677 @@
+2022-09-16 19:48:54,145 : INFO : root : Loading config.
+2022-09-16 19:48:54,148 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-16 19:48:54,149 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-16 19:48:54,235 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-16 19:48:54,235 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-16 19:48:54,236 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\d4952d0b9ea6ba2ec58a4f9adbee2d8a.mpf_cache
+2022-09-16 19:48:54,237 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f88a77831ebd1fc65525f08072013dbd.mpf_cache
+2022-09-16 19:48:54,237 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-16 19:48:54,237 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-16-19-48-54-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-16 19:48:54,237 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-16 19:48:54,237 : INFO : Machine : Machine path: C:\pinball\mpfv1
+2022-09-16 19:48:54,237 : INFO : Machine : Platform: win32
+2022-09-16 19:48:54,237 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-16 19:48:54,238 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-16 19:48:54,239 : INFO : Machine : Initialise MPF.
+2022-09-16 19:48:54,389 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-16 19:48:54,486 : INFO : OPP : Init of OPP board COM7 done
+2022-09-16 19:48:54,487 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,541 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,541 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 41000, 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,541 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,541 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,541 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,551 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,552 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,552 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,552 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,552 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-16 19:48:54,552 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-16 19:48:54,570 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-16 19:48:54,572 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-16 19:48:54,573 : INFO : SwitchController : Found active switch: ('COM7-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-16 19:48:54,576 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-09-16 19:48:54,578 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-09-16 19:48:56,613 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-09-16 19:48:56,615 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-09-16 19:48:56,627 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-09-16 19:48:56,628 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,628 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,630 : INFO : ball_device.bd_vuktop : State: idle
+2022-09-16 19:48:56,648 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2022-09-16 19:48:56,648 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2022-09-16 19:48:56,648 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2022-09-16 19:48:56,648 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2022-09-16 19:48:56,649 : INFO : ball_device.bd_trough : State: idle
+2022-09-16 19:48:56,650 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-09-16 19:48:56,650 : INFO : ball_device.bd_plunger : State: idle
+2022-09-16 19:48:56,652 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-09-16 19:48:56,652 : INFO : ball_device.bd_vukmid : State: idle
+2022-09-16 19:48:56,716 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-16 19:48:56,720 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-16 19:48:56,720 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:48:56,720 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:48:56,721 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:48:56,721 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:48:56,721 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-16 19:48:56,721 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-16 19:48:56,721 : INFO : BallController : Initial balls found: 1
+2022-09-16 19:48:56,722 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,722 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,722 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 41000.0, 'top': [41000], 'total': 1}, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,724 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,725 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,728 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-16 19:48:56,729 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-09-16 19:48:56,741 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-09-16 19:48:56,741 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-09-16 19:48:56,752 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:48:56,755 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:48:56,756 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:48:56,757 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-09-16 19:48:56,758 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-09-16 19:48:56,759 : INFO : drop_target_bank.db_dropbank : All targets are already up. Will not reset bank.
+2022-09-16 19:48:56,760 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-09-16 19:48:56,760 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-09-16 19:48:56,761 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-09-16 19:48:56,761 : INFO : Mode.attract : Started. Priority: 10
+2022-09-16 19:48:56,761 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-09-16 19:48:56,761 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-09-16 19:48:56,762 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-09-16 19:48:56,777 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:48:56,777 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:48:56,778 : INFO : Machine : Starting the main run loop.
+2022-09-16 19:48:59,780 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:48:59,780 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:01,950 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:49:02,171 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:49:02,756 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:49:02,771 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:02,772 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:02,994 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:03,183 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:49:03,199 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:05,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:05,778 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:05,778 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:07,143 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:49:07,363 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:49:07,458 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:49:07,601 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:49:07,855 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:49:08,030 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:49:08,158 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:49:08,380 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:49:08,785 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:08,789 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:08,790 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:09,361 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:49:09,601 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:49:09,759 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:49:09,917 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:49:10,090 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:10,342 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:10,485 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:49:10,805 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:49:11,785 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:11,786 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:11,786 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:13,583 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2022-09-16 19:49:13,599 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2022-09-16 19:49:14,773 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:14,778 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:14,778 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:17,784 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:17,785 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:17,787 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:20,769 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:20,772 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:20,772 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:23,768 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:23,769 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:23,771 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:26,776 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:26,777 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:26,778 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:27,177 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:27,381 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:27,493 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:27,556 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:27,651 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:27,714 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:27,793 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:27,873 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:27,969 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:28,047 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:28,111 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:49:28,237 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:49:28,316 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:49:28,491 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:49:28,554 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:49:28,665 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:49:29,126 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:49:29,308 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:49:29,364 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:49:29,444 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:49:29,508 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:49:29,524 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:49:29,782 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:29,782 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:29,782 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:30,064 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:30,111 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:30,700 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:30,795 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:32,096 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:32,209 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:32,288 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:32,415 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:32,494 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:49:32,590 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:49:32,716 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:49:32,775 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:32,775 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:32,775 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:32,779 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:49:35,783 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:35,790 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:35,790 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:38,780 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:38,782 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:38,783 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:41,781 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:41,784 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:41,784 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:44,777 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:44,777 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:44,778 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:47,779 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:47,785 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:47,785 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:50,772 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:50,776 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:50,776 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:53,780 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:53,781 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:53,782 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:56,790 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:56,790 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:56,790 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:49:59,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:49:59,781 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:49:59,781 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:02,781 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:02,782 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:02,784 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:05,776 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:05,777 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:05,777 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:08,776 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:08,776 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:08,777 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:11,782 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:11,791 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:11,792 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:14,781 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:14,782 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:14,782 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:17,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:17,780 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:17,780 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:20,785 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:20,786 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:20,788 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:23,771 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:23,771 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:23,771 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:26,781 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:26,782 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:26,784 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:28,058 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:28,311 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:28,469 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:28,613 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:28,755 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:28,867 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:28,963 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:29,104 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:29,790 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:29,790 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:29,790 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:32,783 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:32,784 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:32,784 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:35,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:35,781 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2022-09-16 19:50:35,788 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:35,789 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:35,911 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2022-09-16 19:50:36,100 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2022-09-16 19:50:36,131 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2022-09-16 19:50:36,259 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2022-09-16 19:50:36,323 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2022-09-16 19:50:36,669 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2022-09-16 19:50:36,780 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2022-09-16 19:50:37,289 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:50:37,621 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:50:37,733 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:50:37,860 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:50:37,955 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:50:38,193 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:50:38,321 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:50:38,384 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:50:38,496 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:50:38,672 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:50:38,775 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:38,775 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:38,777 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:39,878 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:50:39,893 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:50:40,132 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:40,433 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:40,671 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:40,939 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:41,161 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:41,366 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:41,554 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:41,714 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:41,780 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:41,780 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:41,780 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:41,781 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:41,998 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:42,636 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:50:42,683 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:50:42,841 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:50:42,969 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:50:43,080 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:43,097 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:50:43,191 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:43,270 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:50:43,443 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:50:43,475 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:50:44,744 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:44,776 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:44,783 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:44,786 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:44,787 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:44,791 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:44,807 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:44,900 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:45,010 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:45,026 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:45,058 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:45,154 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:45,308 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:45,406 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:45,533 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:45,644 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:45,739 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:45,866 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:45,978 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:46,090 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:46,216 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:47,199 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:47,355 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:47,467 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:47,547 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:47,595 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:50:47,689 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:50:47,785 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:47,786 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:47,794 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:47,794 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:47,911 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:48,099 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:48,163 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:48,272 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:50:48,398 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:50:50,779 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:50,779 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:50,779 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:53,774 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:53,774 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:53,774 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:56,786 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:56,794 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:56,794 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:50:59,775 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:50:59,776 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:50:59,776 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:02,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:02,783 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:02,783 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:03,529 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:03,688 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:03,815 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:03,878 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:03,958 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:04,022 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:04,086 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:04,197 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:04,276 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:51:04,420 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:51:04,707 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:04,833 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:04,930 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:05,009 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:05,105 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:05,184 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:05,264 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:05,358 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:05,792 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:05,796 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:05,798 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:08,776 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:08,777 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:08,778 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:11,785 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:11,787 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:11,787 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:14,779 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:14,779 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:14,779 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:15,945 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:16,073 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:16,152 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:16,231 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:16,325 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:16,404 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:16,467 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:16,531 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:17,780 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:17,780 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:17,780 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:20,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:20,780 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:20,781 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:23,551 : INFO : SwitchController : <<<<<<< 's_trough6' active >>>>>>>
+2022-09-16 19:51:23,567 : INFO : SwitchController : <<<<<<< 's_trough6' inactive >>>>>>>
+2022-09-16 19:51:23,784 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:23,786 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:23,786 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:25,025 : INFO : SwitchController : <<<<<<< 's_trough6' active >>>>>>>
+2022-09-16 19:51:25,041 : INFO : SwitchController : <<<<<<< 's_trough6' inactive >>>>>>>
+2022-09-16 19:51:26,787 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:26,788 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:26,788 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:28,273 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:28,381 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:28,524 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:28,728 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:28,839 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:28,982 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:29,796 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:29,796 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:29,797 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:30,015 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:30,141 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:30,395 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:30,459 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:30,585 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:30,745 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:32,786 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:32,793 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:32,794 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:35,148 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:35,322 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:35,434 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:35,450 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:51:35,498 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:51:35,529 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:35,609 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:35,772 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:35,774 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:35,776 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:35,941 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:35,957 : INFO : SwitchController : <<<<<<< 's_bottomlane1' active >>>>>>>
+2022-09-16 19:51:35,957 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:51:36,003 : INFO : SwitchController : <<<<<<< 's_bottomlane1' inactive >>>>>>>
+2022-09-16 19:51:36,051 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:51:36,144 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:51:36,238 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:51:36,286 : INFO : SwitchController : <<<<<<< 's_bottomlane2' active >>>>>>>
+2022-09-16 19:51:36,363 : INFO : SwitchController : <<<<<<< 's_bottomlane2' inactive >>>>>>>
+2022-09-16 19:51:36,855 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:51:36,902 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:51:37,220 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:37,314 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:37,409 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:37,504 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:37,600 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:37,725 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:37,821 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:37,915 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:38,010 : INFO : SwitchController : <<<<<<< 's_bottomlane3' active >>>>>>>
+2022-09-16 19:51:38,107 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:51:38,139 : INFO : SwitchController : <<<<<<< 's_bottomlane3' inactive >>>>>>>
+2022-09-16 19:51:38,281 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:51:38,376 : INFO : SwitchController : <<<<<<< 's_bottomlane5' active >>>>>>>
+2022-09-16 19:51:38,614 : INFO : SwitchController : <<<<<<< 's_bottomlane5' inactive >>>>>>>
+2022-09-16 19:51:38,785 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:38,785 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:38,785 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:39,803 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:51:39,992 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:51:40,169 : INFO : SwitchController : <<<<<<< 's_bottomlane4' active >>>>>>>
+2022-09-16 19:51:40,311 : INFO : SwitchController : <<<<<<< 's_bottomlane4' inactive >>>>>>>
+2022-09-16 19:51:40,959 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:41,181 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:41,340 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:41,532 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:41,596 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:41,773 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:41,780 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:41,783 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:41,785 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:42,026 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:51:42,073 : INFO : SwitchController : <<<<<<< 's_left01' active >>>>>>>
+2022-09-16 19:51:42,168 : INFO : SwitchController : <<<<<<< 's_left01' inactive >>>>>>>
+2022-09-16 19:51:42,216 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:51:42,406 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:51:42,470 : INFO : SwitchController : <<<<<<< 's_left02' active >>>>>>>
+2022-09-16 19:51:42,566 : INFO : SwitchController : <<<<<<< 's_left02' inactive >>>>>>>
+2022-09-16 19:51:42,645 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:51:42,788 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:51:42,962 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:51:43,090 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:51:43,232 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:51:44,775 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:44,776 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:44,777 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:46,827 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:51:46,954 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:51:47,126 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:51:47,222 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:51:47,382 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:51:47,541 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:51:47,776 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:47,776 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:47,776 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:48,791 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2022-09-16 19:51:49,233 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2022-09-16 19:51:49,360 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2022-09-16 19:51:49,456 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2022-09-16 19:51:50,782 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:50,786 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:50,786 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:53,789 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:53,790 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:53,790 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:56,791 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:56,792 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:56,794 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:51:59,782 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:51:59,787 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:51:59,787 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:02,815 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:02,822 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:02,826 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:05,774 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:05,776 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:05,777 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:08,776 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:08,779 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:08,779 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:10,749 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:10,940 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:11,210 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:11,351 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:11,527 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:11,637 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:11,765 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:11,775 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:11,777 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:11,778 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:11,860 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:11,955 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:12,177 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:12,320 : INFO : SwitchController : <<<<<<< 's_orbit1' active >>>>>>>
+2022-09-16 19:52:12,557 : INFO : SwitchController : <<<<<<< 's_orbit1' inactive >>>>>>>
+2022-09-16 19:52:13,525 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:52:13,620 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:52:14,369 : INFO : SwitchController : <<<<<<< 's_left03' active >>>>>>>
+2022-09-16 19:52:14,561 : INFO : SwitchController : <<<<<<< 's_left03' inactive >>>>>>>
+2022-09-16 19:52:14,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:14,780 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:14,780 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:17,786 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:17,786 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:17,788 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:20,775 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:20,777 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:20,778 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:23,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:23,781 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:23,782 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:26,777 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:26,784 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:26,785 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:29,793 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:29,794 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:29,794 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:32,778 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:32,779 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:32,780 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:35,774 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:35,782 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:35,782 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:38,781 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:38,783 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:38,783 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:41,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:41,780 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:41,780 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:44,774 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:44,774 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:44,775 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:47,786 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:47,789 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:47,790 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:50,782 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:50,785 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:50,788 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:53,783 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:53,785 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:53,787 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:56,787 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:56,788 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:56,789 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:52:59,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:52:59,777 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:52:59,777 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:02,778 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:02,779 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:02,781 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:05,777 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:05,781 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:05,781 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:08,783 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:08,784 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:08,784 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:11,776 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:11,778 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:11,780 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:14,783 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:14,786 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:14,786 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:17,772 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:17,777 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:17,777 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:20,791 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:20,791 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:20,791 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:23,776 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:23,777 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:23,779 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:25,258 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2022-09-16 19:53:26,777 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:26,778 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:26,778 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:29,776 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:29,776 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:29,776 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:30,741 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2022-09-16 19:53:30,742 : WARNING : ball_device.bd_trough : Ball disappeared while idle. This should not normally happen.
+2022-09-16 19:53:30,742 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2022-09-16 19:53:30,742 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2022-09-16 19:53:30,742 : INFO : ball_device.bd_trough : 1 ball(s) missing from device. Mechanical eject? False
+2022-09-16 19:53:30,742 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_missing'====== Args={'balls': 1}
+2022-09-16 19:53:30,743 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_trough'}
+2022-09-16 19:53:31,426 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2022-09-16 19:53:31,555 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2022-09-16 19:53:31,555 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2022-09-16 19:53:31,556 : INFO : BallController : Known balls: 1
+2022-09-16 19:53:31,556 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2022-09-16 19:53:31,556 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2022-09-16 19:53:31,556 : INFO : BallController : bd_vukmid contains 0 balls. Tags []
+2022-09-16 19:53:31,557 : INFO : BallController : bd_vuktop contains 0 balls. Tags []
+2022-09-16 19:53:31,557 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2022-09-16 19:53:31,557 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2022-09-16 19:53:31,557 : INFO : BallController : Triggering ball search.
+2022-09-16 19:53:32,778 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:32,780 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:32,780 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:35,780 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-16 19:53:35,782 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2022-09-16 19:53:35,783 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2022-09-16 19:53:37,316 : INFO : Machine : Shutting down...
+2022-09-16 19:53:37,316 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-16 19:53:37,325 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-16 19:53:37,329 : INFO : root : MPF run loop ended.

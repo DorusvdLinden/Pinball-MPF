@@ -1,0 +1,7 @@
+2022-09-17 10:00:17,520 : INFO : root : Loading config.
+2022-09-17 10:00:17,524 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-17 10:00:17,524 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\0aa359e6326ef14bcc36d32fc9dec35b.mpf_cache
+2022-09-17 10:00:17,606 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\5eb3439dbf16142704b5198a23e9a58c.mpf_cache
+2022-09-17 10:00:17,607 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-17 10:00:17,607 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\mpfv1\modes\base\config\base.yaml
+2022-09-17 10:00:17,607 : INFO : ConfigProcessor : Loading config from file C:\pinball\mpfv1\modes\base\config\base.yaml.

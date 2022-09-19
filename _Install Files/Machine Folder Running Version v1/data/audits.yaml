@@ -1,0 +1,60 @@
+events:
+  game_ended: 0
+  game_started: 1
+player:
+  score:
+    average: 19091.764705882353
+    top:
+    - 348300
+    - 186500
+    - 129000
+    - 67200
+    - 62100
+    - 49700
+    - 49400
+    - 46500
+    - 40100
+    - 36100
+    total: 85
+switches:
+  s_T1: 0
+  s_T2: 2
+  s_T3: 4
+  s_T4: 8
+  s_T5: 11
+  s_T6: 12
+  s_Tjam: 0
+  s_bottomlane1: 113
+  s_bottomlane2: 109
+  s_bottomlane3: 69
+  s_bottomlane4: 143
+  s_bottomlane5: 3
+  s_drain: 121
+  s_drop1: 38
+  s_drop2: 54
+  s_drop3: 48
+  s_launch: 305
+  s_left_sling: 375
+  s_plunger_lane: 508
+  s_popbumber_1: 544
+  s_popbumber_2: 650
+  s_popbumber_3: 462
+  s_right_sling: 354
+  s_start: 30
+  s_t1: 73
+  s_t2: 43
+  s_t3: 45
+  s_t4: 28
+  s_toplane1: 50
+  s_toplane2: 60
+  s_toplane3: 44
+  s_trough1: 258
+  s_trough2: 251
+  s_trough3: 258
+  s_trough4: 263
+  s_trough5: 246
+  s_trough6: 231
+  s_trough_jam: 250
+  s_vuk: 70
+  s_vuk1: 0
+  s_vuk2: 0

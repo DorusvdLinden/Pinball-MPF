@@ -1,0 +1,58 @@
+events:
+  game_ended: 0
+  game_started: 1
+player:
+  score:
+    average: 27625.0
+    top:
+    - 41000
+    - 31800
+    - 20200
+    - 17500
+    total: 4
+shots:
+  lane_top_1: 76
+  lane_top_2: 71
+  lane_top_3: 64
+  orbit: 14
+  spinner: 144
+switches:
+  s_bottomlane1: 6
+  s_bottomlane2: 8
+  s_bottomlane3: 5
+  s_bottomlane4: 16
+  s_bottomlane5: 2
+  s_drop1: 26
+  s_drop2: 10
+  s_drop3: 6
+  s_launch: 6
+  s_left01: 26
+  s_left02: 26
+  s_left03: 19
+  s_left_sling: 24
+  s_orbit1: 36
+  s_orbit2: 0
+  s_plunger_lane: 56
+  s_popbumber_1: 37
+  s_popbumber_2: 73
+  s_popbumber_3: 23
+  s_ramp: 31
+  s_right_sling: 58
+  s_rigth01: 53
+  s_rigth02: 23
+  s_rigth03: 12
+  s_spinner: 237
+  s_start: 0
+  s_top: 9
+  s_toplane1: 163
+  s_toplane2: 78
+  s_toplane3: 71
+  s_trough1: 15
+  s_trough2: 21
+  s_trough3: 13
+  s_trough4: 19
+  s_trough5: 13
+  s_trough6: 12
+  s_trough_jam: 14
+  s_vukmid: 23
+  s_vuktop: 9

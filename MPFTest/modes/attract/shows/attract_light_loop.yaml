@@ -1,0 +1,8 @@
+#show_version=5
+- duration: 1
+  lights:
+    some_led: ff
+- duration: 1
+  lights:
+    some_led: 0
+ 
