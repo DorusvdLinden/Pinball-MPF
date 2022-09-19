@@ -9,16 +9,13 @@ hardware:
     driverboards: gen2
 
 opp:
-    ports: COM7
+    ports: COM10, COM11
 
 
-switches:
-    # Wing 0 is Neopixel, 1 is input, 2 is input, 3 is input
-    
 
 lights:
   some_led:
-    number: 0-1
+    number: 0-0-1
     subtype: led
     type: rgb
 
