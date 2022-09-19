@@ -1,7 +1,0 @@
-2022-08-25 19:10:13,479 : INFO : root : Loading config.
-2022-08-25 19:10:13,483 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2022-08-25 19:10:13,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\b5a61368077cb638a2d30584b4c214a4.mpf_cache
-2022-08-25 19:10:13,569 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\MPFTest\modes\attract\config\attract.yaml
-2022-08-25 19:10:13,569 : INFO : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
-2022-08-25 19:10:13,572 : INFO : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
-2022-08-25 19:10:13,572 : INFO : ConfigProcessor : Loading config from file C:\pinball\MPFTest\modes\attract\config\attract.yaml.

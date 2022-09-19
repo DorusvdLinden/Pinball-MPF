@@ -12,7 +12,6 @@ mpf-mc:
 #  fps: 60
 
 
-
 coils:
     c_sling_right:
         number: 0-0
@@ -222,8 +221,6 @@ switches:
     s_orbit2:
         number: 2-1
     
-
-
 
 # drop target bank    
 drop_targets:

@@ -11,8 +11,7 @@
          type: push
          duration: 1s
          direction: left
-  lights:
-        led1: red
+
 
 - duration: 3s
   slides:

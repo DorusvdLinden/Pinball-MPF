@@ -1,0 +1,70 @@
+2022-09-19 09:20:45,206 : INFO : root : Loading config.
+2022-09-19 09:20:45,209 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-19 09:20:45,210 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\ledtest\config\config.yaml
+2022-09-19 09:20:45,210 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-19 09:20:45,270 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-19 09:20:45,271 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\ledtest\config\config.yaml.
+2022-09-19 09:20:45,305 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\ledtest\config\config.yaml
+2022-09-19 09:20:45,307 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2633cffb44c174c9692d362483fbe0d1.mpf_cache
+2022-09-19 09:20:45,385 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\1bc14cc6bad4acaf01c10f8ebce93ea0.mpf_cache
+2022-09-19 09:20:45,386 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-19 09:20:45,387 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-19 09:20:45,387 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-19-09-20-45-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-19 09:20:45,387 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-19 09:20:45,387 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\ledtest
+2022-09-19 09:20:45,387 : INFO : Machine : Platform: win32
+2022-09-19 09:20:45,387 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-19 09:20:45,387 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-19 09:20:45,390 : INFO : Machine : Initialise MPF.
+2022-09-19 09:20:45,548 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-19 09:20:45,635 : INFO : OPP : Init of OPP board 0 done
+2022-09-19 09:20:45,635 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-19 09:20:45,745 : INFO : OPP : Init of OPP board 1 done
+2022-09-19 09:20:45,745 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,810 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,810 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,810 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,810 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-19 09:20:45,822 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-19 09:20:45,843 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-19 09:20:45,846 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe... Mode: None")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe... Mode: None")>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 83, in _initialise_system_wide
+    self.register_player_events(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 272, in register_player_events
+    raise ConfigFileError("Section not valid outside of game modes. {} {}:{} Mode: {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in variable_player: Section not valid outside of game modes. ConfigPlayer.variable_player/variables s_left_sling_active:{'score': {'int': <NativeTemplate 100>, 'block': False, 'priority': 0, 'float': None, 'string': None, 'action': 'add', 'player': None, 'condition': None}} Mode: None Error Code: CFE-variable_player-1 (https://docs.missionpinball.org/en/0.55/logs/CFE-variable_player-1.html)
+2022-09-19 09:20:45,877 : INFO : Machine : Starting the main run loop.
+2022-09-19 09:20:45,881 : INFO : Machine : Shutting down...
+2022-09-19 09:20:45,881 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-19 09:20:45,882 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-19 09:20:45,883 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-19 09:20:45,885 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 83, in _initialise_system_wide
+    self.register_player_events(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 272, in register_player_events
+    raise ConfigFileError("Section not valid outside of game modes. {} {}:{} Mode: {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in variable_player: Section not valid outside of game modes. ConfigPlayer.variable_player/variables s_left_sling_active:{'score': {'int': <NativeTemplate 100>, 'block': False, 'priority': 0, 'float': None, 'string': None, 'action': 'add', 'player': None, 'condition': None}} Mode: None Error Code: CFE-variable_player-1 (https://docs.missionpinball.org/en/0.55/logs/CFE-variable_player-1.html)
+2022-09-19 09:20:46,016 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-19 09:20:46,017 : INFO : root : MPF run loop ended.

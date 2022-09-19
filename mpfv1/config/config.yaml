@@ -25,7 +25,7 @@ hardware:
     driverboards: gen2
 
 opp:
-    ports: COM10, COM11  # COM7
+    ports: COM7
     #poll_hz: 50
 
     
