@@ -1,0 +1,81 @@
+#config_version=5
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL!
+        font_size: 50
+        color: red
+      - type: rectangle
+        width: 240
+        height: 60
+
+  awesome_slide:
+    widgets:
+      - type: text
+        text: YOU ARE AWESOME
+        font_size: 50
+
+
+
+
+  press_start:
+    widgets:
+    - type: Text
+      text: PRESS START
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+    - type: Text
+      text: FREE PLAY
+      color: green
+      y: 10
+      anchor_y: bottom
+
+
+  mission_pinball:
+    widgets:
+    - type: Text
+      text: MISSION PINBALL
+      color: red
+
+
+  mode_base_started_slide:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50    
+
+
+  lanes_top_complete_slide:
+    widgets:
+      - type: text
+        text: lane (score)
+        y: 10%
+        x: 10%
+        number_grouping: true
+        min_digits: 2
+        font_size: 10

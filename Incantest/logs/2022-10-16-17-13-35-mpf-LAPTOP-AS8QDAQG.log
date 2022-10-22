@@ -1,0 +1,154 @@
+2022-10-16 17:13:35,604 : INFO : root : Loading config.
+2022-10-16 17:13:35,604 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-16 17:13:35,604 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:13:35,604 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-16 17:13:35,660 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-16 17:13:35,660 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\Incantest\config\config.yaml.
+2022-10-16 17:13:35,675 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:13:35,675 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2933e2c76e3b8acea895e42efa05d46f.mpf_cache
+2022-10-16 17:13:35,757 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\00c75b6024e2fe2e03aca7195f2ab2ac.mpf_cache
+2022-10-16 17:13:35,757 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-16 17:13:35,757 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2bf6cf40d54a5ac6b43f4cbd4b4344a2.mpf_cache
+2022-10-16 17:13:35,757 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e44e93bdfc9f543212586de2e62675d1.mpf_cache
+2022-10-16 17:13:35,757 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-16 17:13:35,757 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-16-17-13-35-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-16 17:13:35,757 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-16 17:13:35,757 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\Incantest
+2022-10-16 17:13:35,757 : INFO : Machine : Platform: win32
+2022-10-16 17:13:35,757 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-16 17:13:35,757 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-16 17:13:35,757 : INFO : Machine : Initialise MPF.
+2022-10-16 17:13:35,914 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-10-16 17:13:36,018 : INFO : OPP : Init of OPP board COM7 done
+2022-10-16 17:13:36,018 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,062 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,062 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,062 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,062 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-16 17:13:36,077 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-16 17:13:36,094 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure light L1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 900, in configure_light
+    self.raise_config_error("A request was made to configure an OPP incand light "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP incand light with card number 0 which doesn't exist Error Code: CFE-OPP-20 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-20.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    raise AssertionError("Failed to configure light {} in platform. See error above".
+AssertionError: Failed to configure light L1 in platform. See error above
+2022-10-16 17:13:36,094 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure light l2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 900, in configure_light
+    self.raise_config_error("A request was made to configure an OPP incand light "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP incand light with card number 0 which doesn't exist Error Code: CFE-OPP-20 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-20.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    raise AssertionError("Failed to configure light {} in platform. See error above".
+AssertionError: Failed to configure light l2 in platform. See error above
+2022-10-16 17:13:36,094 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure light l3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 900, in configure_light
+    self.raise_config_error("A request was made to configure an OPP incand light "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP incand light with card number 0 which doesn't exist Error Code: CFE-OPP-20 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-20.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    raise AssertionError("Failed to configure light {} in platform. See error above".
+AssertionError: Failed to configure light l3 in platform. See error above
+2022-10-16 17:13:36,094 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Configuration error in bd_trough ball device. Device needs an eject_coil, a hold_coil, or "mechanical_eject: True"')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 364, in _configure_targets
+    self._validate_config()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 309, in _validate_config
+    self.raise_config_error('Configuration error in {} ball device. '
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ball_device.bd_trough: Configuration error in bd_trough ball device. Device needs an eject_coil, a hold_coil, or "mechanical_eject: True" Error Code: CFE-ball_device-4 (https://docs.missionpinball.org/en/0.55/logs/CFE-ball_device-4.html)
+2022-10-16 17:13:36,094 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-16 17:13:36,094 : INFO : Machine : Starting the main run loop.
+2022-10-16 17:13:36,094 : INFO : Machine : Shutting down...
+2022-10-16 17:13:36,094 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-16 17:13:36,094 : ERROR : OPP : Stop called on serial connection COM7
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-15', <Platform.OPP>) <switch.s_trough1>
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-9', <Platform.OPP>) <switch.s_trough2>
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-10', <Platform.OPP>) <switch.s_trough3>
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-11', <Platform.OPP>) <switch.s_trough4>
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-12', <Platform.OPP>) <switch.s_trough5>
+2022-10-16 17:13:36,094 : INFO : SwitchController : Found active switch: ('COM7-0-13', <Platform.OPP>) <switch.s_trough6>
+2022-10-16 17:13:36,094 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 284, in _load_hw_driver
+    return platform.configure_light(channel['number'], channel['subtype'], config, channel['platform_settings'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 900, in configure_light
+    self.raise_config_error("A request was made to configure an OPP incand light "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP incand light with card number 0 which doesn't exist Error Code: CFE-OPP-20 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-20.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 267, in _load_hw_drivers
+    driver = self._load_hw_driver(channel, color)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 286, in _load_hw_driver
+    raise AssertionError("Failed to configure light {} in platform. See error above".
+AssertionError: Failed to configure light L1 in platform. See error above
+2022-10-16 17:13:36,240 : ERROR : root : 'bool' object has no attribute 'get'
+2022-10-16 17:13:36,240 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-10-16 17:13:36,242 : INFO : root : MPF run loop ended.

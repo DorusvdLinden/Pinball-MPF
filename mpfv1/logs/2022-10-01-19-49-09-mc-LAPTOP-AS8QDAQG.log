@@ -1,0 +1,50 @@
+2022-10-01 19:49:09,266 : kivy : Factory: 186 symbols loaded
+2022-10-01 19:49:09,449 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-01 19:49:09,449 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-01 19:49:09,535 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-01 19:49:09,535 : kivy : Video: Provider: gstplayer
+2022-10-01 19:49:09,955 : kivy : Loading MPF-MC controller
+2022-10-01 19:49:09,961 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-01 19:49:09,962 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-10-01 19:49:09,963 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-01 19:49:10,012 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-01 19:49:10,013 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.
+2022-10-01 19:49:10,015 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-10-01 19:49:10,038 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 19:49:10,046 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 19:49:10,048 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:49:10,054 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-01 19:49:10,056 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-01 19:49:10,058 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2c72eb340730b16858938bc1db8d4d2b.mpf_cache
+2022-10-01 19:49:10,058 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-10-01 19:49:10,058 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-01 19:49:10,059 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-10-01 19:49:10,059 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-10-01 19:49:10,060 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-10-01 19:49:10,060 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-01 19:49:10,060 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-01 19:49:10,061 : mpfmc : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-10-01 19:49:10,061 : mpfmc : Starting clock at 60.0Hz
+2022-10-01 19:49:10,081 : kivy : Text: Provider: sdl2
+2022-10-01 19:49:10,128 : ConfigValidator : Your config contains a value for the setting "displays:title", but this is not a valid setting name.
+2022-10-01 19:49:10,128 : kivy : Config File Error in ConfigValidator: Your config contains a value for the setting "displays:title", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\commands\mc.py", line 225, in __init__
+    MpfMc(options=vars(args),
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc.py", line 154, in __init__
+    self.config_processor = ConfigProcessor(self)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\config_processor.py", line 34, in __init__
+    self.process_displays(config=self.mc.machine_config['displays'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\config_processor.py", line 82, in process_displays
+    self.mc.displays[display] = self.create_display(display, settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\config_processor.py", line 88, in create_display
+    return Display(self.mc, name, **self.machine.config_validator.validate_config('displays', config))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 357, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "displays:title", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-10-01 19:49:10,131 : kivy : Stopping child threads... (0 remaining)
+2022-10-01 19:49:10,131 : kivy : All child threads stopped.

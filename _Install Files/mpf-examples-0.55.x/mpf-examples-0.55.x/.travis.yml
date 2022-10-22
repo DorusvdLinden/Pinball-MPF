@@ -1,0 +1,24 @@
+dist: trusty
+sudo: required
+os: linux
+env: LINUX=ubuntu:18.04
+language: python
+python: "3.6"
+
+services:
+  - docker
+
+before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin;
+  - git clone --recursive --branch ${TRAVIS_BRANCH} https://github.com/missionpinball/mpf.git /tmp/_mpf || git clone --recursive --branch dev https://github.com/missionpinball/mpf.git /tmp/_mpf;
+  - git clone --recursive --branch ${TRAVIS_BRANCH} https://github.com/missionpinball/mpf-mc.git /tmp/_mpf-mc || git clone --recursive --branch dev https://github.com/missionpinball/mpf_mc.git /tmp/_mpf-mc;
+  - git clone --branch ${TRAVIS_BRANCH} https://github.com/missionpinball/mpf-debian-installer.git /tmp/_mpf_installer || git clone --recursive --branch dev https://github.com/missionpinball/mpf-debian-installer.git /tmp/_mpf_installer;
+
+install:
+- pip3 install --upgrade coveralls
+
+script:
+    - docker run -v /dev/snd:/dev/snd -v /tmp/_mpf:/tmp/_mpf -v /tmp/_mpf-mc:/tmp/_mpf-mc -v /tmp/_mpf_installer:/tmp/_mpf_installer -v $PWD:$PWD -w $PWD $LINUX /bin/sh -c "/tmp/_mpf_installer/install-mpf-dependencies && /tmp/_mpf_installer/install-mc-dependencies && pip3 install --upgrade coveralls && apt-get install -y xvfb && pip3 install -e /tmp/_mpf/ && pip3 install /tmp/_mpf-mc/ && export DISPLAY=:99.0 && /sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -screen 0 1280x720x24 -ac +extension GLX && export PYTHONPATH=$PYTHONPATH:$(pwd) && make unit";
+
+after_success:
+  coveralls

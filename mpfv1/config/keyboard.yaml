@@ -31,18 +31,10 @@ keyboard:
 
 
 
-  s:
+  0:
     switch: s_start
-  l:
-    switch: s_launch
-  p:
+  9:
     switch: s_plunger_lane
-    toggle: true
-  o:
-    switch: s_trough4
-    toggle: true
-  k:
-    switch: s_trough1
     toggle: true
 
     
@@ -55,10 +47,13 @@ keyboard:
     switch: s_vukmid 
   w: 
     switch: s_drop1 
+    toggle: true
   e: 
     switch: s_drop2 
+    toggle: true
   r: 
     switch: s_drop3 
+    toggle: true
 
   t: 
     switch: s_bottomlane1 
@@ -68,6 +63,16 @@ keyboard:
     switch: s_bottomlane3 
   i: 
     switch: s_bottomlane4 
+  o: 
+    switch: s_bottomlane5 
+
+  a:
+    switch: s_toplane1
+  s:
+    switch: s_toplane2
+  d:
+    switch: s_toplane3
+
 
     
     

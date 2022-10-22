@@ -1,0 +1,76 @@
+2022-10-16 17:14:15,988 : kivy : Factory: 186 symbols loaded
+2022-10-16 17:14:16,205 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-16 17:14:16,206 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-16 17:14:16,278 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-16 17:14:16,279 : kivy : Video: Provider: gstplayer
+2022-10-16 17:14:16,812 : kivy : Loading MPF-MC controller
+2022-10-16 17:14:16,818 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-16 17:14:16,819 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\Incantest\config\config
+2022-10-16 17:14:16,827 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-16 17:14:16,878 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-16 17:14:16,878 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\Incantest\config\config.
+2022-10-16 17:14:16,888 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\Incantest\config\config
+2022-10-16 17:14:16,889 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\6a6cf450e677e3626cad4a0bde7e49b4.mpf_cache
+2022-10-16 17:14:16,890 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\00c75b6024e2fe2e03aca7195f2ab2ac.mpf_cache
+2022-10-16 17:14:16,890 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-16 17:14:16,891 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2bf6cf40d54a5ac6b43f4cbd4b4344a2.mpf_cache
+2022-10-16 17:14:16,891 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-16 17:14:16,891 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-16 17:14:16,891 : mpfmc : Machine path: C:\pinball\Pinball-MPF\Incantest
+2022-10-16 17:14:16,891 : mpfmc : Starting clock at 60.0Hz
+2022-10-16 17:14:16,909 : kivy : Text: Provider: sdl2
+2022-10-16 17:14:16,988 : kivy : Window: Provider: sdl2
+2022-10-16 17:14:17,148 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-16 17:14:17,149 : kivy : GL: GLEW initialization succeeded
+2022-10-16 17:14:17,149 : kivy : GL: Backend used <glew>
+2022-10-16 17:14:17,150 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-10-16 17:14:17,150 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-10-16 17:14:17,150 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-10-16 17:14:17,150 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-16 17:14:17,150 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-10-16 17:14:17,150 : kivy : GL: Texture max size <16384>
+2022-10-16 17:14:17,150 : kivy : GL: Texture max units <32>
+2022-10-16 17:14:17,207 : kivy : Window: auto add sdl2 input provider
+2022-10-16 17:14:17,207 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-16 17:14:17,223 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2022-10-16 17:14:17,498 : AudioInterface : Initialized
+2022-10-16 17:14:17,499 : AudioInterface : Loaded SDL 2.0.12
+2022-10-16 17:14:17,499 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-16 17:14:17,499 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-16 17:14:17,499 : AudioInterface : Loaded GLib 2.62.6
+2022-10-16 17:14:17,499 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-16 17:14:17,499 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-16 17:14:17,499 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2022-10-16 17:14:17,499 : SoundSystem : Setting master volume to 0.0
+2022-10-16 17:14:17,499 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-16 17:14:17,499 : AudioInterface : Enabling audio playback
+2022-10-16 17:14:17,501 : kivy : Base: Start application main loop
+2022-10-16 17:14:17,501 : EventManager : Event: ======'display_default_initialized'====== Args={}
+2022-10-16 17:14:17,512 : mpfmc : Display: Setting 'default' as default display
+2022-10-16 17:14:17,517 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-16 17:14:17,518 : EventManager : Event: ======'slide_default_blank_created'====== Args={}
+2022-10-16 17:14:17,518 : EventManager : Event: ======'display_default_ready'====== Args={}
+2022-10-16 17:14:17,528 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-16 17:14:17,530 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-10-16 17:14:17,531 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-16 17:14:17,532 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-16 17:14:17,532 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-16 17:14:17,533 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-16 17:14:17,533 : EventManager : Event: ======'init_done'====== Args={}
+2022-10-16 17:14:17,533 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-10-16 17:14:17,537 : MPF-MC BCP Server : Waiting for a connection...
+2022-10-16 17:14:17,537 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2022-10-16 17:14:17,541 : kivy : GL: NPOT texture support is available
+2022-10-16 17:14:17,543 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-10-16 17:14:17,545 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-10-16 17:14:17,551 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-10-16 17:14:20,148 : kivy : Base: Leaving application in progress...
+2022-10-16 17:14:20,320 : mpfmc : Stopping...
+2022-10-16 17:14:20,320 : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-16 17:14:20,320 : AudioInterface : Disabling audio playback
+2022-10-16 17:14:20,322 : mpfmc : Loop rate 75.86 Hz
+2022-10-16 17:14:20,322 : kivy : MC run loop ended.
+2022-10-16 17:14:20,322 : kivy : Stopping child threads... (3 remaining)
+2022-10-16 17:14:20,555 : MPF-MC BCP Server : Stopping BCP listener thread
+2022-10-16 17:14:20,556 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-10-16 17:14:20,659 : kivy : All child threads stopped.

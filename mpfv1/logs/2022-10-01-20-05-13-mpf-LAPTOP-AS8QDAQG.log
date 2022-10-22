@@ -1,0 +1,144 @@
+2022-10-01 20:05:13,605 : INFO : root : Loading config.
+2022-10-01 20:05:13,608 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-01 20:05:13,609 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 20:05:13,610 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-01 20:05:13,610 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-01 20:05:13,667 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-01 20:05:13,668 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-01 20:05:13,671 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-01 20:05:13,696 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 20:05:13,705 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 20:05:13,707 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 20:05:13,715 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-01 20:05:13,726 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-01 20:05:13,729 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 20:05:13,805 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-10-01 20:05:13,806 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-01 20:05:13,807 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-10-01 20:05:13,808 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-10-01 20:05:13,808 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-10-01 20:05:13,809 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\modes\attract\shows\.\attract_display_loop.yaml
+2022-10-01 20:05:13,809 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\modes\attract\shows\.\attract_display_loop.yaml.
+2022-10-01 20:05:13,820 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\modes\attract\shows\.\attract_display_loop.yaml
+2022-10-01 20:05:13,821 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-10-01 20:05:13,822 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-01 20:05:13,822 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-01-20-05-13-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-01 20:05:13,822 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-01 20:05:13,822 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-10-01 20:05:13,822 : INFO : Machine : Platform: win32
+2022-10-01 20:05:13,822 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-01 20:05:13,822 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-01 20:05:13,824 : INFO : Machine : Initialise MPF.
+2022-10-01 20:05:13,955 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-01 20:05:13,996 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-01 20:05:13,997 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 33100, 'prev_value': None, 'change': True}
+2022-10-01 20:05:13,997 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-01 20:05:13,997 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-01 20:05:13,997 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,007 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,007 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,007 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,007 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,008 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-01 20:05:14,008 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-01 20:05:14,026 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-10-01 20:05:14,029 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-01 20:05:14,029 : INFO : SwitchController : Found active switch: ('2-0-19', <Platform.SmartVirtual>) <switch.s_trough1>
+2022-10-01 20:05:14,029 : INFO : SwitchController : Found active switch: ('2-0-20', <Platform.SmartVirtual>) <switch.s_trough2>
+2022-10-01 20:05:14,029 : INFO : SwitchController : Found active switch: ('2-0-21', <Platform.SmartVirtual>) <switch.s_trough3>
+2022-10-01 20:05:14,029 : INFO : SwitchController : Found active switch: ('2-0-22', <Platform.SmartVirtual>) <switch.s_trough4>
+2022-10-01 20:05:14,033 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-01 20:05:14,034 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-01 20:05:16,066 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-10-01 20:05:16,068 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-10-01 20:05:16,080 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2022-10-01 20:05:16,081 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-01 20:05:16,081 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-01 20:05:16,083 : INFO : ball_device.bd_trough : State: idle
+2022-10-01 20:05:16,091 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-01 20:05:16,091 : INFO : ball_device.bd_plunger : State: idle
+2022-10-01 20:05:16,092 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-10-01 20:05:16,092 : INFO : ball_device.bd_vukmid : State: idle
+2022-10-01 20:05:16,093 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-10-01 20:05:16,093 : INFO : ball_device.bd_vuktop : State: idle
+2022-10-01 20:05:16,171 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-01 20:05:16,173 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...irection']}")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...irection']}")>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 111, in process_widget
+    self.machine.config_validator.validate_config('widgets:{}'.format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 189, in _validate_config
+    this_spec = self.build_spec(config_spec, base_spec)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 148, in build_spec
+    this_base_spec = this_base_spec[spec]
+KeyError: 'push'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 198, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 64, in _validate_config_item
+    device_settings['widgets'] = self.process_widgets(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 92, in process_widgets
+    widget_list.append(self.process_widget(widget))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 114, in process_widget
+    raise KeyError("Slide config validation error. Something is "
+KeyError: "Slide config validation error. Something is wrong here: {'transition': None, 'type': 'push', 'duration': '1s', 'direction': 'left', '_default_settings': ['transition', 'type', 'duration', 'direction']}"
+2022-10-01 20:05:16,224 : INFO : Machine : Starting the main run loop.
+2022-10-01 20:05:16,228 : INFO : Machine : Shutting down...
+2022-10-01 20:05:16,228 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-01 20:05:16,231 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 111, in process_widget
+    self.machine.config_validator.validate_config('widgets:{}'.format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 189, in _validate_config
+    this_spec = self.build_spec(config_spec, base_spec)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 148, in build_spec
+    this_base_spec = this_base_spec[spec]
+KeyError: 'push'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 198, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 64, in _validate_config_item
+    device_settings['widgets'] = self.process_widgets(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 92, in process_widgets
+    widget_list.append(self.process_widget(widget))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\plugins\slide_player.py", line 114, in process_widget
+    raise KeyError("Slide config validation error. Something is "
+KeyError: "Slide config validation error. Something is wrong here: {'transition': None, 'type': 'push', 'duration': '1s', 'direction': 'left', '_default_settings': ['transition', 'type', 'duration', 'direction']}"
+2022-10-01 20:05:16,388 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-10-01 20:05:16,388 : INFO : root : MPF run loop ended.

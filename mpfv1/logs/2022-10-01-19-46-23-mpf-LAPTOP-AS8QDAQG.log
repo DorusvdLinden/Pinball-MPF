@@ -1,0 +1,51 @@
+2022-10-01 19:46:23,752 : INFO : root : Loading config.
+2022-10-01 19:46:23,755 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-01 19:46:23,755 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 19:46:23,766 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:46:23,766 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-01 19:46:23,827 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-01 19:46:23,828 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-01 19:46:23,831 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-01 19:46:23,857 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 19:46:23,866 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 19:46:23,879 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:46:23,886 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-01 19:46:23,888 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 19:46:23,974 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-10-01 19:46:23,975 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-01 19:46:23,976 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-10-01 19:46:23,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-10-01 19:46:23,978 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-10-01 19:46:23,979 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-10-01 19:46:23,980 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-01 19:46:23,980 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-01-19-46-23-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-01 19:46:23,980 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-01 19:46:23,980 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-10-01 19:46:23,980 : INFO : Machine : Platform: win32
+2022-10-01 19:46:23,980 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-01 19:46:23,980 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-01 19:46:23,982 : INFO : Machine : Initialise MPF.
+2022-10-01 19:46:24,126 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,176 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,176 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 33100, 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,176 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,176 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,176 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-01 19:46:24,189 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-01 19:46:24,207 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-10-01 19:46:24,209 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-01 19:46:24,209 : INFO : SwitchController : Found active switch: ('2-0-19', <Platform.SmartVirtual>) <switch.s_trough1>
+2022-10-01 19:46:24,210 : INFO : SwitchController : Found active switch: ('2-0-20', <Platform.SmartVirtual>) <switch.s_trough2>
+2022-10-01 19:46:24,210 : INFO : SwitchController : Found active switch: ('2-0-21', <Platform.SmartVirtual>) <switch.s_trough3>
+2022-10-01 19:46:24,210 : INFO : SwitchController : Found active switch: ('2-0-22', <Platform.SmartVirtual>) <switch.s_trough4>
+2022-10-01 19:46:24,213 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-01 19:46:24,215 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-01 19:46:38,149 : INFO : Machine : Starting the main run loop.
+2022-10-01 19:46:38,150 : INFO : Machine : Shutting down...
+2022-10-01 19:46:38,150 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-01 19:46:38,155 : INFO : root : MPF run loop ended.

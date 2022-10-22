@@ -1,23 +1,19 @@
 #config_version=5
 
-displays:
-    window:
-      width: 800
-      height: 600        
-
-slides:
-    welcome_slide:
-        widgets:
-            - type: text
-              text: PINBALL!
-              font_size: 50
-              color: red
-            - type: rectangle
-              width: 240
-              height: 60
-    
+# displays:
+#   window:
+#     width: 800
+#     height: 600
 
 
+window:
+  width: 1000
+  height: 800
+  title: portal pinball
+  resizable: true
+  fullscreen: false
+  borderless: false
+  exit_on_escape: true
 
 slide_player:
-    init_done: welcome_slide              
+  init_done: welcome_slide              

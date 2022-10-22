@@ -1,0 +1,21 @@
+2022-09-24 16:30:19,145 : kivy : Factory: 186 symbols loaded
+2022-09-24 16:30:19,376 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-24 16:30:19,376 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-24 16:30:19,436 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-24 16:30:19,436 : kivy : Video: Provider: gstplayer
+2022-09-24 16:30:19,908 : kivy : Loading MPF-MC controller
+2022-09-24 16:30:19,913 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-24 16:30:19,914 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-09-24 16:30:19,925 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-24 16:30:19,975 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-24 16:30:19,975 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.
+2022-09-24 16:30:19,977 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-09-24 16:30:20,000 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-09-24 16:30:20,014 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-09-24 16:30:20,020 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-09-24 16:30:20,035 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-09-24 16:30:20,039 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2c72eb340730b16858938bc1db8d4d2b.mpf_cache
+2022-09-24 16:30:20,040 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\modes\attract\config\attract.yaml
+2022-09-24 16:30:20,040 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-09-24 16:30:20,042 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-09-24 16:30:20,042 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\modes\attract\config\attract.yaml.

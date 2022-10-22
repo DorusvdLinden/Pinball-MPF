@@ -1,0 +1,106 @@
+2022-10-16 17:17:55,890 : INFO : root : Loading config.
+2022-10-16 17:17:55,890 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-16 17:17:55,890 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:17:55,890 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-16 17:17:55,943 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-16 17:17:55,958 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\Incantest\config\config.yaml.
+2022-10-16 17:17:55,958 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:17:55,958 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2933e2c76e3b8acea895e42efa05d46f.mpf_cache
+2022-10-16 17:17:56,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\00c75b6024e2fe2e03aca7195f2ab2ac.mpf_cache
+2022-10-16 17:17:56,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-16 17:17:56,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2bf6cf40d54a5ac6b43f4cbd4b4344a2.mpf_cache
+2022-10-16 17:17:56,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e44e93bdfc9f543212586de2e62675d1.mpf_cache
+2022-10-16 17:17:56,040 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-16 17:17:56,040 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-16-17-17-55-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-16 17:17:56,040 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-16 17:17:56,040 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\Incantest
+2022-10-16 17:17:56,040 : INFO : Machine : Platform: win32
+2022-10-16 17:17:56,040 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-16 17:17:56,040 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-16 17:17:56,040 : INFO : Machine : Initialise MPF.
+2022-10-16 17:17:56,189 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-10-16 17:17:56,312 : INFO : OPP : Init of OPP board COM7 done
+2022-10-16 17:17:56,312 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,353 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,353 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,353 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,353 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-16 17:17:56,369 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-16 17:17:56,382 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-16 17:17:56,384 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-16 17:17:56,386 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-16 17:17:58,442 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-10-16 17:17:58,443 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-10-16 17:17:58,453 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-16 17:17:58,454 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-16 17:17:58,455 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-16 17:17:58,459 : INFO : ball_device.bd_plunger : State: idle
+2022-10-16 17:17:58,599 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-16 17:17:58,602 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...st [\'L2\']')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...st [\'L2\']')>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 202, in _process_step_actions
+    raise e
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 198, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 86, in _validate_config_item
+    devices = self._expand_device(device)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 115, in _expand_device
+    return self.raise_config_error(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "rainbow" >> Failed to load config player rainbow:lights with settings {'L1': 0, 'L2': 'ff'} >> Could not find a lights device with name or tag L2, from list ['L2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+2022-10-16 17:17:58,650 : INFO : Machine : Starting the main run loop.
+2022-10-16 17:17:58,651 : INFO : Machine : Shutting down...
+2022-10-16 17:17:58,656 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-16 17:17:58,659 : ERROR : OPP : Stop called on serial connection COM7
+2022-10-16 17:17:58,661 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 202, in _process_step_actions
+    raise e
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 198, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 86, in _validate_config_item
+    devices = self._expand_device(device)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 115, in _expand_device
+    return self.raise_config_error(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "rainbow" >> Failed to load config player rainbow:lights with settings {'L1': 0, 'L2': 'ff'} >> Could not find a lights device with name or tag L2, from list ['L2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+2022-10-16 17:17:58,855 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-10-16 17:17:58,855 : INFO : root : MPF run loop ended.

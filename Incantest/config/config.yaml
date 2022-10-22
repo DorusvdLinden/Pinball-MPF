@@ -1,0 +1,98 @@
+#config_version=5
+
+#
+mpf:
+    report_crashes: "never"
+
+hardware:
+    platform: opp
+    driverboards: gen2
+
+opp:
+    ports: COM7
+
+machine:
+  balls_installed: 4
+  min_balls: 1
+
+virtual_platform_start_active_switches: s_trough1 s_trough2 s_trough3 s_trough4
+
+
+
+slides:
+    welcome_slide:
+        widgets:
+            - type: text
+              text: PINBALL!
+              font_size: 50
+              color: red
+            - type: rectangle
+              width: 240
+              height: 60
+    
+
+
+
+slide_player:
+    init_done: welcome_slide   
+
+modes:
+        - base
+
+
+coils:
+    
+
+        
+switches:
+
+    s_right_sling:
+        number: 0-19
+        debounce: quick
+
+
+    s_plunger_lane:
+        number: 0-16
+    s_start:
+        number: 0-17
+        tags: start
+    s_launch:
+        number: 0-18
+        tags: launch
+
+
+
+
+
+
+lights:
+  L1:
+    number: 0-0
+    subtype: matrix
+  L2:
+    number: 0-1
+    subtype: matrix
+  L3:
+    number: 0-2
+    subtype: matrix
+
+   
+       
+
+ball_devices:
+
+    bd_plunger:
+        ball_switches: s_plunger_lane
+
+        mechanical_eject: true
+
+
+playfields:
+    playfield:
+        tags: default
+        default_source_device: bd_plunger  
+
+window:
+    title: MPF OPP Test
+    width: 640
+    height: 480

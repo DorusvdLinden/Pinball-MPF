@@ -1,0 +1,28 @@
+2022-09-24 16:29:04,953 : INFO : root : Loading config.
+2022-09-24 16:29:04,956 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-24 16:29:04,956 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-09-24 16:29:05,055 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-09-24 16:29:05,055 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-24 16:29:05,056 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-24 16:29:05,057 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-24 16:29:05,057 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-24 16:29:05,058 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-24 16:29:05,059 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-24 16:29:05,059 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-24-16-29-04-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-24 16:29:05,059 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-24 16:29:05,059 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-24 16:29:05,059 : INFO : Machine : Platform: win32
+2022-09-24 16:29:05,059 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-24 16:29:05,059 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-24 16:29:05,061 : INFO : Machine : Initialise MPF.
+2022-09-24 16:29:05,232 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-24 16:29:05,330 : INFO : OPP : Init of OPP board 0 done
+2022-09-24 16:29:05,330 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-24 16:29:05,439 : INFO : OPP : Init of OPP board 1 done
+2022-09-24 16:29:05,439 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-24 16:29:12,568 : INFO : Machine : Starting the main run loop.
+2022-09-24 16:29:12,570 : INFO : Machine : Shutting down...
+2022-09-24 16:29:12,570 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-24 16:29:12,578 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-24 16:29:12,578 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-24 16:29:12,580 : INFO : root : MPF run loop ended.

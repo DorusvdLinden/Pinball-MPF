@@ -1,0 +1,129 @@
+2022-10-01 19:53:58,665 : INFO : root : Loading config.
+2022-10-01 19:53:58,669 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-01 19:53:58,669 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 19:53:58,675 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:53:58,675 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-01 19:53:58,735 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-01 19:53:58,736 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-01 19:53:58,739 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-01 19:53:58,765 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 19:53:58,774 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 19:53:58,783 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:53:58,790 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-01 19:53:58,793 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-01 19:53:58,796 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 19:53:58,883 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-10-01 19:53:58,884 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-01 19:53:58,885 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-10-01 19:53:58,886 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-10-01 19:53:58,886 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-10-01 19:53:58,887 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-10-01 19:53:58,888 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-01 19:53:58,888 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-01-19-53-58-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-01 19:53:58,888 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-01 19:53:58,888 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-10-01 19:53:58,888 : INFO : Machine : Platform: win32
+2022-10-01 19:53:58,888 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-01 19:53:58,888 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-01 19:53:58,890 : INFO : Machine : Initialise MPF.
+2022-10-01 19:53:59,031 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,075 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,075 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 33100, 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,075 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,075 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,075 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-01 19:53:59,085 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-01 19:53:59,104 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-10-01 19:53:59,104 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-01 19:53:59,104 : INFO : SwitchController : Found active switch: ('2-0-19', <Platform.SmartVirtual>) <switch.s_trough1>
+2022-10-01 19:53:59,104 : INFO : SwitchController : Found active switch: ('2-0-20', <Platform.SmartVirtual>) <switch.s_trough2>
+2022-10-01 19:53:59,104 : INFO : SwitchController : Found active switch: ('2-0-21', <Platform.SmartVirtual>) <switch.s_trough3>
+2022-10-01 19:53:59,104 : INFO : SwitchController : Found active switch: ('2-0-22', <Platform.SmartVirtual>) <switch.s_trough4>
+2022-10-01 19:53:59,108 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-01 19:53:59,109 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-01 19:54:02,886 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-10-01 19:54:02,888 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-10-01 19:54:02,889 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\text_ui.py", line 456, in _bcp_connected
+    self.scene.remove_effect(self._pending_bcp_connection)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\asciimatics\scene.py", line 92, in remove_effect
+    self._effects.remove(effect)
+ValueError: list.remove(x): x not in list
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connected of <mpf.core.text_ui.TextUi object at 0x0000020910DCD500>>, priority=1, kwargs={}, key=UUID('5de65723-2497-4f20-8af9-75a8d4da249c'), condition=None, blocking_facility=None) for event bcp_clients_connected. list.remove(x): x not in list
+2022-10-01 19:54:02,955 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-01 19:54:02,956 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-01 19:54:03,259 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2022-10-01 19:54:03,261 : INFO : ball_device.bd_trough : State: idle
+2022-10-01 19:54:03,262 : INFO : Machine : Starting the main run loop.
+2022-10-01 19:54:03,264 : INFO : Machine : Shutting down...
+2022-10-01 19:54:03,265 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-01 19:54:03,268 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-01 19:54:03,269 : INFO : ball_device.bd_plunger : State: idle
+2022-10-01 19:54:03,271 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-10-01 19:54:03,275 : INFO : ball_device.bd_vukmid : State: idle
+2022-10-01 19:54:03,278 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-10-01 19:54:03,280 : INFO : ball_device.bd_vuktop : State: idle
+2022-10-01 19:54:03,445 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-01 19:54:03,453 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...y not found')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...y not found')>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 83, in _initialise_system_wide
+    self.register_player_events(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\plugin_player.py", line 55, in register_player_events
+    self.bcp_client = self._get_bcp_client(config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\plugin_player.py", line 33, in _get_bcp_client
+    raise AssertionError(
+AssertionError: bcp connection local_display not found
+2022-10-01 19:54:03,482 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\text_ui.py", line 456, in _bcp_connected
+    self.scene.remove_effect(self._pending_bcp_connection)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\asciimatics\scene.py", line 92, in remove_effect
+    self._effects.remove(effect)
+ValueError: list.remove(x): x not in list
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connected of <mpf.core.text_ui.TextUi object at 0x0000020910DCD500>>, priority=1, kwargs={}, key=UUID('5de65723-2497-4f20-8af9-75a8d4da249c'), condition=None, blocking_facility=None) for event bcp_clients_connected. list.remove(x): x not in list
+2022-10-01 19:54:03,690 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-10-01 19:54:03,690 : INFO : root : MPF run loop ended.

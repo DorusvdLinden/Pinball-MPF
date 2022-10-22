@@ -1,0 +1,12 @@
+2022-10-01 20:00:39,775 : INFO : root : Loading config.
+2022-10-01 20:00:39,778 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-01 20:00:39,779 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-10-01 20:00:39,785 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-01 20:00:39,786 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-01 20:00:39,846 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-01 20:00:39,846 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-01 20:00:39,851 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-01 20:00:39,875 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 20:00:39,885 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 20:00:39,887 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 20:00:39,895 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml

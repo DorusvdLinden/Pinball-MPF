@@ -1,0 +1,31 @@
+2022-09-25 09:14:50,895 : INFO : root : Loading config.
+2022-09-25 09:14:50,898 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-25 09:14:50,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2aa88b27277c07e8e9106228acbc0797.mpf_cache
+2022-09-25 09:14:50,980 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\553e7233ea46a134f7d567bdaac0e3b0.mpf_cache
+2022-09-25 09:14:50,980 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07260a180478ebbc8de8f5df7d20f47d.mpf_cache
+2022-09-25 09:14:50,981 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-25 09:14:50,982 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-25 09:14:50,982 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\modes\lanes\config\lanes.yaml
+2022-09-25 09:14:50,982 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\modes\lanes\config\lanes.yaml.
+2022-09-25 09:14:51,000 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\modes\lanes\config\lanes.yaml
+2022-09-25 09:14:51,001 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-25 09:14:51,002 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-25 09:14:51,002 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-25 09:14:51,003 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-25-09-14-50-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-25 09:14:51,003 : INFO : Machine : MPF path: c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-25 09:14:51,003 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-25 09:14:51,003 : INFO : Machine : Platform: win32
+2022-09-25 09:14:51,003 : INFO : Machine : Python executable location: c:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-25 09:14:51,003 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-25 09:14:51,004 : INFO : Machine : Initialise MPF.
+2022-09-25 09:14:51,156 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-25 09:14:51,267 : INFO : OPP : Init of OPP board 0 done
+2022-09-25 09:14:51,267 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-25 09:14:51,361 : INFO : OPP : Init of OPP board 1 done
+2022-09-25 09:14:51,361 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-25 09:15:02,190 : INFO : Machine : Starting the main run loop.
+2022-09-25 09:15:02,191 : INFO : Machine : Shutting down...
+2022-09-25 09:15:02,191 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-25 09:15:02,197 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-25 09:15:02,197 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-25 09:15:02,201 : INFO : root : MPF run loop ended.

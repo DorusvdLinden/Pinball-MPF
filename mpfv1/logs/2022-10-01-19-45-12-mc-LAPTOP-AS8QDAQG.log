@@ -1,0 +1,106 @@
+2022-10-01 19:45:12,285 : kivy : Factory: 186 symbols loaded
+2022-10-01 19:45:12,478 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-01 19:45:12,478 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-01 19:45:12,563 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-01 19:45:12,563 : kivy : Video: Provider: gstplayer
+2022-10-01 19:45:13,039 : kivy : Loading MPF-MC controller
+2022-10-01 19:45:13,046 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-01 19:45:13,047 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-10-01 19:45:13,058 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-01 19:45:13,131 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-01 19:45:13,132 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.
+2022-10-01 19:45:13,138 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config
+2022-10-01 19:45:13,191 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-01 19:45:13,212 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-01 19:45:13,217 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-01 19:45:13,234 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-01 19:45:13,238 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2c72eb340730b16858938bc1db8d4d2b.mpf_cache
+2022-10-01 19:45:13,239 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-10-01 19:45:13,240 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-01 19:45:13,241 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-10-01 19:45:13,242 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-10-01 19:45:13,243 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-10-01 19:45:13,244 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-01 19:45:13,244 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-01 19:45:13,245 : mpfmc : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-10-01 19:45:13,245 : mpfmc : Starting clock at 60.0Hz
+2022-10-01 19:45:13,265 : kivy : Text: Provider: sdl2
+2022-10-01 19:45:13,352 : kivy : Window: Provider: sdl2
+2022-10-01 19:45:13,496 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-01 19:45:13,497 : kivy : GL: GLEW initialization succeeded
+2022-10-01 19:45:13,497 : kivy : GL: Backend used <glew>
+2022-10-01 19:45:13,497 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-10-01 19:45:13,497 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-10-01 19:45:13,497 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-10-01 19:45:13,497 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-01 19:45:13,497 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-10-01 19:45:13,497 : kivy : GL: Texture max size <16384>
+2022-10-01 19:45:13,499 : kivy : GL: Texture max units <32>
+2022-10-01 19:45:13,536 : kivy : Window: auto add sdl2 input provider
+2022-10-01 19:45:13,537 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-01 19:45:13,751 : AudioInterface : Initialized
+2022-10-01 19:45:13,751 : AudioInterface : Loaded SDL 2.0.12
+2022-10-01 19:45:13,751 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-01 19:45:13,751 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-01 19:45:13,751 : AudioInterface : Loaded GLib 2.62.6
+2022-10-01 19:45:13,751 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-01 19:45:13,751 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-01 19:45:13,751 : SoundSystem : Setting master volume to 0.0
+2022-10-01 19:45:13,751 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-01 19:45:13,752 : AudioInterface : Enabling audio playback
+2022-10-01 19:45:13,753 : kivy : Base: Start application main loop
+2022-10-01 19:45:13,753 : EventManager : Event: ======'display_default_initialized'====== Args={}
+2022-10-01 19:45:13,767 : mpfmc : Display: Setting 'default' as default display
+2022-10-01 19:45:13,774 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-01 19:45:13,775 : EventManager : Event: ======'slide_default_blank_created'====== Args={}
+2022-10-01 19:45:13,775 : EventManager : Event: ======'display_default_ready'====== Args={}
+2022-10-01 19:45:13,785 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-01 19:45:13,787 : kivy : Base: Leaving application in progress...
+2022-10-01 19:45:13,787 : kivy : Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer._initialise_system_wide of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('4453efa6-0feb-45e2-a420-b7ba380e7bc3'), condition=None, blocking_facility=None) for event init_phase_1. Slide welcome_slide not found
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc_config_player.py", line 35, in _initialise_system_wide
+    self.validate_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\slide_player.py", line 269, in validate_config
+    self._validate_config_item(slide, slide_settings))
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\slide_player.py", line 291, in _validate_config_item
+    raise AssertionError("Slide {} not found".format(slide))
+AssertionError: Slide welcome_slide not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\commands\mc.py", line 225, in __init__
+    MpfMc(options=vars(args),
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\display.py", line 211, in _displays_initialized
+    self.mc.displays_initialized()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc.py", line 349, in displays_initialized
+    self._init()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc.py", line 374, in _init
+    self.events.process_event_queue()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer._initialise_system_wide of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('4453efa6-0feb-45e2-a420-b7ba380e7bc3'), condition=None, blocking_facility=None) for event init_phase_1. Slide welcome_slide not found
+2022-10-01 19:45:13,790 : kivy : Stopping child threads... (1 remaining)
+2022-10-01 19:45:14,794 : kivy : All child threads stopped.

@@ -12,28 +12,43 @@ mpf-mc:
 #  fps: 60
 
 
+lights:
+  led1:
+    number: 0-0-0
+    subtype: led
+    type: grb
+  led2:
+    number: 0-0-1
+    subtype: led
+    type: grb
+  led3:
+    number: 0-0-2
+    subtype: led
+    type: grb
+
+
 coils:
     c_sling_right:
-        number: 0-0
+        number: 2-0-0
         default_pulse_ms: 15
     c_sling_left:
-        number: 0-1
+        number: 2-0-1
         default_pulse_ms: 16
     c_plunger:
-        number: 0-2
+        number: 2-0-2
         default_pulse_ms: 21
     c_trough_eject:
-        number: 0-3
+        number: 2-0-3
         default_pulse_ms: 25
         
     c_popbumper_1:
-        number: 0-4
+        number: 2-0-4
         default_pulse_ms: 17
     c_popbumper_2:
-        number: 0-5
+        number: 2-0-5
         default_pulse_ms: 17
     c_popbumper_3:
-        number: 0-6
+        number: 2-0-6
         default_pulse_ms: 17
     #name:              empty
     #    number: 0-7
@@ -42,13 +57,13 @@ coils:
 
         
     c_vukmid:
-        number: 1-0
+        number: 2-1-0
         default_pulse_ms: 25
     c_drop:
-        number: 1-1
+        number: 2-1-1
         default_pulse_ms: 16
     c_vuktop:
-        number: 1-2
+        number: 2-1-2
         default_pulse_ms: 25
     #name:              empty
     #    number: 1-3
@@ -75,10 +90,10 @@ coils:
 switches:
 # Autofire 0-0 to 0-3
     s_right_sling:
-        number: 0-0
+        number: 2-0-0
         debounce: quick
     s_left_sling:
-        number: 0-1
+        number: 2-0-1
         debounce: quick
     #name:              plunger --> NO AUTOLAUNCH SWITCH
     #    number: 0-2
@@ -92,11 +107,11 @@ switches:
     
 # Autofire 0-8 to 0-11
     s_popbumber_1:
-        number: 0-8
+        number: 2-0-8
     s_popbumber_2:
-        number: 0-9
+        number: 2-0-9
     s_popbumber_3:
-        number: 0-10
+        number: 2-0-10
     #name:              empty
     #    number: 0-3
 
@@ -104,57 +119,57 @@ switches:
 
 # Direct Switches Launch Section
     s_plunger_lane:
-        number: 0-16
+        number: 2-0-16
     s_start:
-        number: 0-17
+        number: 2-0-17
         tags: start
     s_launch:
-        number: 0-18
+        number: 2-0-18
         tags: launch
     s_trough1:
-        number: 0-19
+        number: 2-0-19
         type: NC
     s_trough2:
-        number: 0-20
+        number: 2-0-20
         type: NC
     s_trough3:
-        number: 0-21
+        number: 2-0-21
         type: NC
     s_trough4:
-        number: 0-22
+        number: 2-0-22
         type: NC
     s_trough5:
-        number: 0-23
+        number: 2-0-23
         type: NC
     s_trough6:
-        number: 0-24
+        number: 2-0-24
         type: NC
     s_trough_jam:  
-        number: 0-25
+        number: 2-0-25
         type: NO  
 
 # path switches
     s_spinner:
-        number: 0-28  
+        number: 2-0-28  
         type: NO  
     s_ramp:
-        number: 0-30  
+        number: 2-0-30  
         type: NO  
     
 # left switch bank
     s_left01:
-        number: 0-27  
+        number: 2-0-27  
         type: NO  
     s_left02:
-        number: 0-26  
+        number: 2-0-26  
         type: NO  
     s_left03:
-        number: 0-29  
+        number: 2-0-29  
         type: NO  
    
 # hidden switch pop bumper section       
     s_top:
-        number: 0-31  
+        number: 2-0-31  
         type: NO  
 
         
@@ -168,58 +183,58 @@ switches:
 
 # Right to left - Top Lanes
     s_toplane1:
-        number: 1-16
+        number: 2-1-16
     s_toplane2:
-        number: 1-17
+        number: 2-1-17
     s_toplane3:
-        number: 1-18
+        number: 2-1-18
 
 # Left to Right - Bottom Lanes
     s_bottomlane1:
-        number: 1-19
+        number: 2-1-19
     s_bottomlane2:
-        number: 1-20
+        number: 2-1-20
     s_bottomlane3:
-        number: 1-21
+        number: 2-1-21
     s_bottomlane4:
-        number: 1-23
+        number: 2-1-23
     s_bottomlane5:
-        number: 1-22
+        number: 2-1-22
         
 # Left to Right
     s_drop1:
-        number: 1-25
+        number: 2-1-25
     s_drop2:
-        number: 1-26
+        number: 2-1-26
     s_drop3:
-        number: 1-27
+        number: 2-1-27
 
 # VUK Mid Field
     s_vukmid:
-        number: 1-24
+        number: 2-1-24
  
 # VUK Left Top 
     s_vuktop:
-        number: 1-28
+        number: 2-1-28
         
         
 # right switch bank
     s_rigth01:
-        number: 1-29
+        number: 2-1-29
     s_rigth02:
-        number: 1-30
+        number: 2-1-30
     s_rigth03:
-        number: 1-31
+        number: 2-1-31
 
 
 
 
 
     s_orbit1:
-        number: 2-0
+        number: 2-2-0
  
     s_orbit2:
-        number: 2-1
+        number: 2-2-1
     
 
 # drop target bank    
@@ -235,7 +250,7 @@ drop_target_banks:
      db_dropbank:
          drop_targets: d_drop_target1, d_drop_target2, d_drop_target3
          reset_coils: c_drop
-         reset_on_complete: 1s
+        # reset_on_complete: 1s
 
 
 

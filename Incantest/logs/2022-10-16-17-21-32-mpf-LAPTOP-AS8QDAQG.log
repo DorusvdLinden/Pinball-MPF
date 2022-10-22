@@ -1,0 +1,25 @@
+2022-10-16 17:21:32,713 : INFO : root : Loading config.
+2022-10-16 17:21:32,716 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-16 17:21:32,716 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2933e2c76e3b8acea895e42efa05d46f.mpf_cache
+2022-10-16 17:21:32,802 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\Incantest\modes\attract\config\attract.yaml
+2022-10-16 17:21:32,802 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-10-16 17:21:32,803 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-10-16 17:21:32,803 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\Incantest\modes\attract\config\attract.yaml.
+2022-10-16 17:21:32,805 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\Incantest\modes\attract\config\attract.yaml
+2022-10-16 17:21:32,806 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\00c75b6024e2fe2e03aca7195f2ab2ac.mpf_cache
+2022-10-16 17:21:32,806 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-16 17:21:32,807 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2bf6cf40d54a5ac6b43f4cbd4b4344a2.mpf_cache
+2022-10-16 17:21:32,807 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e44e93bdfc9f543212586de2e62675d1.mpf_cache
+2022-10-16 17:21:32,808 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-16 17:21:32,808 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-16-17-21-32-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-16 17:21:32,808 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-16 17:21:32,808 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\Incantest
+2022-10-16 17:21:32,808 : INFO : Machine : Platform: win32
+2022-10-16 17:21:32,808 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-16 17:21:32,808 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-16 17:21:32,810 : INFO : Machine : Initialise MPF.
+2022-10-16 17:21:32,960 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-10-16 17:21:45,536 : INFO : Machine : Starting the main run loop.
+2022-10-16 17:21:45,536 : INFO : Machine : Shutting down...
+2022-10-16 17:21:45,536 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-16 17:21:45,545 : INFO : root : MPF run loop ended.

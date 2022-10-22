@@ -1,0 +1,58 @@
+2022-09-24 15:52:13,200 : INFO : root : Loading config.
+2022-09-24 15:52:13,203 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-24 15:52:13,204 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:52:13,204 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-24 15:52:13,262 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-24 15:52:13,262 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-09-24 15:52:13,272 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:52:13,298 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-09-24 15:52:13,306 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-09-24 15:52:13,310 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-09-24 15:52:13,317 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-09-24 15:52:13,319 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-09-24 15:52:13,403 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-09-24 15:52:13,404 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-24 15:52:13,404 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-24 15:52:13,405 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-24 15:52:13,406 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-24 15:52:13,407 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-24 15:52:13,407 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-24 15:52:13,407 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-24-15-52-13-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-24 15:52:13,407 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-24 15:52:13,407 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-24 15:52:13,407 : INFO : Machine : Platform: win32
+2022-09-24 15:52:13,408 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-24 15:52:13,408 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-24 15:52:13,410 : INFO : Machine : Initialise MPF.
+2022-09-24 15:52:13,550 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-24 15:52:13,654 : INFO : OPP : Init of OPP board 0 done
+2022-09-24 15:52:13,654 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-24 15:52:13,749 : INFO : OPP : Init of OPP board 1 done
+2022-09-24 15:52:13,749 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-24 15:52:13,800 : INFO : Machine : Shutting down...
+2022-09-24 15:52:13,801 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-24 15:52:13,801 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-24 15:52:13,802 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-24 15:52:13,804 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 105, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 278, in _connect_to_hardware
+    await comm.connect()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 82, in _connect_to_hardware
+    await self._identify_connection()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp_serial_communicator.py", line 81, in _identify_connection
+    raise AssertionError("Duplicate chain serial {} on ports: {} and {}. Each OPP board has to have a "
+AssertionError: Duplicate chain serial 0 on ports: COM7 and COM10. Each OPP board has to have a unique ID. You can overwrite this using the chains setting.
+2022-09-24 15:52:13,946 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-24 15:52:13,947 : INFO : root : MPF run loop ended.

@@ -8,17 +8,19 @@ mode:
  
 slide_player:
   lanes_top_complete:
-    my_slide:
-      - type: text
-        text: lane (score)
-        y: 100
-        x: 10
-        number_grouping: true
-        min_digits: 2
-        font_size: 10
-        expire: 2s
+    lanes_top_complete_slide:
+      expire: 2s
 
+      
 
+show_player:
+  lanes_top_complete:
+    rainbow: 
+      show_tokens:
+        leds: led1, led2, led3
+      loops: 3
+      speed: 10
+      priority: 200
 
 counters:
   lane_top_count:
@@ -32,16 +34,17 @@ counters:
 shots:
   lane_top_1:
     switch: s_toplane1
-#    show_tokens:
-#      light: lane_l
+    show_tokens:
+      light: led1
   lane_top_2:
     switch: s_toplane2
-#    show_tokens:
-#      light: lane_l
+    show_tokens:
+      light: led2
   lane_top_3:
     switch: s_toplane3
-#    show_tokens:
-#      light: lane_l
+    show_tokens:
+      light: led3
+        
 
 
 

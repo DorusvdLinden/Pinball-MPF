@@ -1,0 +1,112 @@
+2022-09-25 09:15:08,892 : INFO : root : Loading config.
+2022-09-25 09:15:08,894 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-25 09:15:08,895 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2aa88b27277c07e8e9106228acbc0797.mpf_cache
+2022-09-25 09:15:08,976 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\553e7233ea46a134f7d567bdaac0e3b0.mpf_cache
+2022-09-25 09:15:08,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07260a180478ebbc8de8f5df7d20f47d.mpf_cache
+2022-09-25 09:15:08,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-25 09:15:08,978 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-25 09:15:08,979 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-25 09:15:08,979 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-25 09:15:08,980 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-25 09:15:08,980 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-25-09-15-08-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-25 09:15:08,980 : INFO : Machine : MPF path: c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-25 09:15:08,980 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-25 09:15:08,980 : INFO : Machine : Platform: win32
+2022-09-25 09:15:08,980 : INFO : Machine : Python executable location: c:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-25 09:15:08,980 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-25 09:15:08,982 : INFO : Machine : Initialise MPF.
+2022-09-25 09:15:09,140 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-25 09:15:09,234 : INFO : OPP : Init of OPP board 0 done
+2022-09-25 09:15:09,235 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-25 09:15:09,327 : INFO : OPP : Init of OPP board 1 done
+2022-09-25 09:15:09,327 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-25 09:15:09,422 : INFO : OPP : Init of OPP board 2 done
+2022-09-25 09:15:09,422 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,474 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,474 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 33100, 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,474 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,474 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,474 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-25 09:15:09,486 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-25 09:15:09,510 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-25 09:15:09,511 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-25 09:15:09,512 : INFO : SwitchController : Found active switch: ('2-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-25 09:15:09,514 : ERROR : ConfigValidator : Your config contains a value for the setting "show_player:duration", but this is not a valid setting name.
+2022-09-25 09:15:09,514 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...tting name.')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...tting name.')>)>
+Traceback (most recent call last):
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialise_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 198, in get_full_config
+    return self.machine.config_validator.validate_config(
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 357, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player lanes_top_complete:shows with settings {'rainbow': {'show_tokens': {'leds': 'led1, led2, led3'}, 'duration': '3s'}} >> Your config contains a value for the setting "show_player:duration", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-09-25 09:15:09,557 : INFO : Machine : Starting the main run loop.
+2022-09-25 09:15:09,558 : INFO : Machine : Shutting down...
+2022-09-25 09:15:09,561 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-25 09:15:09,562 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-25 09:15:09,565 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-25 09:15:09,566 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-25 09:15:09,570 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialise_modes
+    item.method(config=mode.config[item.config_section],
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 198, in get_full_config
+    return self.machine.config_validator.validate_config(
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 357, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player lanes_top_complete:shows with settings {'rainbow': {'show_tokens': {'leds': 'led1, led2, led3'}, 'duration': '3s'}} >> Your config contains a value for the setting "show_player:duration", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-09-25 09:15:09,716 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-25 09:15:09,717 : INFO : root : MPF run loop ended.

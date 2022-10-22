@@ -1,0 +1,31 @@
+2022-09-24 15:50:34,297 : INFO : root : Loading config.
+2022-09-24 15:50:34,307 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-24 15:50:34,308 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:50:34,308 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-24 15:50:34,368 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-24 15:50:34,369 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-09-24 15:50:34,381 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:50:34,416 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-09-24 15:50:34,430 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-09-24 15:50:34,440 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-09-24 15:50:34,452 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-09-24 15:50:34,454 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-09-24 15:50:34,527 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-09-24 15:50:34,541 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-24 15:50:34,553 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-24 15:50:34,566 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-24 15:50:34,576 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-24 15:50:34,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-24 15:50:34,592 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-24 15:50:34,592 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-24-15-50-34-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-24 15:50:34,593 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-24 15:50:34,593 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-24 15:50:34,593 : INFO : Machine : Platform: win32
+2022-09-24 15:50:34,593 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-24 15:50:34,593 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-24 15:50:34,596 : INFO : Machine : Initialise MPF.
+2022-09-24 15:50:34,857 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-24 15:50:48,967 : INFO : Machine : Starting the main run loop.
+2022-09-24 15:50:48,967 : INFO : Machine : Shutting down...
+2022-09-24 15:50:48,969 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-24 15:50:48,976 : INFO : root : MPF run loop ended.

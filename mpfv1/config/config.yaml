@@ -25,23 +25,29 @@ hardware:
     driverboards: gen2
 
 opp:
-    ports: COM7
-    #poll_hz: 50
+  ports: COM10, COM11, COM7
+  chains:
+ #  0: COM10
+ #  1: COM11
+    2: COM7
+
 
     
 mpf:
-    report_crashes: never
+  report_crashes: never
     
 config:
 - hardware.yaml
 - sounds.yaml    
 - display.yaml 
 - keyboard.yaml
+- slides.yaml
+- light_shows.yaml
     
 modes:
-    - base
-    - orbit
-    - lanes
+- base
+- orbit
+- lanes
 
 
 

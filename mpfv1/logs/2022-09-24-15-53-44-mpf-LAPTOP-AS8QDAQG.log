@@ -1,0 +1,1110 @@
+2022-09-24 15:53:44,879 : INFO : root : Loading config.
+2022-09-24 15:53:44,882 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-24 15:53:44,883 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:53:44,883 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-24 15:53:44,939 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-24 15:53:44,940 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\config\config.yaml.
+2022-09-24 15:53:44,950 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\config.yaml
+2022-09-24 15:53:44,974 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-09-24 15:53:44,983 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-09-24 15:53:44,985 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\display.yaml
+2022-09-24 15:53:44,992 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-09-24 15:53:44,994 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-09-24 15:53:45,073 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-09-24 15:53:45,074 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-24 15:53:45,074 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-24 15:53:45,075 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-24 15:53:45,076 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-24 15:53:45,076 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-24 15:53:45,077 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-24 15:53:45,077 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-24-15-53-44-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-24 15:53:45,077 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-24 15:53:45,077 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-24 15:53:45,077 : INFO : Machine : Platform: win32
+2022-09-24 15:53:45,077 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-24 15:53:45,077 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-24 15:53:45,079 : INFO : Machine : Initialise MPF.
+2022-09-24 15:53:45,218 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-24 15:53:45,319 : INFO : OPP : Init of OPP board 1 done
+2022-09-24 15:53:45,319 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-24 15:53:45,429 : INFO : OPP : Init of OPP board 0 done
+2022-09-24 15:53:45,430 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,495 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,495 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 31200, 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,496 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,496 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,496 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,508 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,509 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,509 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,509 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,509 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-24 15:53:45,509 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-24 15:53:45,534 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-24 15:53:45,535 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left02 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-26 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left02 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,566 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-22 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough4 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,567 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_toplane1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-16 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_toplane1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,568 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_spinner in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-28 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_spinner in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,568 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-72' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_jam in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-25 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_jam in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,568 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_rigth01 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-29 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_rigth01 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,569 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_trough_eject in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-3 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough_eject in platform. See error above
+2022-09-24 15:53:45,576 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-27 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,577 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_orbit1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 2-0 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_orbit1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,577 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-61' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bottomlane3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-21 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bottomlane3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,578 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-73' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-25 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,578 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-20 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,579 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_popbumber_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-9 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_popbumber_2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,579 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bottomlane1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-19 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bottomlane1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,580 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_sling in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-0 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_sling in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,581 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-17 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,582 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-63' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_popbumper_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-6 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_popbumper_3 in platform. See error above
+2022-09-24 15:53:45,583 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-75' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_launch in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-18 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_launch in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,583 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_popbumper_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-5 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_popbumper_2 in platform. See error above
+2022-09-24 15:53:45,584 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left03 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-29 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left03 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,584 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_ramp in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-30 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_ramp in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_sling_left in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-1 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_sling_left in platform. See error above
+2022-09-24 15:53:45,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-64' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough5 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-23 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough5 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,585 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_rigth02 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-30 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_rigth02 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,586 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_drop2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-26 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_drop2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,586 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_vukmid in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-24 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_vukmid in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,587 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_toplane2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-17 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_toplane2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,587 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-65' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bottomlane4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-23 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bottomlane4 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,588 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_orbit2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 2-1 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_orbit2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,588 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_popbumber_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-10 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_popbumber_3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,589 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_popbumper_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-4 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_popbumper_1 in platform. See error above
+2022-09-24 15:53:45,589 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_sling in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-1 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_sling in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_vukmid in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-0 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_vukmid in platform. See error above
+2022-09-24 15:53:45,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_top in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-31 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_top in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,590 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-55' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-21 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,591 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left01 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-27 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left01 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,591 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_plunger in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-2 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_plunger in platform. See error above
+2022-09-24 15:53:45,592 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-68' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough6 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-24 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough6 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,592 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_rigth03 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-31 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_rigth03 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-56' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bottomlane2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-20 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bottomlane2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_vuktop in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-28 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_vuktop in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,593 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-19 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,594 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-69' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_bottomlane5 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-22 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_bottomlane5 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,594 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_toplane3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-18 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_toplane3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_sling_right in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-0 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_sling_right in platform. See error above
+2022-09-24 15:53:45,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_popbumber_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-8 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_popbumber_1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,595 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-71' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_drop in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-1 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_drop in platform. See error above
+2022-09-24 15:53:45,597 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_vuktop in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 1-2 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_vuktop in platform. See error above
+2022-09-24 15:53:45,598 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_plunger_lane in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-16 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_plunger_lane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,599 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-24 15:53:45,599 : INFO : Machine : Starting the main run loop.
+2022-09-24 15:53:45,603 : INFO : Machine : Shutting down...
+2022-09-24 15:53:45,603 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-24 15:53:45,604 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-24 15:53:45,604 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-24 15:53:45,606 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<SwitchController._initialize_switches() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py:80> exception=AttributeError("'NoneType' object has no attribute 'number'")>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py", line 82, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py", line 104, in update_switches_from_hw
+    switches.add((switch, switch.hw_switch.number))
+AttributeError: 'NoneType' object has no attribute 'number'
+2022-09-24 15:53:45,616 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 0-26 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left02 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2022-09-24 15:53:45,735 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-24 15:53:45,735 : INFO : root : MPF run loop ended.

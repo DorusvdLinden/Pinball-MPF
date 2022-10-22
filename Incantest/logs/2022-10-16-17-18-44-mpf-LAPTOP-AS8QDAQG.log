@@ -1,0 +1,72 @@
+2022-10-16 17:18:44,442 : INFO : root : Loading config.
+2022-10-16 17:18:44,455 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-16 17:18:44,455 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:18:44,455 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-16 17:18:44,516 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-16 17:18:44,516 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\Incantest\config\config.yaml.
+2022-10-16 17:18:44,516 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\Incantest\config\config.yaml
+2022-10-16 17:18:44,532 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2933e2c76e3b8acea895e42efa05d46f.mpf_cache
+2022-10-16 17:18:44,611 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\00c75b6024e2fe2e03aca7195f2ab2ac.mpf_cache
+2022-10-16 17:18:44,611 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-16 17:18:44,611 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2bf6cf40d54a5ac6b43f4cbd4b4344a2.mpf_cache
+2022-10-16 17:18:44,611 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e44e93bdfc9f543212586de2e62675d1.mpf_cache
+2022-10-16 17:18:44,611 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-16 17:18:44,611 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-16-17-18-44-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-16 17:18:44,611 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-16 17:18:44,611 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\Incantest
+2022-10-16 17:18:44,611 : INFO : Machine : Platform: win32
+2022-10-16 17:18:44,611 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-16 17:18:44,611 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-16 17:18:44,611 : INFO : Machine : Initialise MPF.
+2022-10-16 17:18:44,761 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-10-16 17:18:44,874 : INFO : OPP : Init of OPP board COM7 done
+2022-10-16 17:18:44,874 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,921 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,921 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,921 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,921 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-16 17:18:44,938 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-16 17:18:44,954 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-16 17:18:44,954 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-16 17:18:44,954 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-16 17:18:46,993 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-10-16 17:18:46,994 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-10-16 17:18:47,001 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-16 17:18:47,001 : INFO : ball_device.bd_plunger : State: idle
+2022-10-16 17:18:47,056 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-16 17:18:47,059 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,059 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,061 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-16 17:18:47,073 : INFO : BallController : Initial balls found: 0
+2022-10-16 17:18:47,074 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,074 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,075 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,075 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,075 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,075 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,075 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2022-10-16 17:18:47,077 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-16 17:18:47,083 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-10-16 17:18:47,084 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-10-16 17:18:47,090 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2022-10-16 17:18:47,093 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2022-10-16 17:18:47,094 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-10-16 17:18:47,095 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-10-16 17:18:47,096 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-10-16 17:18:47,096 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2022-10-16 17:18:47,097 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-10-16 17:18:47,101 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-10-16 17:18:47,101 : INFO : Mode.attract : Started. Priority: 10
+2022-10-16 17:18:47,101 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-10-16 17:18:47,101 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-10-16 17:18:47,101 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2022-10-16 17:18:47,116 : INFO : Machine : Starting the main run loop.
+2022-10-16 17:20:14,663 : INFO : Machine : Shutting down...
+2022-10-16 17:20:14,663 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-16 17:20:14,663 : ERROR : OPP : Stop called on serial connection COM7
+2022-10-16 17:20:14,663 : INFO : root : MPF run loop ended.

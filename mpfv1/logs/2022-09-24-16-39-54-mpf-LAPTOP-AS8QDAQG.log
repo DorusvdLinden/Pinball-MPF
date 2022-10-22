@@ -1,0 +1,234 @@
+2022-09-24 16:39:54,840 : INFO : root : Loading config.
+2022-09-24 16:39:54,843 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-24 16:39:54,844 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e58a4b50dd07e9e66a1a779c252c0c34.mpf_cache
+2022-09-24 16:39:54,925 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\mpfv1\modes\attract\config\attract.yaml
+2022-09-24 16:39:54,925 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-09-24 16:39:54,926 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-09-24 16:39:54,926 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\mpfv1\modes\attract\config\attract.yaml.
+2022-09-24 16:39:54,936 : INFO : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\mpfv1\modes\attract\config\attract.yaml
+2022-09-24 16:39:54,936 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\444cf03b543d197e203cfa23af3f8fc0.mpf_cache
+2022-09-24 16:39:54,937 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-24 16:39:54,938 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\997bf01789d16ed996f231036966dd64.mpf_cache
+2022-09-24 16:39:54,938 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\99703a5eb7b45595525b767565d37410.mpf_cache
+2022-09-24 16:39:54,939 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3bda3283678547d211760e16eb23b4da.mpf_cache
+2022-09-24 16:39:54,940 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\9bc560b11d83fb4ed736b388b885a5d3.mpf_cache
+2022-09-24 16:39:54,941 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-24 16:39:54,941 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-24-16-39-54-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-24 16:39:54,941 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-24 16:39:54,941 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\mpfv1
+2022-09-24 16:39:54,941 : INFO : Machine : Platform: win32
+2022-09-24 16:39:54,941 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-24 16:39:54,941 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-24 16:39:54,943 : INFO : Machine : Initialise MPF.
+2022-09-24 16:39:55,096 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-24 16:39:55,208 : INFO : OPP : Init of OPP board 0 done
+2022-09-24 16:39:55,208 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-24 16:39:55,318 : INFO : OPP : Init of OPP board 1 done
+2022-09-24 16:39:55,318 : INFO : OPP : Connecting to COM7 at 115200bps
+2022-09-24 16:39:55,412 : INFO : OPP : Init of OPP board 2 done
+2022-09-24 16:39:55,413 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,468 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,468 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 31200, 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,468 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,468 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,468 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-24 16:39:55,480 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-24 16:39:55,503 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-24 16:39:55,509 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-24 16:39:55,510 : INFO : SwitchController : Found active switch: ('2-0-25', <Platform.OPP>) <switch.s_trough_jam>
+2022-09-24 16:39:55,515 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-09-24 16:39:55,516 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-09-24 16:39:57,567 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-09-24 16:39:57,569 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-09-24 16:39:57,579 : INFO : ball_device.bd_trough : BCH: Count is unstable. Trying to reorder balls.
+2022-09-24 16:39:57,579 : WARNING : ball_device.bd_trough : Cannot reorder device because eject_coil_reorder_pulse is not configured
+2022-09-24 16:39:57,580 : INFO : ball_device.bd_trough : BCH: Repulse done. Waiting for balls to settle.
+2022-09-24 16:39:57,580 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2022-09-24 16:39:57,581 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,581 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,585 : INFO : ball_device.bd_trough : State: idle
+2022-09-24 16:39:57,595 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-09-24 16:39:57,596 : INFO : ball_device.bd_plunger : State: idle
+2022-09-24 16:39:57,597 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-09-24 16:39:57,597 : INFO : ball_device.bd_vukmid : State: idle
+2022-09-24 16:39:57,598 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-09-24 16:39:57,598 : INFO : ball_device.bd_vuktop : State: idle
+2022-09-24 16:39:57,660 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-24 16:39:57,663 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2022-09-24 16:39:57,664 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2022-09-24 16:39:57,664 : INFO : BallController : Initial balls found: 1
+2022-09-24 16:39:57,666 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,667 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,667 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 28340.0, 'top': [41000, 31800, 31200, 20200, 17500], 'total': 5}, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,667 : INFO : EventManager : Event: ======'machine_var_audits_shots_lane_top_1'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,668 : INFO : EventManager : Event: ======'machine_var_audits_shots_lane_top_2'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,668 : INFO : EventManager : Event: ======'machine_var_audits_shots_lane_top_3'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,669 : INFO : EventManager : Event: ======'machine_var_audits_shots_orbit'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,669 : INFO : EventManager : Event: ======'machine_var_audits_shots_spinner'====== Args={'value': 156, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,669 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,669 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,671 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,671 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,673 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,673 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,673 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,674 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit1'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,674 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,674 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,675 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,675 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 74, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,676 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,676 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 249, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,679 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,679 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 163, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,680 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 78, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,680 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 71, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,680 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,680 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,681 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,681 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,681 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,682 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,682 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,682 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,683 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2022-09-24 16:39:57,684 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-09-24 16:39:57,699 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2022-09-24 16:39:57,700 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2022-09-24 16:39:57,712 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2022-09-24 16:39:57,717 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2022-09-24 16:39:57,717 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2022-09-24 16:39:57,719 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2022-09-24 16:39:57,720 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2022-09-24 16:39:57,721 : INFO : drop_target_bank.db_dropbank : All targets are already up. Will not reset bank.
+2022-09-24 16:39:57,722 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2022-09-24 16:39:57,724 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2022-09-24 16:39:57,725 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2022-09-24 16:39:57,725 : INFO : Mode.attract : Started. Priority: 10
+2022-09-24 16:39:57,725 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2022-09-24 16:39:57,725 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2022-09-24 16:39:57,726 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 328, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 224, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 116, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 133, in replace_or_advance_show
+    return show_obj.play_with_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 292, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self.show_steps = self.show.get_show_steps_with_token(self.show_config.show_tokens)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 425, in get_show_steps_with_token
+    step[key] = self.machine.show_controller.show_players[key].expand_config_entry(value)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 27, in expand_config_entry
+    devices = self._expand_device(device)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 115, in _expand_device
+    return self.raise_config_error(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Could not find a lights device with name or tag led0, from list ['led0', 'led1', 'led2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=11, kwargs={'calling_context': 'mode_attract_started.1', 'mode': <Mode.attract>, 'settings': {rainbow-None-None: {'show_tokens': {'leds': <NativeTemplate led0, led1, led2>}, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('fa757041-e004-4163-8e6c-d22e5a60fdda'), condition=None, blocking_facility=None) for event mode_attract_started. Config File Error in light_player: Could not find a lights device with name or tag led0, from list ['led0', 'led1', 'led2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+2022-09-24 16:39:57,765 : INFO : Machine : Starting the main run loop.
+2022-09-24 16:39:57,781 : INFO : Machine : Shutting down...
+2022-09-24 16:39:57,781 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-24 16:39:57,787 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-24 16:39:57,789 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-24 16:39:57,793 : ERROR : OPP : Stop called on serial connection COM7
+2022-09-24 16:39:57,798 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 328, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 224, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\show_player.py", line 116, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 133, in replace_or_advance_show
+    return show_obj.play_with_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 292, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self.show_steps = self.show.get_show_steps_with_token(self.show_config.show_tokens)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 425, in get_show_steps_with_token
+    step[key] = self.machine.show_controller.show_players[key].expand_config_entry(value)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 27, in expand_config_entry
+    devices = self._expand_device(device)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\device_config_player.py", line 115, in _expand_device
+    return self.raise_config_error(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Could not find a lights device with name or tag led0, from list ['led0', 'led1', 'led2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=11, kwargs={'calling_context': 'mode_attract_started.1', 'mode': <Mode.attract>, 'settings': {rainbow-None-None: {'show_tokens': {'leds': <NativeTemplate led0, led1, led2>}, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('fa757041-e004-4163-8e6c-d22e5a60fdda'), condition=None, blocking_facility=None) for event mode_attract_started. Config File Error in light_player: Could not find a lights device with name or tag led0, from list ['led0', 'led1', 'led2'] Error Code: CFE-light_player-101 (https://docs.missionpinball.org/en/0.55/logs/CFE-light_player-101.html)
+2022-09-24 16:39:57,943 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-183' coro=<Event.wait() running at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\locks.py:309> wait_for=<Future cancelled>>
+2022-09-24 16:39:57,944 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-135' coro=<OppHardwarePlatform._poll_sender() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py:918> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x00000187C98B29D0>()]> cb=[Util.raise_exceptions() at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\utility_functions.py:752]>
+2022-09-24 16:39:57,945 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-184' coro=<Event.wait() running at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\locks.py:309> wait_for=<Future cancelled>>
+2022-09-24 16:39:57,947 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-136' coro=<OppHardwarePlatform._poll_sender() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py:918> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x00000187C98B2970>()]> cb=[Util.raise_exceptions() at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\utility_functions.py:752]>
+2022-09-24 16:39:57,948 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-182' coro=<Event.wait() running at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\locks.py:309> wait_for=<Future cancelled>>
+2022-09-24 16:39:57,949 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-137' coro=<OppHardwarePlatform._poll_sender() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py:918> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x00000187C98B2A30>()]> cb=[Util.raise_exceptions() at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\utility_functions.py:752]>
+2022-09-24 16:39:57,961 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-24 16:39:57,961 : INFO : root : MPF run loop ended.
