@@ -1,0 +1,70 @@
+2023-04-27 11:54:30,152 : INFO : root : Loading config.
+2023-04-27 11:54:30,163 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-27 11:54:30,164 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\746ec81b4daa2d0da75c83d96aab4d3b.mpf_cache
+2023-04-27 11:54:30,249 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-04-27 11:54:30,251 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-04-27 11:54:30,251 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\97e51e0c4aa3eb37f251b426296f2684.mpf_cache
+2023-04-27 11:54:30,252 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2af2fbde21c8ccb06b52e16890475468.mpf_cache
+2023-04-27 11:54:30,258 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-27 11:54:30,265 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-04-27 11:54:30,266 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-27-11-54-30-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-27 11:54:30,266 : INFO : Machine : MPF path: C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf
+2023-04-27 11:54:30,266 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-27 11:54:30,266 : INFO : Machine : Platform: win32
+2023-04-27 11:54:30,266 : INFO : Machine : Python executable location: C:\Users\dorus\.local\pipx\venvs\mpf\Scripts\python.exe
+2023-04-27 11:54:30,266 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-27 11:54:30,268 : INFO : Machine : Initialise MPF.
+2023-04-27 11:54:30,441 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-27 11:54:30,548 : INFO : OPP : Init of OPP board 0 done
+2023-04-27 11:54:30,548 : INFO : OPP : Connecting to COM11 at 115200bps
+2023-04-27 11:54:30,644 : INFO : OPP : Init of OPP board 1 done
+2023-04-27 11:54:30,645 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,672 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,672 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,672 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,672 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,698 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-27 11:54:30,712 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-27 11:54:30,722 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-27 11:54:30,724 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-27 11:54:30,726 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,726 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,726 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2023-04-27 11:54:30,726 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-27 11:54:30,740 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-27 11:54:30,740 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-27 11:54:30,741 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-27 11:54:30,741 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-27 11:54:30,742 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-27 11:54:30,742 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-27 11:54:30,742 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-27 11:54:30,742 : INFO : Mode.attract : Started. Priority: 10
+2023-04-27 11:54:30,743 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-27 11:54:30,743 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-04-27 11:54:30,743 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-04-27 11:54:30,754 : INFO : Machine : Starting the main run loop.
+2023-04-27 11:54:52,377 : INFO : Machine : Shutting down...
+2023-04-27 11:54:52,378 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-27 11:54:52,382 : ERROR : OPP : Stop called on serial connection COM10
+2023-04-27 11:54:52,389 : ERROR : OPP : Stop called on serial connection COM11
+2023-04-27 11:54:52,634 : WARNING : OPP : Poll took more than 250.0ms for 1
+2023-04-27 11:54:52,634 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...ute 'write'")>) at C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\utility_functions.py:759
+handle: <Handle Util.raise_exceptions(<Task finishe...ute 'write'")>) at C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\utility_functions.py:759>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\opp\opp.py", line 964, in _poll_sender
+    self.send_to_processor(chain_serial, self.read_input_msg[chain_serial])
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\opp\opp.py", line 345, in send_to_processor
+    self.opp_connection[chain_serial].send(msg)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 160, in send
+    self.writer.write(msg)
+AttributeError: 'NoneType' object has no attribute 'write'
+2023-04-27 11:54:52,638 : INFO : root : MPF run loop ended.

@@ -1,0 +1,16 @@
+2022-10-22 18:57:35,120 : kivy : Factory: 186 symbols loaded
+2022-10-22 18:57:35,379 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-22 18:57:35,380 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-22 18:57:35,443 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-22 18:57:35,443 : kivy : Video: Provider: gstplayer
+2022-10-22 18:57:35,839 : kivy : Loading MPF-MC controller
+2022-10-22 18:57:35,842 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-22 18:57:35,842 : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-22 18:57:35,853 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-22 18:57:35,908 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-22 18:57:35,908 : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.
+2022-10-22 18:57:35,912 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-22 18:57:35,951 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-22 18:57:35,963 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-22 18:57:35,967 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-22 18:57:35,983 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\keyboard.yaml

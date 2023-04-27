@@ -7,7 +7,7 @@
 
 
 window:
-  width: 1000
+  width: 1400
   height: 800
   title: portal pinball
   resizable: true
@@ -15,5 +15,32 @@ window:
   borderless: false
   exit_on_escape: true
 
-slide_player:
-  init_done: welcome_slide              
+
+displays:
+  window:
+    width: 1400  
+    height: 800  
+
+  Disp_Player:
+    width: 450
+    height: 150
+  Disp_Menu:
+    width: 300
+    height: 200
+  Disp_Ball:
+    width: 450
+    height: 150
+  Disp_Message:
+    width: 600
+    height: 200
+  Disp_Counter:
+    width: 300
+    height: 100
+  Disp_Score:
+    width: 600
+    height: 200
+  Disp_Icons:
+    width: 300
+    height: 350
+  
+        

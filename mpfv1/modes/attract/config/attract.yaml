@@ -4,7 +4,8 @@
 show_player:
   mode_attract_started: attract_display_loop
   mode_attract_started.1: 
-    rainbow:
+    laneshow:
       show_tokens:
-        leds: led1, led2, led3
+        leds: led_t1, led_t2, led_t3, led_b1, led_b2, led_b3, led_b4, led_b5
+
 

@@ -1,0 +1,22 @@
+2022-10-23 13:41:26,535 : INFO : root : Loading config.
+2022-10-23 13:41:26,539 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-23 13:41:26,540 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e2a46ea082c19f5103dd0f83869ccd8e.mpf_cache
+2022-10-23 13:41:26,541 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-23 13:41:26,541 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-23 13:41:26,605 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-23 13:41:26,606 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-23 13:41:26,610 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-23 13:41:26,637 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-23 13:41:26,647 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-23 13:41:26,654 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-23 13:41:26,662 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-23 13:41:26,686 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-23 13:41:26,689 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\light_shows.yaml
+2022-10-23 13:41:26,692 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e2a46ea082c19f5103dd0f83869ccd8e.mpf_cache
+2022-10-23 13:41:26,782 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\69e5e641cece6cfbb9f28306d01595e4.mpf_cache
+2022-10-23 13:41:26,783 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-23 13:41:26,784 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8f8558ef7eb783a34103d845cb15f27a.mpf_cache
+2022-10-23 13:41:26,785 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3f4ec0fd6e14e835699e1ee64ae7815f.mpf_cache
+2022-10-23 13:41:26,786 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07450fdcdb716b1c510f1f1f728b03da.mpf_cache
+2022-10-23 13:41:26,787 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\modes\attract\shows\.\attract_display_loop.yaml
+2022-10-23 13:41:26,787 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\modes\attract\shows\.\attract_display_loop.yaml.

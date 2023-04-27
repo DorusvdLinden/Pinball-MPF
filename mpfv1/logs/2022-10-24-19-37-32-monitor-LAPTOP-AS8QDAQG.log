@@ -1,0 +1,7 @@
+2022-10-24 19:37:32,780 : INFO : root : Loading MPF Monitor
+2022-10-24 19:37:32,870 : INFO : Core : Looking for MPF at localhost:5051
+2022-10-24 19:37:38,992 : INFO : Core : Quitting due to quit on close
+2022-10-24 19:37:39,003 : INFO : Core : Quitting due to quit on close
+2022-10-24 19:37:39,003 : INFO : root : MPF Monitor run loop ended.
+2022-10-24 19:37:39,005 : INFO : root : Stopping child threads... (0 remaining)
+2022-10-24 19:37:39,012 : INFO : root : All child threads stopped.

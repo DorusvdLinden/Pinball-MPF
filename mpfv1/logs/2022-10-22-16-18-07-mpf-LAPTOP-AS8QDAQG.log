@@ -1,0 +1,88 @@
+2022-10-22 16:18:07,966 : INFO : root : Loading config.
+2022-10-22 16:18:07,970 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-10-22 16:18:07,971 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e2a46ea082c19f5103dd0f83869ccd8e.mpf_cache
+2022-10-22 16:18:07,981 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-22 16:18:07,981 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-10-22 16:18:08,045 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-10-22 16:18:08,046 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.yaml.
+2022-10-22 16:18:08,049 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.yaml
+2022-10-22 16:18:08,076 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-22 16:18:08,085 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-22 16:18:08,087 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-22 16:18:08,095 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-22 16:18:08,106 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-22 16:18:08,109 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\light_shows.yaml
+2022-10-22 16:18:08,112 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\e2a46ea082c19f5103dd0f83869ccd8e.mpf_cache
+2022-10-22 16:18:08,191 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\69e5e641cece6cfbb9f28306d01595e4.mpf_cache
+2022-10-22 16:18:08,191 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-22 16:18:08,192 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8f8558ef7eb783a34103d845cb15f27a.mpf_cache
+2022-10-22 16:18:08,193 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3f4ec0fd6e14e835699e1ee64ae7815f.mpf_cache
+2022-10-22 16:18:08,193 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07450fdcdb716b1c510f1f1f728b03da.mpf_cache
+2022-10-22 16:18:08,194 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\26dc7d91d16a8c3848757fce5df95f92.mpf_cache
+2022-10-22 16:18:08,195 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-10-22 16:18:08,195 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-10-22-16-18-07-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-10-22 16:18:08,195 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-10-22 16:18:08,195 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1
+2022-10-22 16:18:08,195 : INFO : Machine : Platform: win32
+2022-10-22 16:18:08,196 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-10-22 16:18:08,196 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-10-22 16:18:08,198 : INFO : Machine : Initialise MPF.
+2022-10-22 16:18:08,352 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,394 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,394 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,394 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,394 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,394 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-22 16:18:08,403 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-22 16:18:08,424 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-10-22 16:18:08,425 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-22 16:18:08,426 : INFO : SwitchController : Found active switch: ('2-0-19', <Platform.SmartVirtual>) <switch.s_trough1>
+2022-10-22 16:18:08,426 : INFO : SwitchController : Found active switch: ('2-0-20', <Platform.SmartVirtual>) <switch.s_trough2>
+2022-10-22 16:18:08,426 : INFO : SwitchController : Found active switch: ('2-0-21', <Platform.SmartVirtual>) <switch.s_trough3>
+2022-10-22 16:18:08,426 : INFO : SwitchController : Found active switch: ('2-0-22', <Platform.SmartVirtual>) <switch.s_trough4>
+2022-10-22 16:18:08,429 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-10-22 16:18:08,431 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-10-22 16:18:10,488 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-10-22 16:18:10,490 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-10-22 16:18:10,499 : INFO : Machine : Starting the main run loop.
+2022-10-22 16:18:10,499 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2022-10-22 16:18:10,500 : INFO : Machine : Shutting down...
+2022-10-22 16:18:10,500 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-22 16:18:10,500 : INFO : ball_device.bd_trough : State: idle
+2022-10-22 16:18:10,502 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-10-22 16:18:10,503 : INFO : ball_device.bd_plunger : State: idle
+2022-10-22 16:18:10,503 : INFO : ball_device.bd_vukmid : BCH: Initial count: 0
+2022-10-22 16:18:10,503 : INFO : ball_device.bd_vukmid : State: idle
+2022-10-22 16:18:10,504 : INFO : ball_device.bd_vuktop : BCH: Initial count: 0
+2022-10-22 16:18:10,504 : INFO : ball_device.bd_vuktop : State: idle
+2022-10-22 16:18:10,593 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-22 16:18:10,593 : ERROR : asyncio : Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+2022-10-22 16:18:10,600 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...y not found')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...y not found')>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_player.py", line 83, in _initialise_system_wide
+    self.register_player_events(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\plugin_player.py", line 55, in register_player_events
+    self.bcp_client = self._get_bcp_client(config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\config_players\plugin_player.py", line 33, in _get_bcp_client
+    raise AssertionError(
+AssertionError: bcp connection local_display not found
+2022-10-22 16:18:10,604 : INFO : root : MPF run loop ended.

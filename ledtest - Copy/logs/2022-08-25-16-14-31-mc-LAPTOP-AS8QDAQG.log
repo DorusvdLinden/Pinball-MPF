@@ -1,0 +1,14 @@
+2022-08-25 16:14:31,228 : kivy : Factory: 186 symbols loaded
+2022-08-25 16:14:31,494 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-25 16:14:31,495 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-25 16:14:31,573 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-25 16:14:31,573 : kivy : Video: Provider: gstplayer
+2022-08-25 16:14:31,975 : kivy : Loading MPF-MC controller
+2022-08-25 16:14:31,982 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-25 16:14:31,982 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-25 16:14:32,049 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-25 16:14:32,050 : ConfigProcessor : Loading config from file C:\pinball\ledtest\config\config.
+2022-08-25 16:14:32,056 : ConfigProcessor : Loading config: C:\pinball\ledtest\config\config
+2022-08-25 16:14:32,058 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\03df89edf857e6876bd7c0a1821061ab.mpf_cache
+2022-08-25 16:14:32,059 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\225c5a2f0682dede136338b02dd3f543.mpf_cache
+2022-08-25 16:14:32,070 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache

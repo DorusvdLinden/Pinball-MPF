@@ -1,26 +1,25 @@
 #show_version=5
 
-- duration: 3s
+- duration: -1
   slides: 
-    awesome_slide:
-      transition:
-        type: push
-        duration: 1s
-        direction: left
-
-
-- duration: 3s
-  slides:
+    layout_main:
+      target: window
+    empty_slide_1:
+      slide: empty_slide
+      target: Disp_Player
+    empty_slide_2:
+      slide: empty_slide
+      target: Disp_Menu
+    empty_slide_3:
+      slide: empty_slide
+      target: Disp_Ball
     press_start:
-      transition:
-         type: move_in
-         duration: 1s
-         direction: right
-
-- duration: 3
-  slides:
-    mission_pinball:
-      transition:
-        type: move_in
-        duration: 1s
-        direction: top   
+      target: Disp_Message 
+    empty_slide_5:
+      slide: empty_slide
+      target: Disp_Counter
+    Title_slide:
+      target: Disp_Score
+    empty_slide_6:
+      slide: empty_slide
+      target: Disp_Icons

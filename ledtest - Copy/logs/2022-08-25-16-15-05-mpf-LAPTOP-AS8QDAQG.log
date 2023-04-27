@@ -1,0 +1,41 @@
+2022-08-25 16:15:05,500 : INFO : root : Loading config.
+2022-08-25 16:15:05,503 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-25 16:15:05,503 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\ledtest\config\config.yaml
+2022-08-25 16:15:05,503 : INFO : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-08-25 16:15:05,565 : INFO : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-08-25 16:15:05,566 : INFO : ConfigProcessor : Loading config from file C:\pinball\ledtest\config\config.yaml.
+2022-08-25 16:15:05,569 : INFO : ConfigProcessor : Loading config: C:\pinball\ledtest\config\config.yaml
+2022-08-25 16:15:05,570 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\71701404e678ff907abbcc48bacb5025.mpf_cache
+2022-08-25 16:15:05,652 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\225c5a2f0682dede136338b02dd3f543.mpf_cache
+2022-08-25 16:15:05,653 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\12b32bb22730f14b6d64b890cf6dd15e.mpf_cache
+2022-08-25 16:15:05,654 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-25 16:15:05,654 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-25-16-15-05-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-25 16:15:05,654 : INFO : Machine : MPF path: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf
+2022-08-25 16:15:05,654 : INFO : Machine : Machine path: C:\pinball\ledtest
+2022-08-25 16:15:05,654 : INFO : Machine : Platform: win32
+2022-08-25 16:15:05,654 : INFO : Machine : Python executable location: c:\users\dorus\appdata\local\programs\python\python38\python.exe
+2022-08-25 16:15:05,654 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-08-25 16:15:05,656 : INFO : Machine : Initialise MPF.
+2022-08-25 16:15:05,693 : ERROR : ConfigValidator : Your config contains a value for the setting "opp:config_number_format", but this is not a valid setting name.
+2022-08-25 16:15:05,694 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 230, in initialise_core_and_hardware
+    self._load_hardware_platforms()
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 473, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\machine.py", line 607, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\platforms\opp\opp.py", line 76, in __init__
+    self.config = self.machine.config_validator.validate_config("opp", self.machine.config['opp'])
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpf\core\config_validator.py", line 357, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "opp:config_number_format", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-08-25 16:16:20,416 : INFO : root : MPF run loop ended.

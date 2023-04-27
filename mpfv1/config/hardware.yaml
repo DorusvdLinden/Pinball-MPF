@@ -13,16 +13,38 @@ mpf-mc:
 
 
 lights:
-  led1:
+  led_t1:
     number: 0-0-0
     subtype: led
     type: grb
-  led2:
+  led_t2:
     number: 0-0-1
     subtype: led
     type: grb
-  led3:
+  led_t3:
     number: 0-0-2
+    subtype: led
+    type: grb
+
+
+  led_b1:
+    number: 0-0-3
+    subtype: led
+    type: grb
+  led_b2:
+    number: 0-0-4
+    subtype: led
+    type: grb
+  led_b3:
+    number: 0-0-5
+    subtype: led
+    type: grb
+  led_b4:
+    number: 0-0-6
+    subtype: led
+    type: grb
+  led_b5:
+    number: 0-0-7
     subtype: led
     type: grb
 

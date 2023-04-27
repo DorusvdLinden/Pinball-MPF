@@ -16,7 +16,7 @@ c:\Python27\Python.exe -m cyflash.__main__ --serial COM7 --serial_baudrate 11520
 // 2led2inp.py
 
 now upload config:
-cd C:\Users\dorus\OneDrive\Documents\Pinball\OPP\Python OOP\Gen2Test
+cd C:\Users\dorus\OneDrive\Documents\Pinball\OPP - open-pinball-project-code-r300-trunk\open-pinball-project-code-r300-trunk\Python\Gen2Test
 c:\Python27\Python.exe -m Gen2Test.py -port=COM7
 
 c:\Python27\Python.exe -m Gen2Test.py -port=COM7 -eraseCfg    // do not forget this first!!!!
@@ -79,11 +79,12 @@ The setup.py file also specifies a console_scripts entry point called mpf. This 
 
 how to run:
 
-c:\pinball\Pinball-MPF\mpfv1\pinballrun.bat
+
+C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\pinballrun.bat
 
 or individually
 
-cd C:\pinball\Pinball-MPF\mpfv1
+cd C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1
 
 C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe -m mpf monitor
 

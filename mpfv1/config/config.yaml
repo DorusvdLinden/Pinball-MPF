@@ -50,4 +50,10 @@ modes:
 - lanes
 
 
-
+player_vars:
+  top_lane_hits:
+    initial_value: 0
+    value_type: int
+  bottom_lane_hits:
+    initial_value: 0
+    value_type: int

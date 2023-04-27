@@ -1,0 +1,24 @@
+#show_version=5
+
+- duration: -1
+  slides: 
+    layout_main:
+      target: window
+    player_slide:
+      target: Disp_Player
+    empty_slide_2:
+      slide: empty_slide
+      target: Disp_Menu
+    ball_slide:
+      target: Disp_Ball
+    empty_slide_3:
+      slide: empty_slide
+      target: Disp_Message 
+    empty_slide_5:
+      slide: empty_slide
+      target: Disp_Counter
+    score_slide:
+      target: Disp_Score
+    empty_slide_6:
+      slide: empty_slide
+      target: Disp_Icons

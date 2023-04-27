@@ -1,0 +1,233 @@
+2022-10-22 18:56:10,401 : kivy : Factory: 186 symbols loaded
+2022-10-22 18:56:10,577 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-22 18:56:10,577 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-22 18:56:10,628 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-22 18:56:10,629 : kivy : Video: Provider: gstplayer
+2022-10-22 18:56:11,051 : kivy : Loading MPF-MC controller
+2022-10-22 18:56:11,057 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-22 18:56:11,058 : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-22 18:56:11,069 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-22 18:56:11,118 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-22 18:56:11,118 : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.
+2022-10-22 18:56:11,121 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-22 18:56:11,161 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-22 18:56:11,170 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-22 18:56:11,173 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-22 18:56:11,180 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-22 18:56:11,198 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-22 18:56:11,201 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\light_shows.yaml
+2022-10-22 18:56:11,203 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\7e51f468519621fe47191f26eea0f791.mpf_cache
+2022-10-22 18:56:11,204 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\69e5e641cece6cfbb9f28306d01595e4.mpf_cache
+2022-10-22 18:56:11,205 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-22 18:56:11,206 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8f8558ef7eb783a34103d845cb15f27a.mpf_cache
+2022-10-22 18:56:11,206 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3f4ec0fd6e14e835699e1ee64ae7815f.mpf_cache
+2022-10-22 18:56:11,207 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07450fdcdb716b1c510f1f1f728b03da.mpf_cache
+2022-10-22 18:56:11,207 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-22 18:56:11,207 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-22 18:56:11,207 : mpfmc : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1
+2022-10-22 18:56:11,207 : mpfmc : Starting clock at 60.0Hz
+2022-10-22 18:56:11,232 : kivy : Text: Provider: sdl2
+2022-10-22 18:56:11,332 : kivy : Window: Provider: sdl2
+2022-10-22 18:56:11,487 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-22 18:56:11,488 : kivy : GL: GLEW initialization succeeded
+2022-10-22 18:56:11,489 : kivy : GL: Backend used <glew>
+2022-10-22 18:56:11,489 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-10-22 18:56:11,489 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-10-22 18:56:11,489 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-10-22 18:56:11,489 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-22 18:56:11,489 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-10-22 18:56:11,489 : kivy : GL: Texture max size <16384>
+2022-10-22 18:56:11,489 : kivy : GL: Texture max units <32>
+2022-10-22 18:56:11,526 : kivy : Window: auto add sdl2 input provider
+2022-10-22 18:56:11,527 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-22 18:56:11,752 : AudioInterface : Initialized
+2022-10-22 18:56:11,752 : AudioInterface : Loaded SDL 2.0.12
+2022-10-22 18:56:11,752 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-22 18:56:11,752 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-22 18:56:11,752 : AudioInterface : Loaded GLib 2.62.6
+2022-10-22 18:56:11,752 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-22 18:56:11,752 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-22 18:56:11,752 : SoundSystem : Setting master volume to 0.0
+2022-10-22 18:56:11,753 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-22 18:56:11,753 : AudioInterface : Enabling audio playback
+2022-10-22 18:56:11,754 : kivy : Base: Start application main loop
+2022-10-22 18:56:11,755 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-10-22 18:56:11,755 : EventManager : Event: ======'display_upper_left_initialized'====== Args={}
+2022-10-22 18:56:11,755 : EventManager : Event: ======'display_upper_right_initialized'====== Args={}
+2022-10-22 18:56:11,755 : EventManager : Event: ======'display_lower_left_initialized'====== Args={}
+2022-10-22 18:56:11,756 : EventManager : Event: ======'display_lower_right_initialized'====== Args={}
+2022-10-22 18:56:11,769 : mpfmc : Display: Setting 'window' as default display
+2022-10-22 18:56:11,776 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-22 18:56:11,777 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-10-22 18:56:11,777 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-10-22 18:56:11,777 : EventManager : Event: ======'slide_upper_left_blank_created'====== Args={}
+2022-10-22 18:56:11,778 : EventManager : Event: ======'display_upper_left_ready'====== Args={}
+2022-10-22 18:56:11,778 : EventManager : Event: ======'slide_upper_right_blank_created'====== Args={}
+2022-10-22 18:56:11,778 : EventManager : Event: ======'display_upper_right_ready'====== Args={}
+2022-10-22 18:56:11,779 : EventManager : Event: ======'slide_lower_left_blank_created'====== Args={}
+2022-10-22 18:56:11,779 : EventManager : Event: ======'display_lower_left_ready'====== Args={}
+2022-10-22 18:56:11,780 : EventManager : Event: ======'slide_lower_right_blank_created'====== Args={}
+2022-10-22 18:56:11,781 : EventManager : Event: ======'display_lower_right_ready'====== Args={}
+2022-10-22 18:56:11,790 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-22 18:56:11,800 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-10-22 18:56:11,800 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-22 18:56:11,805 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-22 18:56:11,809 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-22 18:56:11,809 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-22 18:56:11,849 : kivy : GL: NPOT texture support is available
+2022-10-22 18:56:11,870 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-22 18:56:11,871 : AssetManager : Asset loading took: 0.11780858039855957
+2022-10-22 18:56:11,871 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-22 18:56:11,871 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-22 18:56:11,871 : EventManager : Event: ======'init_done'====== Args={}
+2022-10-22 18:56:11,871 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-10-22 18:56:11,875 : MPF-MC BCP Server : Waiting for a connection...
+2022-10-22 18:56:11,875 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2022-10-22 18:56:11,884 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-10-22 18:56:11,886 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-10-22 18:56:11,891 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-10-22 18:56:12,629 : MPF-MC BCP Server : Received connection from: 127.0.0.1:63494
+2022-10-22 18:56:12,633 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 63494}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,645 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,646 : SoundSystem : Setting master volume to 0.5
+2022-10-22 18:56:12,744 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,757 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,757 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 23622.222222222223, 'top': [41000, 33100, 31800, 31200, 27600, 20200, 17500, 10200, 0], 'total': 9}, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,757 : EventManager : Event: ======'machine_var_audits_shots_lane_top_1'====== Args={'value': 130, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,757 : EventManager : Event: ======'machine_var_audits_shots_lane_top_2'====== Args={'value': 122, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_shots_lane_top_3'====== Args={'value': 102, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_shots_orbit'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_shots_spinner'====== Args={'value': 178, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,758 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,759 : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 55, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_orbit1'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_orbit2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 94, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,760 : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 271, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 217, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 129, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,761 : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'slides_play'====== Args={'settings': {'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': '_global', 'calling_context': 'init_done', 'priority': 0}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2022-10-22 18:56:12,762 : mpfmc : SlidePlayer: Play called with settings={'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-10-22 18:56:12,762 : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={}
+2022-10-22 18:56:12,766 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2022-10-22 18:56:12,767 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2022-10-22 18:56:12,767 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2022-10-22 18:56:12,767 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2022-10-22 18:56:12,767 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2022-10-22 18:56:12,784 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_4_mini': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide': {'target': 'upper_left', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_2': {'target': 'upper_right', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_3': {'target': 'lower_left', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_4': {'target': 'lower_right', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_2', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 14044.828}
+2022-10-22 18:56:12,784 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_started', 'priority': 0}
+2022-10-22 18:56:12,784 : mpfmc : SlidePlayer: Play called with settings={'layout_4_mini': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide': {'target': 'upper_left', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_2': {'target': 'upper_right', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_3': {'target': 'lower_left', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'slide_4': {'target': 'lower_right', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-10-22 18:56:12,791 : EventManager : Event: ======'slide_layout_4_mini_created'====== Args={}
+2022-10-22 18:56:12,795 : kivy : Base: Leaving application in progress...
+2022-10-22 18:56:12,795 : kivy : Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer.play_from_trigger of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('ef9f5666-2b97-4355-a338-3407bacb4aad'), condition=None, blocking_facility=None) for event slides_play. None is not allowed for McFontLabel.text
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc_config_player.py", line 56, in play_from_trigger
+    self.play(settings=settings, context=context, calling_context=calling_context, priority=priority, **kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\config_players\slide_player.py", line 155, in play
+    target.show_slide(slide_name=slide, key=full_context, play_kwargs=s['tokens'], **s)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\display.py", line 358, in show_slide
+    slide = self.add_slide(name=slide_name,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\display.py", line 316, in add_slide
+    return Slide(mc=self.mc, name=name, target=self.name,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\slide.py", line 68, in __init__
+    widgets = create_widget_objects_from_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\widget.py", line 901, in create_widget_objects_from_config
+    widget_obj = mc.widgets.type_map[widget['type']](
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\widgets\text.py", line 82, in __init__
+    super().__init__(mc=mc, config=config, key=key)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\uix\widget.py", line 107, in __init__
+    setattr(self, k, v)
+  File "kivy\properties.pyx", line 498, in kivy.properties.Property.__set__
+  File "kivy\properties.pyx", line 1527, in kivy.properties.AliasProperty.set
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\widgets\text.py", line 353, in _set_text
+    self._label.text = text
+  File "kivy\properties.pyx", line 498, in kivy.properties.Property.__set__
+  File "kivy\properties.pyx", line 542, in kivy.properties.Property.set
+  File "kivy\properties.pyx", line 533, in kivy.properties.Property.set
+  File "kivy\properties.pyx", line 696, in kivy.properties.StringProperty.check
+  File "kivy\properties.pyx", line 571, in kivy.properties.Property.check
+ValueError: None is not allowed for McFontLabel.text
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\commands\mc.py", line 225, in __init__
+    MpfMc(options=vars(args),
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\core\mc.py", line 572, in tick
+    self.events.process_event_queue()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 779, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer.play_from_trigger of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('ef9f5666-2b97-4355-a338-3407bacb4aad'), condition=None, blocking_facility=None) for event slides_play. None is not allowed for McFontLabel.text
+2022-10-22 18:56:12,799 : kivy : Stopping child threads... (3 remaining)
+2022-10-22 18:56:13,416 : mpfmc : Stopping...
+2022-10-22 18:56:13,416 : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-22 18:56:13,416 : AudioInterface : Disabling audio playback
+2022-10-22 18:56:13,578 : mpfmc : Loop rate 42.22 Hz
+2022-10-22 18:56:13,791 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-10-22 18:56:13,878 : kivy : All child threads stopped.

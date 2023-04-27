@@ -1,0 +1,11 @@
+2022-08-25 16:13:34,689 : kivy : Factory: 186 symbols loaded
+2022-08-25 16:13:34,926 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-25 16:13:34,927 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-25 16:13:35,013 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-25 16:13:35,013 : kivy : Video: Provider: gstplayer
+2022-08-25 16:13:35,537 : kivy : Loading MPF-MC controller
+2022-08-25 16:13:35,543 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-25 16:13:35,544 : ConfigProcessor : Loading config from file c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-25 16:13:35,598 : ConfigProcessor : Loading config: c:\users\dorus\appdata\local\programs\python\python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-25 16:13:35,598 : ConfigProcessor : Loading config from file C:\pinball\ledtest\config\config.
+2022-08-25 16:13:35,605 : ConfigProcessor : Loading config: C:\pinball\ledtest\config\config

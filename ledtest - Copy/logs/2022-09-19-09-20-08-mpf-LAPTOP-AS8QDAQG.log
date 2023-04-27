@@ -1,0 +1,6 @@
+2022-09-19 09:20:08,083 : INFO : root : Loading config.
+2022-09-19 09:20:08,086 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-19 09:20:08,086 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\ledtest\config\config.yaml
+2022-09-19 09:20:08,086 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-19 09:20:08,151 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-19 09:20:08,152 : INFO : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\ledtest\config\config.yaml.

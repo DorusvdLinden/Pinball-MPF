@@ -3,8 +3,9 @@ events:
   game_started: 1
 player:
   score:
-    average: 26575.0
+    average: 29309.090909090908
     top:
+    - 106800
     - 41000
     - 33100
     - 31800
@@ -13,50 +14,56 @@ player:
     - 20200
     - 17500
     - 10200
-    total: 8
+    - 3000
+    total: 11
 shots:
-  lane_top_1: 130
-  lane_top_2: 122
-  lane_top_3: 102
+  lane_bottom_1: 16
+  lane_bottom_2: 16
+  lane_bottom_3: 17
+  lane_bottom_4: 16
+  lane_bottom_5: 15
+  lane_top_1: 184
+  lane_top_2: 181
+  lane_top_3: 148
   orbit: 23
-  spinner: 178
+  spinner: 186
 switches:
-  s_bottomlane1: 15
-  s_bottomlane2: 28
-  s_bottomlane3: 26
-  s_bottomlane4: 33
-  s_bottomlane5: 13
-  s_drop1: 35
-  s_drop2: 17
-  s_drop3: 15
+  s_bottomlane1: 31
+  s_bottomlane2: 44
+  s_bottomlane3: 166
+  s_bottomlane4: 50
+  s_bottomlane5: 28
+  s_drop1: 36
+  s_drop2: 18
+  s_drop3: 18
   s_launch: 11
-  s_left01: 26
-  s_left02: 27
-  s_left03: 20
-  s_left_sling: 55
+  s_left01: 27
+  s_left02: 28
+  s_left03: 21
+  s_left_sling: 62
   s_orbit1: 45
   s_orbit2: 0
-  s_plunger_lane: 91
-  s_popbumber_1: 58
-  s_popbumber_2: 94
-  s_popbumber_3: 35
-  s_ramp: 34
-  s_right_sling: 109
-  s_rigth01: 54
-  s_rigth02: 23
-  s_rigth03: 14
-  s_spinner: 271
-  s_start: 0
+  s_plunger_lane: 145
+  s_popbumber_1: 75
+  s_popbumber_2: 110
+  s_popbumber_3: 65
+  s_ramp: 41
+  s_right_sling: 120
+  s_rigth01: 59
+  s_rigth02: 24
+  s_rigth03: 16
+  s_spinner: 279
+  s_start: 5
   s_top: 11
-  s_toplane1: 217
-  s_toplane2: 129
-  s_toplane3: 109
-  s_trough1: 31
-  s_trough2: 34
-  s_trough3: 26
-  s_trough4: 39
-  s_trough5: 25
+  s_toplane1: 271
+  s_toplane2: 188
+  s_toplane3: 156
+  s_trough1: 41
+  s_trough2: 37
+  s_trough3: 27
+  s_trough4: 40
+  s_trough5: 29
   s_trough6: 24
-  s_trough_jam: 26
-  s_vukmid: 46
-  s_vuktop: 12
+  s_trough_jam: 27
+  s_vukmid: 48
+  s_vuktop: 16

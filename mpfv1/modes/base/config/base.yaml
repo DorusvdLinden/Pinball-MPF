@@ -3,8 +3,8 @@ mode:
     start_events: ball_starting
     priority: 100
     
-slide_player:
-  mode_base_started: mode_base_started_slide
+show_player:
+  mode_base_started: base_show
         
         
 variable_player:
@@ -19,16 +19,22 @@ variable_player:
     s_popbumber_3_active:        
         score: 100    
 
-        
+    s_toplane1_active:
+        score: 100
+    s_toplane2_active:
+        score: 100
+    s_toplane3_active:
+        score: 100      
     s_bottomlane1_active:
-        score: 1000
+        score: 100
     s_bottomlane2_active:
-        score: 1000
+        score: 100
     s_bottomlane3_active:
-        score: 1000
+        score: 100
     s_bottomlane4_active:
-        score: 1000
-
+        score: 100
+    s_bottomlane5_active:
+        score: 100
 
 
     

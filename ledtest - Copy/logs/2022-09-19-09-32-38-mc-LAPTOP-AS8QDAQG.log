@@ -1,0 +1,17 @@
+2022-09-19 09:32:38,846 : kivy : Factory: 186 symbols loaded
+2022-09-19 09:32:39,086 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-19 09:32:39,087 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-19 09:32:39,170 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-19 09:32:39,171 : kivy : Video: Provider: gstplayer
+2022-09-19 09:32:39,697 : kivy : Loading MPF-MC controller
+2022-09-19 09:32:39,703 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-19 09:32:39,704 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\ledtest\config\config
+2022-09-19 09:32:39,715 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-19 09:32:39,765 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-19 09:32:39,765 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\ledtest\config\config.
+2022-09-19 09:32:39,788 : ConfigProcessor : Loading config: C:\pinball\Pinball-MPF\ledtest\config\config
+2022-09-19 09:32:39,790 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\9eb8c1f2d8352230fbc6ddf11915e0dd.mpf_cache
+2022-09-19 09:32:39,790 : ConfigProcessor : Config file in cache changed: C:\pinball\Pinball-MPF\ledtest\modes\attract\config\attract.yaml
+2022-09-19 09:32:39,790 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2022-09-19 09:32:39,791 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-09-19 09:32:39,791 : ConfigProcessor : Loading config from file C:\pinball\Pinball-MPF\ledtest\modes\attract\config\attract.yaml.

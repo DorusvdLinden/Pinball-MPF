@@ -1,0 +1,93 @@
+2022-09-19 09:30:44,432 : INFO : root : Loading config.
+2022-09-19 09:30:44,436 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-19 09:30:44,436 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2633cffb44c174c9692d362483fbe0d1.mpf_cache
+2022-09-19 09:30:44,518 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\f9543654f8bd3e40e0379f203a04ac1e.mpf_cache
+2022-09-19 09:30:44,519 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-09-19 09:30:44,519 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\92b997853be278a4a40861cfcd45547c.mpf_cache
+2022-09-19 09:30:44,521 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\e1e383ae1606cf99aafd971686f9f71c.mpf_cache
+2022-09-19 09:30:44,580 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-09-19 09:30:44,580 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-09-19-09-30-44-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-09-19 09:30:44,580 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2022-09-19 09:30:44,580 : INFO : Machine : Machine path: C:\pinball\Pinball-MPF\ledtest
+2022-09-19 09:30:44,580 : INFO : Machine : Platform: win32
+2022-09-19 09:30:44,580 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2022-09-19 09:30:44,580 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2022-09-19 09:30:44,582 : INFO : Machine : Initialise MPF.
+2022-09-19 09:30:44,754 : INFO : OPP : Connecting to COM10 at 115200bps
+2022-09-19 09:30:44,839 : INFO : OPP : Init of OPP board 0 done
+2022-09-19 09:30:44,839 : INFO : OPP : Connecting to COM11 at 115200bps
+2022-09-19 09:30:44,931 : INFO : OPP : Init of OPP board 1 done
+2022-09-19 09:30:44,932 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,987 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,988 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,988 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,988 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,998 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,998 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,998 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,999 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,999 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-09-19 09:30:44,999 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-19 09:30:45,033 : INFO : EventManager : Event: ======'drop_target_bank_db_dropbank_up'====== Args={}
+2022-09-19 09:30:45,035 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-19 09:30:45,036 : INFO : SwitchController : Found active switch: ('1-0-1', <Platform.OPP>) <switch.s_trough1>
+2022-09-19 09:30:45,036 : INFO : SwitchController : Found active switch: ('0-0-9', <Platform.OPP>) <switch.s_trough2>
+2022-09-19 09:30:45,036 : INFO : SwitchController : Found active switch: ('0-0-10', <Platform.OPP>) <switch.s_trough3>
+2022-09-19 09:30:45,037 : INFO : SwitchController : Found active switch: ('0-0-11', <Platform.OPP>) <switch.s_trough4>
+2022-09-19 09:30:45,037 : INFO : SwitchController : Found active switch: ('1-0-2', <Platform.OPP>) <switch.s_trough5>
+2022-09-19 09:30:45,037 : INFO : SwitchController : Found active switch: ('1-0-3', <Platform.OPP>) <switch.s_trough6>
+2022-09-19 09:30:45,042 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-09-19 09:30:45,045 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-09-19 09:30:47,087 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2022-09-19 09:30:47,088 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2022-09-19 09:30:47,096 : INFO : ball_device.bd_trough : BCH: Initial count: 6
+2022-09-19 09:30:47,097 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-09-19 09:30:47,097 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-09-19 09:30:47,099 : INFO : ball_device.bd_trough : State: idle
+2022-09-19 09:30:47,115 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2022-09-19 09:30:47,115 : INFO : ball_device.bd_plunger : State: idle
+2022-09-19 09:30:47,188 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-19 09:30:47,191 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...d1:" found.')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...d1:" found.')>)>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 211, in _process_step_actions
+    self._show_validation_error('Invalid section "{}:" found.'.format(key), 4)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 184, in _show_validation_error
+    raise ConfigFileError('"{}" >> {}'.format(self.name, msg), error_code, "show", self.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in show: "attract_display_loop" >> Invalid section "led1:" found. Context: attract_display_loop Error Code: CFE-show-4 (https://docs.missionpinball.org/en/0.55/logs/CFE-show-4.html)
+2022-09-19 09:30:47,194 : INFO : Machine : Starting the main run loop.
+2022-09-19 09:30:47,199 : INFO : Machine : Shutting down...
+2022-09-19 09:30:47,200 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-19 09:30:47,202 : ERROR : OPP : Stop called on serial connection COM10
+2022-09-19 09:30:47,203 : ERROR : OPP : Stop called on serial connection COM11
+2022-09-19 09:30:47,205 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\show_controller.py", line 52, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 211, in _process_step_actions
+    self._show_validation_error('Invalid section "{}:" found.'.format(key), 4)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\assets\show.py", line 184, in _show_validation_error
+    raise ConfigFileError('"{}" >> {}'.format(self.name, msg), error_code, "show", self.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in show: "attract_display_loop" >> Invalid section "led1:" found. Context: attract_display_loop Error Code: CFE-show-4 (https://docs.missionpinball.org/en/0.55/logs/CFE-show-4.html)
+2022-09-19 09:30:47,365 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2022-09-19 09:30:47,366 : INFO : root : MPF run loop ended.

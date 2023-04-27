@@ -9,15 +9,29 @@ mode:
 slide_player:
   lanes_top_complete:
     lanes_top_complete_slide:
-      expire: 2s
-
+      target: Disp_Message 
+      expire: 3s
+  lanes_bottom_complete:
+    lanes_bottom_complete_slide:
+      target: Disp_Message 
+      expire: 3s
       
+
+
 
 show_player:
   lanes_top_complete:
-    rainbow: 
+    laneshow: 
       show_tokens:
-        leds: led1, led2, led3
+        leds: led_t1, led_t2, led_t3
+      loops: 3
+      speed: 10
+      priority: 200
+
+  lanes_bottom_complete:
+    laneshow: 
+      show_tokens:
+        leds: led_b1, led_b2, led_b3, led_b4, led_b5
       loops: 3
       speed: 10
       priority: 200
@@ -29,22 +43,47 @@ counters:
     starting_count: 1
     direction: up
     persist_state: false 
-
+  lane_bottom_count:
+    count_events: lanes_bottom_complete
+    events_when_hit: lanes_bottom_done
+    starting_count: 1
+    direction: up
+    persist_state: false 
 
 shots:
   lane_top_1:
     switch: s_toplane1
     show_tokens:
-      light: led1
+      light: led_t1
   lane_top_2:
     switch: s_toplane2
     show_tokens:
-      light: led2
+      light: led_t2
   lane_top_3:
     switch: s_toplane3
     show_tokens:
-      light: led3
-        
+      light: led_t3
+  lane_bottom_1:
+    switch: s_bottomlane1
+    show_tokens:
+      light: led_b1
+  lane_bottom_2:
+    switch: s_bottomlane2
+    show_tokens:
+      light: led_b2
+  lane_bottom_3:
+    switch: s_bottomlane3
+    show_tokens:
+      light: led_b3
+  lane_bottom_4:
+    switch: s_bottomlane4
+    show_tokens:
+      light: led_b4
+  lane_bottom_5:
+    switch: s_bottomlane5
+    show_tokens:
+      light: led_b5
+     
 
 
 
@@ -55,6 +94,13 @@ shot_groups:
 #    rotate_right_events: s_right_flipper_active
     reset_events:
       lanes_top_complete: 1s    
+  
+  lanes_bottom:
+    shots: lane_bottom_1, lane_bottom_2, lane_bottom_3, lane_bottom_4, lane_bottom_5
+#    rotate_left_events: s_left_flipper_active
+#    rotate_right_events: s_right_flipper_active
+    reset_events:
+      lanes_bottom_complete: 1s    
 
 
 
@@ -64,6 +110,19 @@ variable_player:
     pf_multiplier:
       int: 1
       action: set
+    top_lane_hits:
+      int: 1
+      action: set
+    pf_multiplier2:
+      int: 1
+      action: set
+    bottom_lane_hits: 
+      int: 1
+      action: set
+  lanes_top_done:
+    top_lane_hits: 1
+  lanes_bottom_done:
+    bottom_lane_hits: 1
   lanes_top_done{count==2}:
     pf_multiplier:
       int: 2
@@ -86,4 +145,26 @@ variable_player:
       action: set
   lanes_top_complete:
     score: 1000 * current_player.pf_multiplier
+  lanes_bottom_done{count==2}:
+    pf_multiplier2:
+      int: 2
+      action: set
+  lanes_bottom_done{count==3}:
+    pf_multiplier2:
+      int: 3
+      action: set
+  lanes_bottom_done{count==4}:
+    pf_multiplier2:
+      int: 4
+      action: set
+  lanes_bottom_done{count==5}:
+    pf_multiplier2:
+      int: 5
+      action: set
+  lanes_bottom_done{count==6}:
+    pf_multiplier2:
+      int: 10
+      action: set
+  lanes_bottom_complete:
+    score: 1000 * current_player.pf_multiplier2
 

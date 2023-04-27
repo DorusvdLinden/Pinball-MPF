@@ -1,0 +1,551 @@
+2022-10-23 15:22:21,197 : kivy : Factory: 186 symbols loaded
+2022-10-23 15:22:21,466 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-10-23 15:22:21,466 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-10-23 15:22:21,536 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-10-23 15:22:21,536 : kivy : Video: Provider: gstplayer
+2022-10-23 15:22:21,952 : kivy : Loading MPF-MC controller
+2022-10-23 15:22:21,969 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-10-23 15:22:21,970 : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-23 15:22:21,970 : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-10-23 15:22:22,029 : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpfmc\mcconfig.yaml
+2022-10-23 15:22:22,030 : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config.
+2022-10-23 15:22:22,037 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\config
+2022-10-23 15:22:22,094 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\hardware.yaml
+2022-10-23 15:22:22,119 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\sounds.yaml
+2022-10-23 15:22:22,130 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\display.yaml
+2022-10-23 15:22:22,142 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\keyboard.yaml
+2022-10-23 15:22:22,174 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\slides.yaml
+2022-10-23 15:22:22,181 : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1\config\light_shows.yaml
+2022-10-23 15:22:22,185 : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\7e51f468519621fe47191f26eea0f791.mpf_cache
+2022-10-23 15:22:22,186 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\69e5e641cece6cfbb9f28306d01595e4.mpf_cache
+2022-10-23 15:22:22,187 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2022-10-23 15:22:22,187 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8f8558ef7eb783a34103d845cb15f27a.mpf_cache
+2022-10-23 15:22:22,188 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\3f4ec0fd6e14e835699e1ee64ae7815f.mpf_cache
+2022-10-23 15:22:22,189 : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\07450fdcdb716b1c510f1f1f728b03da.mpf_cache
+2022-10-23 15:22:22,190 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-10-23 15:22:22,190 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-10-23 15:22:22,190 : mpfmc : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\mpfv1
+2022-10-23 15:22:22,190 : mpfmc : Starting clock at 60.0Hz
+2022-10-23 15:22:22,207 : kivy : Text: Provider: sdl2
+2022-10-23 15:22:22,293 : kivy : Window: Provider: sdl2
+2022-10-23 15:22:22,510 : kivy : GL: Using the "OpenGL" graphics system
+2022-10-23 15:22:22,512 : kivy : GL: GLEW initialization succeeded
+2022-10-23 15:22:22,513 : kivy : GL: Backend used <glew>
+2022-10-23 15:22:22,513 : kivy : GL: OpenGL version <b'4.6.0 - Build 26.20.100.7372'>
+2022-10-23 15:22:22,513 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-10-23 15:22:22,513 : kivy : GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+2022-10-23 15:22:22,513 : kivy : GL: OpenGL parsed version: 4, 6
+2022-10-23 15:22:22,513 : kivy : GL: Shading version <b'4.60 - Build 26.20.100.7372'>
+2022-10-23 15:22:22,514 : kivy : GL: Texture max size <16384>
+2022-10-23 15:22:22,514 : kivy : GL: Texture max units <32>
+2022-10-23 15:22:22,589 : kivy : Window: auto add sdl2 input provider
+2022-10-23 15:22:22,590 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-10-23 15:22:22,881 : AudioInterface : Initialized
+2022-10-23 15:22:22,881 : AudioInterface : Loaded SDL 2.0.12
+2022-10-23 15:22:22,881 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-10-23 15:22:22,881 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-10-23 15:22:22,881 : AudioInterface : Loaded GLib 2.62.6
+2022-10-23 15:22:22,881 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-10-23 15:22:22,881 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-10-23 15:22:22,881 : SoundSystem : Setting master volume to 0.0
+2022-10-23 15:22:22,881 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-10-23 15:22:22,881 : AudioInterface : Enabling audio playback
+2022-10-23 15:22:22,883 : kivy : Base: Start application main loop
+2022-10-23 15:22:22,883 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Player_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Menu_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Ball_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Message_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Counter_initialized'====== Args={}
+2022-10-23 15:22:22,884 : EventManager : Event: ======'display_Disp_Score_initialized'====== Args={}
+2022-10-23 15:22:22,885 : EventManager : Event: ======'display_Disp_Icons_initialized'====== Args={}
+2022-10-23 15:22:22,897 : mpfmc : Display: Setting 'window' as default display
+2022-10-23 15:22:22,907 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-10-23 15:22:22,907 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-10-23 15:22:22,909 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-10-23 15:22:22,910 : EventManager : Event: ======'slide_Disp_Player_blank_created'====== Args={}
+2022-10-23 15:22:22,910 : EventManager : Event: ======'display_Disp_Player_ready'====== Args={}
+2022-10-23 15:22:22,911 : EventManager : Event: ======'slide_Disp_Menu_blank_created'====== Args={}
+2022-10-23 15:22:22,911 : EventManager : Event: ======'display_Disp_Menu_ready'====== Args={}
+2022-10-23 15:22:22,912 : EventManager : Event: ======'slide_Disp_Ball_blank_created'====== Args={}
+2022-10-23 15:22:22,912 : EventManager : Event: ======'display_Disp_Ball_ready'====== Args={}
+2022-10-23 15:22:22,913 : EventManager : Event: ======'slide_Disp_Message_blank_created'====== Args={}
+2022-10-23 15:22:22,913 : EventManager : Event: ======'display_Disp_Message_ready'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'slide_Disp_Counter_blank_created'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'display_Disp_Counter_ready'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'slide_Disp_Score_blank_created'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'display_Disp_Score_ready'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'slide_Disp_Icons_blank_created'====== Args={}
+2022-10-23 15:22:22,914 : EventManager : Event: ======'display_Disp_Icons_ready'====== Args={}
+2022-10-23 15:22:22,925 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-10-23 15:22:22,931 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-10-23 15:22:22,931 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-10-23 15:22:22,933 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-10-23 15:22:22,935 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-10-23 15:22:22,935 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-10-23 15:22:22,974 : kivy : GL: NPOT texture support is available
+2022-10-23 15:22:23,010 : EventManager : Event: ======'loading_assets'====== Args={'total': 2, 'loaded': 1, 'remaining': 1, 'percent': 50}
+2022-10-23 15:22:23,010 : AssetManager : Loading assets: 1/2 (50%)
+2022-10-23 15:22:23,037 : EventManager : Event: ======'loading_assets'====== Args={'total': 2, 'loaded': 2, 'remaining': 0, 'percent': 100}
+2022-10-23 15:22:23,038 : AssetManager : Asset loading took: 0.15617632865905762
+2022-10-23 15:22:23,038 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:22:23,038 : AssetManager : Loading assets: 2/2 (100%)
+2022-10-23 15:22:23,038 : EventManager : Event: ======'init_done'====== Args={}
+2022-10-23 15:22:23,038 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-10-23 15:22:23,044 : MPF-MC BCP Server : Waiting for a connection...
+2022-10-23 15:22:23,045 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-10-23 15:22:23,285 : MPF-MC BCP Server : Received connection from: 127.0.0.1:53533
+2022-10-23 15:22:23,294 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 53533}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 106800, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,306 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,307 : SoundSystem : Setting master volume to 0.5
+2022-10-23 15:22:23,382 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 31940.0, 'top': [106800, 41000, 33100, 31800, 31200, 27600, 20200, 17500, 10200, 0], 'total': 10}, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_shots_lane_top_1'====== Args={'value': 140, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_shots_lane_top_2'====== Args={'value': 129, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_shots_lane_top_3'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_shots_orbit'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_shots_spinner'====== Args={'value': 178, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane1'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane2'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 145, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane4'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane5'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,394 : EventManager : Event: ======'machine_var_audits_switches_s_drop1'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_drop2'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_drop3'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_left01'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_left02'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_left03'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_orbit1'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_orbit2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 112, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_1'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_3'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 120, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_rigth01'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_rigth02'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_rigth03'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,395 : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 271, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 227, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_toplane2'====== Args={'value': 136, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_toplane3'====== Args={'value': 116, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_vukmid'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,396 : EventManager : Event: ======'machine_var_audits_switches_s_vuktop'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2022-10-23 15:22:23,406 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2022-10-23 15:22:23,406 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2022-10-23 15:22:23,406 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2022-10-23 15:22:23,406 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2022-10-23 15:22:23,418 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_1': {'slide': 'empty_slide', 'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'press_start': {'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'Title_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_2', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 8778.093}
+2022-10-23 15:22:23,418 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_started', 'priority': 0}
+2022-10-23 15:22:23,418 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_1': {'slide': 'empty_slide', 'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'press_start': {'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'Title_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:22:23,426 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:22:23,432 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:23,435 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:23,438 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:23,443 : EventManager : Event: ======'slide_press_start_created'====== Args={}
+2022-10-23 15:22:23,447 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:23,450 : EventManager : Event: ======'slide_Title_slide_created'====== Args={}
+2022-10-23 15:22:23,454 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:23,466 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:22:23,490 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:23,491 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:23,492 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:23,493 : EventManager : Event: ======'slide_press_start_active'====== Args={}
+2022-10-23 15:22:23,494 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:23,495 : EventManager : Event: ======'slide_Title_slide_active'====== Args={}
+2022-10-23 15:22:23,496 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:23,515 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-23 15:22:23,515 : AssetManager : Asset loading took: 0.6334185600280762
+2022-10-23 15:22:23,515 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:22:23,515 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-23 15:22:25,417 : EventManager : Event: ======'game_started'====== Args={}
+2022-10-23 15:22:25,429 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_2'}
+2022-10-23 15:22:25,429 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_stopped', 'priority': 0}
+2022-10-23 15:22:25,429 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:22:25,430 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:25,430 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:25,430 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:25,431 : EventManager : Event: ======'slide_press_start_removed'====== Args={}
+2022-10-23 15:22:25,431 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:25,431 : EventManager : Event: ======'slide_Title_slide_removed'====== Args={}
+2022-10-23 15:22:25,431 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:25,433 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:22:25,433 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:22:25,433 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:22:25,433 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:22:25,434 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:22:25,434 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:22:25,434 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:22:25,434 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:22:25,442 : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2022-10-23 15:22:25,442 : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-23 15:22:25,442 : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2022-10-23 15:22:25,442 : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'player_turn_start'====== Args={'number': 1, 'player': <Player 1>}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'player_shot_spinner_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'player_shot_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_5', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8780.156}
+2022-10-23 15:22:25,467 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-23 15:22:25,467 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:22:25,476 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:22:25,479 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:22:25,484 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:25,487 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:22:25,493 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:25,498 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:25,503 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:22:25,508 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:25,538 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:22:25,539 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:22:25,541 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:25,542 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:22:25,543 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:25,545 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:25,545 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:22:25,546 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:25,553 : EventManager : Event: ======'player_shot_lane_top_1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,553 : EventManager : Event: ======'player_shot_lane_top_2_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,554 : EventManager : Event: ======'player_shot_lane_top_3_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,554 : EventManager : Event: ======'player_pf_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:25,555 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-23 15:22:25,555 : AssetManager : Asset loading took: 2.6732122898101807
+2022-10-23 15:22:25,556 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:22:25,556 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-23 15:22:25,603 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 113, 'prev_value': 112, 'change': 1}
+2022-10-23 15:22:29,715 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2022-10-23 15:22:29,715 : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 0, 'change': 1000, 'player_num': 1}
+2022-10-23 15:22:31,389 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2022-10-23 15:22:31,909 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_5'}
+2022-10-23 15:22:31,909 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_stopped', 'priority': 0}
+2022-10-23 15:22:31,909 : EventManager : Event: ======'slides_clear'====== Args={'context': 'lanes'}
+2022-10-23 15:22:31,910 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:22:31,911 : EventManager : Event: ======'slide_player_slide_removed'====== Args={}
+2022-10-23 15:22:31,911 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:31,912 : EventManager : Event: ======'slide_ball_slide_removed'====== Args={}
+2022-10-23 15:22:31,912 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:31,913 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:31,913 : EventManager : Event: ======'slide_score_slide_removed'====== Args={}
+2022-10-23 15:22:31,914 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:31,914 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:22:31,915 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:22:31,916 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:22:31,943 : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:31,955 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_16', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8786.64}
+2022-10-23 15:22:31,956 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2022-10-23 15:22:31,956 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:22:31,965 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:22:31,969 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:22:31,975 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:31,979 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:22:31,982 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:31,985 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:31,992 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:22:31,996 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:32,016 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:22:32,018 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:22:32,019 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:32,020 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:22:32,021 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:32,023 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:32,024 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:22:32,024 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:32,031 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-23 15:22:32,031 : AssetManager : Asset loading took: 9.149180889129639
+2022-10-23 15:22:32,032 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:22:32,032 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-23 15:22:32,108 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 114, 'prev_value': 113, 'change': 1}
+2022-10-23 15:22:39,855 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2022-10-23 15:22:39,868 : EventManager : Event: ======'player_score'====== Args={'value': 2000, 'prev_value': 1000, 'change': 1000, 'player_num': 1}
+2022-10-23 15:22:41,217 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2022-10-23 15:22:41,753 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_16'}
+2022-10-23 15:22:41,754 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:22:41,755 : EventManager : Event: ======'slide_player_slide_removed'====== Args={}
+2022-10-23 15:22:41,755 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:41,756 : EventManager : Event: ======'slide_ball_slide_removed'====== Args={}
+2022-10-23 15:22:41,756 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:41,756 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:41,757 : EventManager : Event: ======'slide_score_slide_removed'====== Args={}
+2022-10-23 15:22:41,757 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:41,757 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:22:41,758 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:22:41,758 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:22:41,758 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:22:41,758 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:22:41,759 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:22:41,759 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:22:41,760 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:22:41,761 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_stopped', 'priority': 0}
+2022-10-23 15:22:41,762 : EventManager : Event: ======'slides_clear'====== Args={'context': 'lanes'}
+2022-10-23 15:22:41,798 : EventManager : Event: ======'player_ball'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2022-10-23 15:22:41,798 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_27', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8796.484}
+2022-10-23 15:22:41,798 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2022-10-23 15:22:41,798 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:22:41,806 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:22:41,810 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:22:41,814 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:41,817 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:22:41,822 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:41,825 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:41,830 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:22:41,834 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:41,848 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:22:41,849 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:22:41,850 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:41,852 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:22:41,853 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:41,854 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:41,855 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:22:41,856 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:41,979 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 115, 'prev_value': 114, 'change': 1}
+2022-10-23 15:22:46,391 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2022-10-23 15:22:46,403 : EventManager : Event: ======'player_score'====== Args={'value': 3000, 'prev_value': 2000, 'change': 1000, 'player_num': 1}
+2022-10-23 15:22:48,391 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2022-10-23 15:22:50,648 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2022-10-23 15:22:51,154 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_27'}
+2022-10-23 15:22:51,154 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:22:51,155 : EventManager : Event: ======'slide_player_slide_removed'====== Args={}
+2022-10-23 15:22:51,157 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:51,157 : EventManager : Event: ======'slide_ball_slide_removed'====== Args={}
+2022-10-23 15:22:51,158 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:51,159 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:51,160 : EventManager : Event: ======'slide_score_slide_removed'====== Args={}
+2022-10-23 15:22:51,161 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:22:51,162 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:22:51,162 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:22:51,162 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:22:51,162 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:22:51,162 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:22:51,163 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:22:51,163 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:22:51,164 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:22:51,167 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_stopped', 'priority': 0}
+2022-10-23 15:22:51,168 : EventManager : Event: ======'slides_clear'====== Args={'context': 'lanes'}
+2022-10-23 15:22:51,204 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 3000, 'prev_value': 106800, 'change': -103800}
+2022-10-23 15:22:51,217 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_1': {'slide': 'empty_slide', 'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'press_start': {'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'Title_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_37', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 8805.89}
+2022-10-23 15:22:51,217 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_started', 'priority': 0}
+2022-10-23 15:22:51,217 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_1': {'slide': 'empty_slide', 'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'press_start': {'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'Title_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:22:51,228 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:22:51,231 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:51,236 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:51,239 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:51,243 : EventManager : Event: ======'slide_press_start_created'====== Args={}
+2022-10-23 15:22:51,247 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:51,251 : EventManager : Event: ======'slide_Title_slide_created'====== Args={}
+2022-10-23 15:22:51,254 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:22:51,265 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:22:51,288 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:51,289 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:51,290 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:51,291 : EventManager : Event: ======'slide_press_start_active'====== Args={}
+2022-10-23 15:22:51,292 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:51,293 : EventManager : Event: ======'slide_Title_slide_active'====== Args={}
+2022-10-23 15:22:51,294 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:22:51,300 : EventManager : Event: ======'game_ended'====== Args={}
+2022-10-23 15:22:51,301 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-23 15:22:51,301 : AssetManager : Asset loading took: 28.418739795684814
+2022-10-23 15:22:51,301 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:22:51,301 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-23 15:23:14,275 : EventManager : Event: ======'game_started'====== Args={}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_37'}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicslow': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_attract_stopped', 'priority': 0}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-10-23 15:23:14,287 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:23:14,288 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:14,288 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:14,288 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:14,288 : EventManager : Event: ======'slide_press_start_removed'====== Args={}
+2022-10-23 15:23:14,289 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:14,289 : EventManager : Event: ======'slide_Title_slide_removed'====== Args={}
+2022-10-23 15:23:14,289 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:14,289 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:23:14,290 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:23:14,290 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:23:14,291 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:23:14,291 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:23:14,291 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:23:14,292 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:23:14,292 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:23:14,318 : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,318 : EventManager : Event: ======'player_turn_start'====== Args={'number': 1, 'player': <Player 1>}
+2022-10-23 15:23:14,330 : EventManager : Event: ======'player_shot_spinner_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,331 : EventManager : Event: ======'player_shot_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,331 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_40', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8829.015}
+2022-10-23 15:23:14,331 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-23 15:23:14,331 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:23:14,345 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:23:14,349 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:23:14,354 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:14,364 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:23:14,368 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:14,372 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:14,377 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:23:14,419 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:14,431 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:23:14,439 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:23:14,440 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:14,441 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:23:14,442 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:14,443 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:14,444 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:23:14,444 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:14,451 : EventManager : Event: ======'player_shot_lane_top_1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,452 : EventManager : Event: ======'player_shot_lane_top_2_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,452 : EventManager : Event: ======'player_shot_lane_top_3_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,452 : EventManager : Event: ======'player_pf_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:14,453 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2022-10-23 15:23:14,453 : AssetManager : Asset loading took: 51.571240186691284
+2022-10-23 15:23:14,453 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-10-23 15:23:14,453 : AssetManager : Loading assets: 1/1 (100%)
+2022-10-23 15:23:14,490 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 116, 'prev_value': 115, 'change': 1}
+2022-10-23 15:23:15,864 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 3, 'prev_value': 2, 'change': 1}
+2022-10-23 15:23:15,864 : EventManager : Event: ======'player_added'====== Args={'player': <Player 2>, 'num': 2}
+2022-10-23 15:23:15,864 : EventManager : Event: ======'player_index'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 2}
+2022-10-23 15:23:15,864 : EventManager : Event: ======'player_number'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 2}
+2022-10-23 15:23:15,864 : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 2}
+2022-10-23 15:23:21,288 : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 228, 'prev_value': 227, 'change': 1}
+2022-10-23 15:23:21,288 : EventManager : Event: ======'player_shot_lane_top_1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:21,288 : EventManager : Event: ======'machine_var_audits_shots_lane_top_1'====== Args={'value': 141, 'prev_value': 140, 'change': 1}
+2022-10-23 15:23:23,269 : EventManager : Event: ======'machine_var_audits_switches_s_bottomlane3'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2022-10-23 15:23:23,269 : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 0, 'change': 1000, 'player_num': 1}
+2022-10-23 15:23:26,242 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2022-10-23 15:23:26,749 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_40'}
+2022-10-23 15:23:26,749 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_stopped', 'priority': 0}
+2022-10-23 15:23:26,749 : EventManager : Event: ======'slides_clear'====== Args={'context': 'lanes'}
+2022-10-23 15:23:26,750 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:23:26,750 : EventManager : Event: ======'slide_player_slide_removed'====== Args={}
+2022-10-23 15:23:26,750 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:26,750 : EventManager : Event: ======'slide_ball_slide_removed'====== Args={}
+2022-10-23 15:23:26,751 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:26,751 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:26,751 : EventManager : Event: ======'slide_score_slide_removed'====== Args={}
+2022-10-23 15:23:26,751 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:26,752 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:23:26,752 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:23:26,752 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:23:26,752 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:23:26,752 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:23:26,753 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:23:26,753 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:23:26,753 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:23:26,786 : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,786 : EventManager : Event: ======'player_turn_start'====== Args={'number': 2, 'player': <Player 2>}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'player_shot_spinner_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'player_shot_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_52', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8841.484}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 2, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'player_shot_lane_top_1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'player_shot_lane_top_2_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,798 : EventManager : Event: ======'player_shot_lane_top_3_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,799 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:23:26,807 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:23:26,811 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:23:26,814 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:26,819 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:23:26,823 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:26,830 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:26,834 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:23:26,838 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:26,850 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:23:26,852 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:23:26,853 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:26,854 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:23:26,856 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:26,857 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:26,859 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:23:26,860 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:26,863 : EventManager : Event: ======'player_pf_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:26,965 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 117, 'prev_value': 116, 'change': 1}
+2022-10-23 15:23:31,385 : EventManager : Event: ======'machine_var_audits_switches_s_toplane1'====== Args={'value': 229, 'prev_value': 228, 'change': 1}
+2022-10-23 15:23:31,398 : EventManager : Event: ======'player_shot_lane_top_1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 2}
+2022-10-23 15:23:31,398 : EventManager : Event: ======'machine_var_audits_shots_lane_top_1'====== Args={'value': 142, 'prev_value': 141, 'change': 1}
+2022-10-23 15:23:33,259 : EventManager : Event: ======'machine_var_audits_switches_s_popbumber_2'====== Args={'value': 110, 'prev_value': 109, 'change': 1}
+2022-10-23 15:23:33,259 : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 0, 'change': 100, 'player_num': 2}
+2022-10-23 15:23:35,275 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2022-10-23 15:23:35,780 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_52'}
+2022-10-23 15:23:35,780 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_stopped', 'priority': 0}
+2022-10-23 15:23:35,780 : EventManager : Event: ======'slides_clear'====== Args={'context': 'lanes'}
+2022-10-23 15:23:35,781 : EventManager : Event: ======'slide_layout_main_removed'====== Args={}
+2022-10-23 15:23:35,782 : EventManager : Event: ======'slide_player_slide_removed'====== Args={}
+2022-10-23 15:23:35,782 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:35,783 : EventManager : Event: ======'slide_ball_slide_removed'====== Args={}
+2022-10-23 15:23:35,783 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:35,784 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:35,784 : EventManager : Event: ======'slide_score_slide_removed'====== Args={}
+2022-10-23 15:23:35,784 : EventManager : Event: ======'slide_empty_slide_removed'====== Args={}
+2022-10-23 15:23:35,785 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-10-23 15:23:35,785 : EventManager : Event: ======'slide_Disp_Player_blank_active'====== Args={}
+2022-10-23 15:23:35,785 : EventManager : Event: ======'slide_Disp_Menu_blank_active'====== Args={}
+2022-10-23 15:23:35,785 : EventManager : Event: ======'slide_Disp_Ball_blank_active'====== Args={}
+2022-10-23 15:23:35,786 : EventManager : Event: ======'slide_Disp_Message_blank_active'====== Args={}
+2022-10-23 15:23:35,786 : EventManager : Event: ======'slide_Disp_Counter_blank_active'====== Args={}
+2022-10-23 15:23:35,786 : EventManager : Event: ======'slide_Disp_Score_blank_active'====== Args={}
+2022-10-23 15:23:35,786 : EventManager : Event: ======'slide_Disp_Icons_blank_active'====== Args={}
+2022-10-23 15:23:35,812 : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2022-10-23 15:23:35,812 : EventManager : Event: ======'player_turn_start'====== Args={'number': 1, 'player': <Player 1>}
+2022-10-23 15:23:35,824 : EventManager : Event: ======'slides_play'====== Args={'settings': {'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_64', 'calling_context': 0, 'priority': 100, 'show_tokens': {}, 'start_time': 8850.5}
+2022-10-23 15:23:35,824 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'musicfast': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0, 'queue': '<QueuedEvent>', 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2022-10-23 15:23:35,825 : mpfmc : SlidePlayer: Play called with settings={'layout_main': {'target': 'window', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'player_slide': {'target': 'Disp_Player', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_2': {'slide': 'empty_slide', 'target': 'Disp_Menu', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'ball_slide': {'target': 'Disp_Ball', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_3': {'slide': 'empty_slide', 'target': 'Disp_Message', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_5': {'slide': 'empty_slide', 'target': 'Disp_Counter', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}, 'score_slide': {'target': 'Disp_Score', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'empty_slide_6': {'slide': 'empty_slide', 'target': 'Disp_Icons', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'tokens': {}, 'action': 'play'}}
+2022-10-23 15:23:35,832 : EventManager : Event: ======'slide_layout_main_created'====== Args={}
+2022-10-23 15:23:35,835 : EventManager : Event: ======'slide_player_slide_created'====== Args={}
+2022-10-23 15:23:35,839 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:35,843 : EventManager : Event: ======'slide_ball_slide_created'====== Args={}
+2022-10-23 15:23:35,847 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:35,851 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:35,857 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-10-23 15:23:35,861 : EventManager : Event: ======'slide_empty_slide_created'====== Args={}
+2022-10-23 15:23:35,872 : EventManager : Event: ======'slide_layout_main_active'====== Args={}
+2022-10-23 15:23:35,873 : EventManager : Event: ======'slide_player_slide_active'====== Args={}
+2022-10-23 15:23:35,874 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:35,875 : EventManager : Event: ======'slide_ball_slide_active'====== Args={}
+2022-10-23 15:23:35,876 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:35,877 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:35,877 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-10-23 15:23:35,878 : EventManager : Event: ======'slide_empty_slide_active'====== Args={}
+2022-10-23 15:23:35,972 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 118, 'prev_value': 117, 'change': 1}
+2022-10-23 15:24:50,221 : kivy : Base: Leaving application in progress...
+2022-10-23 15:24:50,415 : mpfmc : Stopping...
+2022-10-23 15:24:50,416 : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-23 15:24:50,416 : AudioInterface : Disabling audio playback
+2022-10-23 15:24:50,416 : mpfmc : Loop rate 75.86 Hz
+2022-10-23 15:24:50,416 : kivy : MC run loop ended.
+2022-10-23 15:24:50,416 : kivy : Stopping child threads... (3 remaining)
+2022-10-23 15:24:51,024 : mpfmc : Stopping...
+2022-10-23 15:24:51,024 : EventManager : Event: ======'shutdown'====== Args={}
+2022-10-23 15:24:51,025 : mpfmc : Loop rate 75.55 Hz
+2022-10-23 15:24:51,036 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-10-23 15:24:51,066 : kivy : All child threads stopped.

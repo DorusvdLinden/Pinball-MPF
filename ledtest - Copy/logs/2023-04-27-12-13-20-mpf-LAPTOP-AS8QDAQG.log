@@ -1,0 +1,49 @@
+2023-04-27 12:13:20,085 : INFO : root : Loading config.
+2023-04-27 12:13:20,090 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-27 12:13:20,090 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\746ec81b4daa2d0da75c83d96aab4d3b.mpf_cache
+2023-04-27 12:13:20,178 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8a0bfa659085c557a87bd7bffffc57e9.mpf_cache
+2023-04-27 12:13:20,183 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2af2fbde21c8ccb06b52e16890475468.mpf_cache
+2023-04-27 12:13:20,184 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-27 12:13:20,185 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2179cb7b2e2b1bfc9435f75056934701.mpf_cache
+2023-04-27 12:13:20,193 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-04-27 12:13:20,193 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-27-12-13-20-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-27 12:13:20,193 : INFO : Machine : MPF path: C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf
+2023-04-27 12:13:20,193 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-27 12:13:20,193 : INFO : Machine : Platform: win32
+2023-04-27 12:13:20,194 : INFO : Machine : Python executable location: C:\Users\dorus\.local\pipx\venvs\mpf\Scripts\python.exe
+2023-04-27 12:13:20,194 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-27 12:13:20,196 : INFO : Machine : Initialise MPF.
+2023-04-27 12:13:20,368 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-27 12:13:20,370 : INFO : Machine : Shutting down...
+2023-04-27 12:13:20,370 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-27 12:13:20,371 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\machine.py", line 679, in initialise_mpf
+    raise init.exception()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\machine.py", line 246, in initialise
+    await self.initialise_core_and_hardware()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\machine.py", line 242, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\machine.py", line 333, in _initialize_platforms
+    result.result()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\opp\opp.py", line 107, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\opp\opp.py", line 308, in _connect_to_hardware
+    await comm.connect()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 47, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 56, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\clock.py", line 152, in open_serial_connection
+    transport, _ = await create_serial_connection(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python39\lib\asyncio\coroutines.py", line 124, in coro
+    res = func(*args, **kw)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM10': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2023-04-27 12:13:20,479 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2023-04-27 12:13:20,480 : INFO : root : MPF run loop ended.

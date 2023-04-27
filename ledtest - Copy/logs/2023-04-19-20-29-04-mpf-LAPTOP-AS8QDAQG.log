@@ -1,0 +1,259 @@
+2023-04-19 20:29:04,798 : INFO : root : Loading config.
+2023-04-19 20:29:04,802 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-19 20:29:04,803 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml
+2023-04-19 20:29:04,803 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2023-04-19 20:29:04,872 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2023-04-19 20:29:04,873 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml.
+2023-04-19 20:29:04,887 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml
+2023-04-19 20:29:04,889 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\17ff9df2ab5d910b303a2be3ced72189.mpf_cache
+2023-04-19 20:29:04,976 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\62812036f5e42e63682f412e0e802b96.mpf_cache
+2023-04-19 20:29:04,976 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2023-04-19 20:29:04,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-19 20:29:04,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2179cb7b2e2b1bfc9435f75056934701.mpf_cache
+2023-04-19 20:29:04,978 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-04-19 20:29:04,978 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-19-20-29-04-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-19 20:29:04,978 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2023-04-19 20:29:04,978 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-19 20:29:04,978 : INFO : Machine : Platform: win32
+2023-04-19 20:29:04,978 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2023-04-19 20:29:04,978 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2023-04-19 20:29:04,980 : INFO : Machine : Initialise MPF.
+2023-04-19 20:29:05,195 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-19 20:29:05,299 : INFO : OPP : Init of OPP board 4294967295 done
+2023-04-19 20:29:05,299 : INFO : OPP : Connecting to COM11 at 115200bps
+2023-04-19 20:29:05,391 : INFO : OPP : Init of OPP board 1 done
+2023-04-19 20:29:05,392 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,450 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,450 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,450 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,450 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,464 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,464 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,464 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,464 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,464 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-19 20:29:05,465 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-19 20:29:05,478 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_trough_eject in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough_eject in platform. See error above
+2023-04-19 20:29:05,480 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2023-04-19 20:29:05,481 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number led3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number led3 in platform. See error above
+2023-04-19 20:29:05,482 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError("Platform <class 'mpf.platforms.opp.opp.OppHardwarePlatform'> does not support to configure servos. Please make sure the platform you configured for servos actually supports that type of devices.")>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\servo.py", line 36, in _initialize
+    self.platform.assert_has_feature("servos")
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\platform.py", line 67, in assert_has_feature
+    self.raise_config_error("Platform {} does not support to configure {feature_name}. "
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Platform <class 'mpf.platforms.opp.opp.OppHardwarePlatform'> does not support to configure servos. Please make sure the platform you configured for servos actually supports that type of devices. Error Code: CFE-OPP-99 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-99.html)
+2023-04-19 20:29:05,483 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_plunger_lane in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_plunger_lane in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2023-04-19 20:29:05,485 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_launch in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_launch in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2023-04-19 20:29:05,485 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number led1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number led1 in platform. See error above
+2023-04-19 20:29:05,486 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_plunger in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_plunger in platform. See error above
+2023-04-19 20:29:05,487 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to parse light number led2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 237, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 842, in parse_light_number_to_channels
+    full_index = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 313, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\light.py", line 239, in _load_hw_drivers
+    raise AssertionError("Failed to parse light number {} in platform. See error above".
+AssertionError: Failed to parse light number led2 in platform. See error above
+2023-04-19 20:29:05,488 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-19 20:29:05,488 : INFO : Machine : Starting the main run loop.
+2023-04-19 20:29:05,492 : INFO : Machine : Shutting down...
+2023-04-19 20:29:05,492 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-19 20:29:05,493 : ERROR : OPP : Stop called on serial connection COM10
+2023-04-19 20:29:05,493 : ERROR : OPP : Stop called on serial connection COM11
+2023-04-19 20:29:05,503 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SwitchController._initialize_switches() done, defined at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py:80> exception=AttributeError("'NoneType' object has no attribute 'number'")>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py", line 82, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\switch_controller.py", line 104, in update_switches_from_hw
+    switches.add((switch, switch.hw_switch.number))
+AttributeError: 'NoneType' object has no attribute 'number'
+2023-04-19 20:29:05,505 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 107, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 788, in configure_driver
+    number = self._get_dict_index(number)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 770, in _get_dict_index
+    self.raise_config_error("Chain {} does not exist. Existing chains: {}".format(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\logging.py", line 172, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: Chain 0 does not exist. Existing chains: ['4294967295', '1'] Error Code: CFE-OPP-3 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-3.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\devices\driver.py", line 109, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough_eject in platform. See error above
+2023-04-19 20:29:05,623 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2023-04-19 20:29:05,624 : INFO : root : MPF run loop ended.

@@ -1,0 +1,58 @@
+#config_version=5
+
+#
+mpf:
+    report_crashes: "never"
+
+hardware:
+    platform: opp
+    driverboards: gen2
+
+opp:
+    ports: COM10, COM11
+
+machine:
+  balls_installed: 4
+  min_balls: 1
+
+
+
+servos:
+  servo3:
+    servo_min: 0
+    servo_max: 1
+    speed_limit: 80
+    positions:
+      0.392: servo3_up
+      0.784: servo3_down
+    reset_position: 0.588
+    reset_events: reset_servo3, machine_reset_phase_3
+    number: 0-0-10
+
+
+
+slides:
+    welcome_slide:
+        widgets:
+            - type: text
+              text: PINBALL!
+              font_size: 50
+              color: red
+            - type: rectangle
+              width: 240
+              height: 60
+    
+
+
+
+slide_player:
+    init_done: welcome_slide   
+
+modes:
+        - base
+
+
+window:
+    title: MPF OPP Test
+    width: 640
+    height: 480

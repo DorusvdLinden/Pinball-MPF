@@ -1,0 +1,26 @@
+#config_version=5
+
+
+show_player:
+  mode_attract_started: 
+    rainbow:
+      show_tokens:
+        leds: led1, led2
+
+shows:
+  rainbow:
+    - lights:
+        (leds): red
+    - lights:
+        (leds): orange
+    - lights:
+
+        (leds): yellow
+    - lights:
+        (leds): green
+    - lights:
+        (leds): blue
+    - lights:
+        (leds): purple
+      duration: 3s
+

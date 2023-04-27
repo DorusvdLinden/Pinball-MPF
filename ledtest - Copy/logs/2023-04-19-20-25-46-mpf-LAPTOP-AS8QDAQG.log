@@ -1,0 +1,95 @@
+2023-04-19 20:25:46,699 : INFO : root : Loading config.
+2023-04-19 20:25:46,702 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-19 20:25:46,703 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml
+2023-04-19 20:25:46,703 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2023-04-19 20:25:46,762 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2023-04-19 20:25:46,762 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml.
+2023-04-19 20:25:46,788 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml
+2023-04-19 20:25:46,790 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\17ff9df2ab5d910b303a2be3ced72189.mpf_cache
+2023-04-19 20:25:46,867 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\62812036f5e42e63682f412e0e802b96.mpf_cache
+2023-04-19 20:25:46,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2023-04-19 20:25:46,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-19 20:25:46,869 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2179cb7b2e2b1bfc9435f75056934701.mpf_cache
+2023-04-19 20:25:46,870 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-04-19 20:25:46,870 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-19-20-25-46-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-19 20:25:46,870 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2023-04-19 20:25:46,870 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-19 20:25:46,870 : INFO : Machine : Platform: win32
+2023-04-19 20:25:46,870 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2023-04-19 20:25:46,870 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2023-04-19 20:25:46,872 : INFO : Machine : Initialise MPF.
+2023-04-19 20:25:47,052 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-19 20:25:47,156 : INFO : OPP : Init of OPP board 4294967295 done
+2023-04-19 20:25:47,156 : INFO : OPP : Connecting to COM11 at 115200bps
+2023-04-19 20:25:47,264 : INFO : OPP : Init of OPP board 1 done
+2023-04-19 20:25:47,264 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,327 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,327 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,327 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,328 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-19 20:25:47,342 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-19 20:25:47,362 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 220, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 259, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 422, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 726, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry autofire_coils:ac_popbumber_3:switch = "s_popbumber_3" is not valid. Device "s_popbumber_3" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2023-04-19 20:25:47,417 : INFO : Machine : Starting the main run loop.
+2023-04-19 20:25:47,422 : INFO : Machine : Shutting down...
+2023-04-19 20:25:47,422 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-19 20:25:47,423 : ERROR : OPP : Stop called on serial connection COM10
+2023-04-19 20:25:47,424 : ERROR : OPP : Stop called on serial connection COM11
+2023-04-19 20:25:47,434 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 179, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 220, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 259, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 422, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\config_validator.py", line 726, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry autofire_coils:ac_popbumber_3:switch = "s_popbumber_3" is not valid. Device "s_popbumber_3" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2023-04-19 20:25:47,568 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2023-04-19 20:25:47,569 : INFO : root : MPF run loop ended.

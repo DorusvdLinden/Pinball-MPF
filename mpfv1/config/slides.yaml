@@ -1,29 +1,108 @@
 #config_version=5
 
-slides:
-  welcome_slide:
-    widgets:
-      - type: text
-        text: PINBALL!
-        font_size: 50
-        color: red
-      - type: rectangle
-        width: 240
-        height: 60
 
+widget_styles:
+  text_default:
+    font_size: 30
+    font_name: din-regular
+
+slides:
   awesome_slide:
     widgets:
       - type: text
         text: YOU ARE AWESOME
         font_size: 50
+        font_name: portal
 
+  layout_main:
+    widgets:
+      - type: display
+        width: 450
+        height: 150
+        x: 50
+        y: 50
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Player
+      - type: display
+        width: 300
+        height: 200
+        x: 550
+        y: 50
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Menu
+      - type: display
+        width: 450
+        height: 150
+        x: 900
+        y: 50
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Ball
+
+      - type: display
+        width: 600
+        height: 200
+        x: 400
+        y: 300
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Message
+
+      - type: display
+        width: 300
+        height: 100
+        x: 1050
+        y: 250
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Counter
+
+      - type: display
+        width: 600
+        height: 200
+        x: 400
+        y: 550
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Score
+
+      - type: display
+        width: 300
+        height: 350
+        x: 1050
+        y: 400
+        anchor_x: left
+        anchor_y: bottom
+        source_display: Disp_Icons
+
+      - type: image
+        image: mainscreen
+
+  empty_slide:
+    background_color: 00000000
+    widgets:
+      - type: text 
+        text: should not be seen  
+        opacity: 0
+
+  Title_slide:
+    background_color: 00000000
+    widgets:
+      - type: text
+        text: PORTAL PINBALL
+        font_name: portal
+        font_size: 70
 
 
 
   press_start:
+    background_color: 00000000
     widgets:
     - type: Text
       text: PRESS START
+      font_size: 50
       animations:
         pre_show_slide:
           - property: opacity
@@ -33,19 +112,38 @@ slides:
             value: 1
             duration: .5s
             repeat: true
-    - type: Text
-      text: FREE PLAY
-      color: green
-      y: 10
-      anchor_y: bottom
 
 
-  mission_pinball:
+  score_slide:
+    background_color: 00000000
     widgets:
-    - type: Text
-      text: MISSION PINBALL
-      color: red
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
 
+  player_slide:
+    background_color: 00000000
+    widgets:
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom     
+
+  ball_slide:
+    background_color: 00000000
+    widgets:
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50    
 
   mode_base_started_slide:
     widgets:
@@ -54,6 +152,7 @@ slides:
         number_grouping: true
         min_digits: 2
         font_size: 100
+        font_name: PinballFont-Regular
       - type: text
         text: PLAYER (number)
         y: 10
@@ -68,14 +167,40 @@ slides:
         anchor_x: right
         anchor_y: bottom
         font_size: 50    
-
+        
 
   lanes_top_complete_slide:
+    background_color: 00000000
     widgets:
       - type: text
-        text: lane (score)
-        y: 10%
-        x: 10%
+        text: top lanes complete (top_lane_hits)
         number_grouping: true
         min_digits: 2
-        font_size: 10
+        font_size: 50
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .3s
+            - property: opacity
+              value: 1
+              duration: .3s
+              repeat: true
+
+  lanes_bottom_complete_slide:
+    background_color: 00000000
+    widgets:
+      - type: text
+        text: bottom lanes complete (bottom_lane_hits)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .3s
+            - property: opacity
+              value: 1
+              duration: .3s
+              repeat: true

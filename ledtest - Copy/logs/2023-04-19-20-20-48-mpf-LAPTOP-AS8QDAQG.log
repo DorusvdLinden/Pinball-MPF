@@ -1,0 +1,67 @@
+2023-04-19 20:20:48,875 : INFO : root : Loading config.
+2023-04-19 20:20:49,187 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\dorus\AppData\Local\Temp\config_spec.mpf_cache
+2023-04-19 20:20:49,187 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-19 20:20:49,188 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml.
+2023-04-19 20:20:49,248 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\mpfconfig.yaml
+2023-04-19 20:20:49,249 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml.
+2023-04-19 20:20:49,277 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\config\config.yaml
+2023-04-19 20:20:49,279 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\17ff9df2ab5d910b303a2be3ced72189.mpf_cache
+2023-04-19 20:20:49,504 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-04-19 20:20:49,512 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-04-19 20:20:49,512 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\attract\config\attract.yaml.
+2023-04-19 20:20:49,520 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\attract\config\attract.yaml
+2023-04-19 20:20:49,521 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\62812036f5e42e63682f412e0e802b96.mpf_cache
+2023-04-19 20:20:49,523 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\game\config\game.yaml.
+2023-04-19 20:20:49,535 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\modes\game\config\game.yaml
+2023-04-19 20:20:49,536 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\336e6d2601ccb63523c70814805acbf1.mpf_cache
+2023-04-19 20:20:49,537 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\base\config\base.yaml.
+2023-04-19 20:20:49,549 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\base\config\base.yaml
+2023-04-19 20:20:49,550 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-19 20:20:49,551 : INFO : ConfigProcessor : Loading config from file C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\attract\shows\.\attract_display_loop.yaml.
+2023-04-19 20:20:49,565 : INFO : ConfigProcessor : Loading config: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest\modes\attract\shows\.\attract_display_loop.yaml
+2023-04-19 20:20:49,566 : INFO : ConfigProcessor : Config file cache created: C:\Users\dorus\AppData\Local\Temp\2179cb7b2e2b1bfc9435f75056934701.mpf_cache
+2023-04-19 20:20:49,567 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-04-19 20:20:49,567 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-19-20-20-48-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-19 20:20:49,567 : INFO : Machine : MPF path: C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf
+2023-04-19 20:20:49,567 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-19 20:20:49,567 : INFO : Machine : Platform: win32
+2023-04-19 20:20:49,567 : INFO : Machine : Python executable location: C:\Users\dorus\AppData\Local\Programs\Python\Python38\python.exe
+2023-04-19 20:20:49,567 : INFO : Machine : Python version: 3.8.10 (64-bit)
+2023-04-19 20:20:49,569 : INFO : Machine : Initialise MPF.
+2023-04-19 20:20:49,878 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-19 20:20:49,962 : INFO : OPP : Init of OPP board 4294967295 done
+2023-04-19 20:20:49,963 : INFO : OPP : Connecting to COM11 at 115200bps
+2023-04-19 20:20:49,967 : INFO : Machine : Shutting down...
+2023-04-19 20:20:49,967 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-19 20:20:49,968 : ERROR : OPP : Stop called on serial connection COM10
+2023-04-19 20:20:49,969 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 105, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\opp\opp.py", line 278, in _connect_to_hardware
+    await comm.connect()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\mpf\core\clock.py", line 152, in open_serial_connection
+    transport, _ = await create_serial_connection(
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\asyncio\coroutines.py", line 124, in coro
+    res = func(*args, **kw)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python38\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2023-04-19 20:20:50,153 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2023-04-19 20:20:50,153 : INFO : root : MPF run loop ended.

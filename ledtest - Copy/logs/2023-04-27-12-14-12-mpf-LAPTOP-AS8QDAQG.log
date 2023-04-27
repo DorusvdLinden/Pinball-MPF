@@ -1,0 +1,154 @@
+2023-04-27 12:14:12,128 : INFO : root : Loading config.
+2023-04-27 12:14:12,131 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-27 12:14:12,132 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\746ec81b4daa2d0da75c83d96aab4d3b.mpf_cache
+2023-04-27 12:14:12,218 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\8a0bfa659085c557a87bd7bffffc57e9.mpf_cache
+2023-04-27 12:14:12,219 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2af2fbde21c8ccb06b52e16890475468.mpf_cache
+2023-04-27 12:14:12,220 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\dc3f1dc568bf4a7e19421e344f596ebb.mpf_cache
+2023-04-27 12:14:12,221 : INFO : ConfigProcessor : Loading config from cache: C:\Users\dorus\AppData\Local\Temp\2179cb7b2e2b1bfc9435f75056934701.mpf_cache
+2023-04-27 12:14:12,222 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-04-27 12:14:12,222 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-27-12-14-12-mpf-LAPTOP-AS8QDAQG.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-27 12:14:12,222 : INFO : Machine : MPF path: C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf
+2023-04-27 12:14:12,222 : INFO : Machine : Machine path: C:\Users\dorus\OneDrive\Documents\Pinball\Github\Pinball-MPF\ledtest
+2023-04-27 12:14:12,222 : INFO : Machine : Platform: win32
+2023-04-27 12:14:12,222 : INFO : Machine : Python executable location: C:\Users\dorus\.local\pipx\venvs\mpf\Scripts\python.exe
+2023-04-27 12:14:12,222 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-27 12:14:12,225 : INFO : Machine : Initialise MPF.
+2023-04-27 12:14:12,392 : INFO : OPP : Connecting to COM10 at 115200bps
+2023-04-27 12:14:12,504 : INFO : OPP : Init of OPP board 0 done
+2023-04-27 12:14:12,504 : INFO : OPP : Connecting to COM11 at 115200bps
+2023-04-27 12:14:12,613 : INFO : OPP : Init of OPP board 1 done
+2023-04-27 12:14:12,614 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,663 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,663 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,663 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,663 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,675 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19044-SP0', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,676 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,676 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,676 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19044', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,676 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-27 12:14:12,676 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-27 12:14:12,685 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-27 12:14:12,687 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-04-27 12:14:12,689 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-04-27 12:14:14,729 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2023-04-27 12:14:14,731 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2023-04-27 12:14:14,746 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-27 12:14:14,752 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.56.1', 'prev_value': None, 'change': True}
+2023-04-27 12:14:14,752 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.56.1 (config_version=5, BCP v1.1,                      Requires MPF API compatibility v0.56.0 or newer)', 'prev_value': None, 'change': True}
+2023-04-27 12:14:14,760 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-27 12:14:14,771 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-27 12:14:14,772 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-27 12:14:14,772 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2023-04-27 12:14:14,772 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-27 12:14:14,777 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-27 12:14:14,778 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-27 12:14:14,780 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2023-04-27 12:14:14,783 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2023-04-27 12:14:14,785 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-27 12:14:14,786 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-27 12:14:14,786 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2023-04-27 12:14:14,787 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-27 12:14:14,788 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-27 12:14:14,789 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-27 12:14:14,789 : INFO : Mode.attract : Started. Priority: 10
+2023-04-27 12:14:14,789 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-27 12:14:14,789 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-04-27 12:14:14,789 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 704, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\config_player.py", line 349, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 224, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 116, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\show_controller.py", line 134, in replace_or_advance_show
+    return show_obj.play_with_config(
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 291, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self._start_play()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 544, in _start_play
+    self._start_now()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 643, in _start_now
+    self._run_next_step(post_events=self.show_config.events_when_played,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 686, in _run_next_step
+    player.show_play_callback(
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\config_player.py", line 366, in show_play_callback
+    self.play(settings=settings, priority=priority, calling_context=calling_context,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\light_player.py", line 40, in play
+    self._light_named_color(light_name, instance_dict, full_context, s['color'], s["fade"],
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\light_player.py", line 91, in _light_named_color
+    raise AssertionError("Could not find light or tag {} in {}".format(light_name, full_context))
+AssertionError: Could not find light or tag led1 in show_1.light_player
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 795, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 757, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 706, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=10, kwargs={'calling_context': 'mode_attract_started', 'mode': <Mode.attract>, 'settings': {rainbow-None-None: {'show_tokens': {'leds': <NativeTemplate led1, led2>}, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('848a3918-faaf-43ae-b7e4-1915a76d7b8c'), condition=None, blocking_facility=None) for event mode_attract_started. Could not find light or tag led1 in show_1.light_player
+2023-04-27 12:14:14,792 : INFO : Machine : Starting the main run loop.
+2023-04-27 12:14:14,793 : INFO : Machine : Shutting down...
+2023-04-27 12:14:14,794 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-27 12:14:14,794 : ERROR : OPP : Stop called on serial connection COM10
+2023-04-27 12:14:14,799 : ERROR : OPP : Stop called on serial connection COM11
+2023-04-27 12:14:14,805 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 704, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\config_player.py", line 349, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 224, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\show_player.py", line 116, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\show_controller.py", line 134, in replace_or_advance_show
+    return show_obj.play_with_config(
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 291, in play_with_config
+    running_show = RunningShow(machine=self.machine,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 519, in __init__
+    self._start_play()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 544, in _start_play
+    self._start_now()
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 643, in _start_now
+    self._run_next_step(post_events=self.show_config.events_when_played,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\assets\show.py", line 686, in _run_next_step
+    player.show_play_callback(
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\config_player.py", line 366, in show_play_callback
+    self.play(settings=settings, priority=priority, calling_context=calling_context,
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\light_player.py", line 40, in play
+    self._light_named_color(light_name, instance_dict, full_context, s['color'], s["fade"],
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\config_players\light_player.py", line 91, in _light_named_color
+    raise AssertionError("Could not find light or tag {} in {}".format(light_name, full_context))
+AssertionError: Could not find light or tag led1 in show_1.light_player
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\machine.py", line 797, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\dorus\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 795, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 757, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "C:\Users\dorus\.local\pipx\venvs\mpf\lib\site-packages\mpf\core\events.py", line 706, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=10, kwargs={'calling_context': 'mode_attract_started', 'mode': <Mode.attract>, 'settings': {rainbow-None-None: {'show_tokens': {'leds': <NativeTemplate led1, led2>}, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('848a3918-faaf-43ae-b7e4-1915a76d7b8c'), condition=None, blocking_facility=None) for event mode_attract_started. Could not find light or tag led1 in show_1.light_player
+2023-04-27 12:14:14,939 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2023-04-27 12:14:14,939 : INFO : root : MPF run loop ended.
